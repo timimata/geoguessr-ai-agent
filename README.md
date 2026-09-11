@@ -47,6 +47,8 @@ Copy `.env.example` to `.env` and fill in your own values:
 cp .env.example .env
 ```
 
+> `.env` holds your real API keys and is listed in `.gitignore`, so it is never committed — only the blank `.env.example` template is tracked.
+
 ## Usage
 
 ```bash
