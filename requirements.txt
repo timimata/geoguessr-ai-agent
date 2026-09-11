@@ -1,0 +1,11 @@
+playwright
+playwright-stealth
+opencv-python
+Pillow
+numpy
+chromadb
+open-clip-torch
+openai
+python-dotenv
+reverse_geocoder
+shapely
