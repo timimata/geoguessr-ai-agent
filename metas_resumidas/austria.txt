@@ -1,0 +1,10 @@
+- License plates: white with blue EU left strip (AT). Black text, standard EU rectangular format.
+- Language: German. KEY DISTINCTION from Germany: one-way signs say "EINBAHN" (Austria) vs "Einbahnstraße" (Germany). Town entry signs are WHITE with black text (Austria) vs YELLOW with black text (Germany).
+- Bollards: white rounded top with a black "cap" or hat shape; 2 bolts visible on reflector face (Germany has 2 also, Luxembourg has 3).
+- Road lines: white outer dashes; white dashed center; good road quality throughout.
+- Landscape: alpine mountains (Alps cover 60% of country); green valleys with wooden chalets; Danube plain in northeast. More mountains visible than in Germany.
+- Architecture: Tyrolean wooden chalets with overhanging roofs in alpine areas; baroque churches with onion domes in towns.
+- Wind turbines: rare in Austria. Very common in Germany (especially east/north). Absence of turbines slightly favors Austria.
+- CONFUSION with Germany: Check town entry sign color (white=Austria, yellow=Germany). Check one-way sign text. Alpine scenery slightly more likely to be Austria.
+- CONFUSION with Switzerland: Switzerland uses CH plates (no EU blue strip). Austria uses AT with EU strip.
+- REGIONAL COORDS: Vienna (48.2,16.4), Salzburg (47.8,13.0), Innsbruck/Tyrol (47.3,11.4), Graz/Styria (47.1,15.4), Vorarlberg west (47.2,9.7).

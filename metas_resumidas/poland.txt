@@ -1,0 +1,9 @@
+- License plates: white rectangular, black text, blue EU left strip (PL). Older plates may lack EU strip.
+- Bollards: distinctive — short white post with a thick horizontal RED band near the top. Unique to Poland.
+- Utility poles: concrete holey poles (round holes extending to near the bottom); wooden poles also common.
+- Road lines: white outer lines; white dashed center; double white solid center on higher roads.
+- Language: Polish — Slavic but Latin alphabet with unique letters: ą, ę, ó, ś, ź, ż, ć, ń, ł. Words: ulica (street), droga (road), wjazd (entrance).
+- Architecture: concrete communist-era blocks (panelak) in cities; brick farmhouses with steep orange/red roofs in rural areas; often brown/beige render.
+- Landscape: flat northern plains; gentle hills in south (Tatra mountains visible near Kraków).
+- CONFUSION: Poland↔Romania/Serbia/Czech — confirm with red-banded bollard or PL plate code. Poland↔Germany — German bollards have vertical black lines, no red band.
+- REGIONAL COORDS: Warsaw (52.2,21.0), Kraków (50.1,19.9), Gdańsk north (54.4,18.6), Wrocław west (51.1,17.0), eastern border (52,23).

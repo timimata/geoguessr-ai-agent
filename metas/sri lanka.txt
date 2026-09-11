@@ -1,0 +1,41 @@
+--- SRI LANKA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Sri Lanka
+- Vehicles in Sri Lanka have long white front plates and short yellow rear plates.
+- In most Generation 3 coverage, you will be able to see the front of the Google car partially through the blur: it is visible as blue-white-red patches, reminiscent of the French flag. The red patch is usually most visually distinct.
+- NOTE: This car is unique to Sri Lanka. Coverage in Ghana has a similar front of the car visible, but this coverage also has a roof rack.
+- All Generation 4 coverage is low-cam. This means that the camera on the Google car is intentionally set up lower than in most other countries. This can be recognized in two ways:
+- The car blur is significantly bigger. Generally, the bigger car blur is the most consistent way to recognize low-cam.
+- The car blur is significantly bigger. Generally, the bigger car blur is the most consistent way to recognize low-cam.
+- Roads look wider and objects around you are seen from a lower angle.
+- Roads look wider and objects around you are seen from a lower angle.
+- Note that Sri Lanka’s Generation 3 coverage is made with a normal height camera!
+- NOTE: All coverage in Japan and Switzerland is low-cam. However, landscape should be sufficient to tell these apart from Sri Lanka.
+- In Sri Lanka, you will see two scripts: Sinhala and Tamil. You will also sometimes see English, written in Latin script.
+- Sinhala is most common, and can be found throughout the entire country. It has a very curvy, ‘rounded’ look.
+- Tamil is more regionally limited. It has straighter lines. For an exact distribution, see the region-guessing section.
+- NOTE: Sinhala is unique to Sri Lanka. However, Tamil can also be found in the Indian state of Tamil Nadu.
+- Sri Lanka typically uses concrete utility poles. Two pole types are common and distinctive:
+- Square poles with small pinholes in the sides. These pinholes are limited to the top part of the pole.
+- Square poles with small pinholes in the sides. These pinholes are limited to the top part of the pole.
+- Poles with large see-through holes in the lower half of the pole (“holey poles“). These poles are unique to Sri Lanka.
+- Poles with large see-through holes in the lower half of the pole (“holey poles“). These poles are unique to Sri Lanka.
+- NOTE: The square poles with small pinholes can look very similar to those found in Thailand. However, in Thailand the pinholes extend all the way to the bottom of the pole.
+- These short, wide stone bollards are unique to Sri Lanka. They have a tapered shape, with a black base and a white top.
+- Tall, white concrete waystones with an indented section near the bottom containing a yellow road number, are unique to Sri Lanka.
+- Sri Lanka commonly uses black and white striped signposts.
+- NOTE: Within South and Southeast Asia, such signposts are also found in Bangladesh, Bhutan, India, Nepal and Malaysia.
+- Rural roads often have outside lines, but no middle lines. In the absence of other clues, this can sometimes be a way to decide a tough 50-50.
+- NOTE: Most small roads lack road lines entirely.
+- Sri Lanka is a tropical country. It usually has very lush, green vegetation. It is densely populated and many parts are covered in a patchwork of agricultural fields.
+- Many parts of Sri Lanka have reddish soil.
+- Less commonly, you may encounter white, sandy soil.
+- Palm trees are very common in Sri Lanka, more so than many other Asian countries.
+- NOTE: Palm trees are also very common in the Philippines.
+- Houses often have orange or red tiled roofs. Due to wear and tear, these tiles often have an almost brown tint to them.
+- NOTE: Similar roofs are also common in parts of Indonesia.
+- The country is majority Buddhist: 70% of the population practise this religion. Throughout the country, you will often see signs of the religion, including temples, Buddha statues, stupas and the Buddhist flag.
+- NOTE: Thailand, Cambodia and Laos are also majority Buddhist.
+- A substantial minority of the population adhere to other religions: Hinduism (13%), Islam (10%) and Christianity (7%). These religions have strong regional distribution patterns; see the region-guessing section for more information.
+- This style of tuktuk is common in Sri Lanka: it has a bulky shape and a black roof. They are usually coloured green, yellow or red, though other colours appear as well.
+- Google used a weird, low-quality camera in Sri Lanka. This camera is known as the official Ari (or “Shitcam”). It has a wide circular car blur and often somewhat brownish colours. A good map will not usually include this coverage, but it is good to be aware of its existence, in order to not be caught off-guard by it.
+- NOTE: Other tropical countries with shitcam include India, Cambodia, Ecuador and to a lesser extent Bangladesh.

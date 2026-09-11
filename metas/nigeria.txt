@@ -1,0 +1,41 @@
+--- NIGERIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Nigeria
+- A visible Street View car is present in most of the coverage, being a pickup truck with the cab and bed visible. The colour of the cab and other features of it varies. In Generation 3, a roof rack is present. You may also find a large blur covering the entire pickup truck.
+- A police car, most commonly white or black, can almost always be seen following the Street View car. The follow cars may differ slightly from the ones shown in the image.
+- Nigeria uses short licence plates that appear somewhat green through the blur.
+- Most Nigerian poles are made of concrete, have indents with a few horizontal supports, and are similar to the ones used in Brazil, but do not have holes through them.
+- Roads are not always well-maintained in Nigeria, so roads without roadlines or faded roads are common. Potholes, cracked roads and unpaved roads are also relatively common.
+- Most Nigerian houses are single-storey, with steeply pitched roofs commonly made of metal sheets. Cinder block walls surrounding the houses are also common.
+- City and state names are often found on storefronts or banners in Nigeria, so knowing them can be quite useful.
+- Within mainland Africa, Nigeria is currently the only country to have this low-quality coverage, known as official ari, or “shitcam”.
+- Step 2 - Regional and state-specific clues
+- Nigeria is generally a fairly flat country with subtle elevation changes throughout. The south is relatively flat apart from some noticeable hills in the southeast, in Enugu state and in the southwest, between Ife and Lokoja. In the north, more prominent hills and mountains are found from Abuja and Jimeta. The largest mountains are found in the east, making up the Mandara mountain range and the Nigeria-Cameroon border. However, due to little coverage, the mountains are rarely visible.
+- Shown is a Köppen climate map of Nigeria. The climate ranges from tropical rainforest in the far south, where you can find an abundance of palms with lush, green vegetation, to a more arid, savannah landscape in the centre, with more scattered trees. In the far north, it transitions to an arid steppe where the vegetation becomes even more sparse.
+- NOTE: Due to dry/wet seasons, the coverage may look drastically greener/drier than expected for certain latitudes.
+- Nigeria is a sparsely covered country, with very few roads in the northwest and east. Most of the coverage is centred around big cities and the highways that connect them.
+- You can click on the image to enlarge it.
+- Knowing where you can find each generation is very useful. Notably, Generation 3 is not found north of Abuja.
+- You can click on the image to enlarge it.
+- Generation 4 is not found in the northwest or far south. Shitcam is now found in most of Nigeria.
+- You can click on the image to enlarge it.
+- This map shows states with unique vehicle and tuk tuk colours. If a vehicle is shown, the state will have yellow tuk tuks.
+- NOTE: There may be some rare exceptions to what is shown in the image. Paint jobs in-game may also differ slightly to those shown in the image.
+- You can click on the image to enlarge it.
+- Nigeria is mainly Christian in the south, and Islamic in the north. As such, seeing women in hijabs and men in muslim attire is more common in the north.
+- These haystacks are extremely common and are almost exclusively found in Kaduna state.
+- If you find yourself in an arid, but green, agricultural landscape with an abundance of corn around, you are likely to be in Kano state. It is only covered by shitcam, without any Generation 3 or 4.
+- Benue state can be recognized by the lush, green grass covered ground, with reddish soil. The vegetation is somewhat scattered, with the grass making way for taller trees. Shorter trees and shrubs between the grass and taller trees are somewhat uncommon. Thatched huts are also common in comparison to other southern states.
+- NOTE: An abundance of palms should make you lean toward the bordering southern states that can look similar.
+- Niger state is the shitcam equivalent to Benue state. It is almost entirely covered by shitcam, and can be recognized by the scattered trees, reddish soil, and dry grass.
+- The highways that run through the northwestern states of Kebbi, Sokoto, Zamfara, and Katsina can be recognized by an even more open and arid landscape compared to Niger state. The tree coverage becomes even more sparse, or there may not be trees at all. These states are entirely covered by shitcam.
+- A savannah landscape combined with rocky hills can most commonly be seen in the northeast in the states of Plateau, Bauchi, Gombe, Adamawa, and the north of Taraba. The hills in the far east and west of this region are typically greener and covered in more vegetation compared to the hills toward the middle of the range.
+- NOTE: Around the city of Gombe, hills composed of softer, clay-like soil can be seen instead.
+- These monolithic mountains with exposed, weathered rock are common in and around Abuja.
+- Step 3 - Spotlight
+- A flat landscape with coastal vegetation and many palms can be seen east of Lekki. The ground is very sandy. Almost all of the coverage is old Generation 3, with a silver follow car.
+- The A121 can be recognized by the lush, tropical vegetation surrounding the divided highway, with a short, concrete median. Being a major highway, many vehicles, especially trucks, can be seen along it.
+- NOTE: The A232 heading east of Benin City is also divided, however the median is noticeably wider than that of the A121.
+- The A3 going east of Potiskum to the Borno State border can be recognized by the Generation 4 coverage, mostly open arid landscape, and the highway being divided.
+- Dark red soil is most commonly found in and around Benin City and Enugu.
+- NOTE: Red-tinged soil can be found in many places. This tip refers specifically to dark red soil.
+- The Obudu Plateau road can be recognized by having the tallest mountains in Nigeria with street view coverage. The road winds up lush, green mountains and the coverage is slightly foggy and wet.

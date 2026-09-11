@@ -1,0 +1,41 @@
+--- CROATIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Croatia
+- Croatia has long, white licence plates. Some plates have a blue strip on the left, some are fully white. Most cars seen in Generation 3 will not feature a blue strip on their licence plates. In addition, there is a mix of cars with or without blue strips in Generation 4, with blue strips more common on newer cars.
+- NOTE: Blue strips are more common along the coast due to travelling tourists from other EU countries such as Italy.
+- Croatian bollards are white with a black rectangle and red or white reflector. From the top, it is shaped like a triangle.
+- NOTE: Hungarian and Lithuanian bollards look similar, but have more rounded edges compared to Croatia’s sharper edges. Lithuanian bollards will also have an orange reflector. North Macedonia sometimes uses similar bollards, however the country is only covered in Generation 3.
+- Croatian is a Slavic language. It is always written in the Latin alphabet. ‘IJE’ is common in Croatian whereas Serbian uses only ‘E’ instead.
+- NOTE: The Slovene language also features a lot of ‘J’s. Serbian and Montenegrin are also very similar, but Serbia and Montenegro use both Latin and Cyrillic script.
+- Croatia features chevrons with a red arrow on a yellow or white background.
+- Croatia has square (B-type) guardrails.
+- NOTE: Croatia is one of the few European countries that use B-type guardrails. For a good overview of European guardrails, see this infographic.
+- Generation 3 coverage often has a non-standard car blur where the side mirrors of the car are partially visible. This is not unique to Croatia, but by far most common there.
+- NOTE: Sometimes, you can see a small circular yellow sticker on the car mirror. This sticker is unique to Croatia.
+- Another quirk of Generation 3 coverage is that the majority of it was made in autumn. This means that the vegetation in this coverage will often have distinct yellowish or orange fall colours.
+- Take note that this seasonal meta is not found in Generation 4 coverage.
+- A black generation 4 car that will never have an antenna can be found in Croatia.
+- NOTE: A black car can be found in many European countries, though it will often have an antenna visible.
+- A white generation 4 car that will never have an antenna can be found in Croatia.
+- NOTE: A white car can be found in many European countries, though it will often have an antenna visible.
+- Stickers with the letters HR can be found on Croatian cars. HR stands for Hrvatska, the Croatian name for Croatia.
+- NOTE: These were mainly used before EU plates were introduced, meaning they will be less common in Generation 4.
+- Croatia has direction signs with a yellow background and a black outline. They often have a pencil-shaped tip.
+- NOTE: The other former Yugoslav countries of Slovenia, Serbia, Montenegro and North Macedonia have similar signs. A comparison can be seen here.
+- Croatian utility poles are cylindrical and made of concrete or wood, often with alternating hooks on the wooden poles (somewhat similar to Latvian poles).
+- Buildings in Croatia sometimes feature exposed red brick walls. This architecture is more common in inland areas.
+- NOTE: This type of architecture can also be found in Slovenia and Serbia.
+- Croatia features blue fire hydrants with two diagonal protrusions on either side. Newer fire hydrants seen in Generation 4 have a smaller top but are still recognisable due to the blue paint.
+- NOTE: Similar fire hydrants can be found in bordering countries, most commonly in Hungary.
+- Croatia’s pedestrian sign features a pedestrian with a belt and a zebra path with 5 stripes.
+- NOTE: The pedestrian on Slovenia’s sign does not have a belt.
+- Karlovačko and Ožujsko are common Croatian beer companies, with advertisements seen around the country.
+- Konzum and Plodine are common supermarket chains, mostly found in big cities. Plodine is exclusive to Croatia, while Konzum also operates stores in Bosnia.
+- Croatia does not have Generation 2 car coverage. However, in some historic downtown areas, a Generation 2 trekker camera was used.
+- NOTE: In some of this trekker coverage, the Google employee’s red cap is visible.
+- Step 2 - Regional and county-specific clues
+- Croatian landlines typically start with a zero followed by the area code.
+- The north-eastern region of Croatia is mostly flat and features a lot of agriculture. It is similar in terms of landscape to Hungary and north-western Serbia.
+- The region north and west of Zagreb is hilly and agricultural.
+- The Adriatic coast features rocky mountains similar to those seen in Montenegro or Albania. Shrubs are more common instead of trees along the coast, especially in the south. This coastal region has a lot of islands and peninsulas.
+- Houses and walls made of beige brick are common on the Adriatic coast. They often feature green shutters.
+- NOTE: Similar architecture can also be found in some regions in Italy. Additionally, Croatian shutters can also be white, beige etc.

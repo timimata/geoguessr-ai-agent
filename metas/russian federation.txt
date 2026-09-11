@@ -1,0 +1,50 @@
+--- RUSSIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Russia
+- Russian licence plates are fully white with black text.
+- NOTE: Most European counterparts will feature a blue strip on the left hand side.
+- The Russian language uses the Cyrillic script, and contains the special letters Ы, Э, Ё and Ъ.
+- Ё is also used in Mongolian and Ъ is used in Bulgarian.
+- NOTE: You may rarely come across Russian in both Ukraine and eastern Estonia.
+- The Russian word for street is улица (ulitsa), sometimes abbreviated ул. (ul.).
+- NOTE: Bulgarian and most other Slavic languages also use улица / ulica. The Ukrainian word however is вулиця (vulytsya), abbreviated вул. (vul.).
+- The Russian word for city is город (gorod), abbreviated г. (g.).
+- NOTE: The Ukrainian word is місто (misto), abbreviated м. (m.).
+- Russia has three main types of bollards: a very thin type being attached to a stick, one with a black top section and a red vertical reflector below and a German-style bollard.
+- Near intersections in Russia you will commonly see a very large number of bollards.
+- Along with containing a large number of bollards, many intersections are unusually wide compared to other countries.
+- Signposts in Russia often have black painted bottoms.
+- NOTE: This is also common in Kazakhstan.
+- You can often see concrete support blocks at the bottom of utility poles, with wooden poles often being raised above ground by the support.
+- NOTE: Similar blocks are found in several Central and Eastern European countries.
+- Russian pedestrian signs have a simply drawn person and three stripes. Signs will commonly have a bright yellow border.
+- NOTE: Ukraine, Lithuania, Mongolia, Kazakhstan and Kyrgyzstan use the same design.
+- Russian pedestrian crossings contain alternating white and yellow stripes.
+- NOTE: This is also common in Kazakhstan.
+- Black and white striped guardrails, kerbs and bridge barriers are common in russia.
+- Three Generation 3 Street View cars are commonly found in Russia. The two most useful ones for recognising Russia are a black and a white car, both with a long antenna. You may also see a short antenna without a visible car.
+- The vast majority of urban housing in Russia are large rectangular apartment buildings made of simple concrete. Newer buildings in wealthier areas appear more modern.
+- Rural housing in Russia consists mostly of a basic wooden structure with metal roofs.
+- This style of richly decorated window frames is commonly found on traditional Russian homes, especially on log cabins. They are often painted blue.
+- Black & white-striped pole shields are common along highways, especially in European Russia.
+- Step 2 - Regional clues
+- Birch trees, identified by their white peeling bark, have a wide range in Russia. Notably they are almost never found far south or far north in the western part of the country.
+- Birches very close together, as well as forests consisting of only birches, are indicative of areas east of the Urals, most commonly between Chelyabinsk Oblast and Novosibirsk Oblast.
+- Siberian larches are one of the dominant tree species in much of eastern Russia, recognized by their unique needle-like leaves. Generally speaking, they become more prevalent the further east you go in the country, as well as at high elevations.
+- Giant butterbur (commonly referred to as Sakhalin cabbage) is very common in Sakhalin Oblast, particularly in the southern half. Related plants can very rarely be found in Adygea.
+- This type of white flower (heracleum sosnowskyi) is most commonly found around Moscow, Komi Republic, and Perm Krai.
+- Large amounts of the pink or red flower fireweed (Chamaenerion angustifolium) typically indicates a northern region of Russia. Similarly, most places north of Moscow commonly have fireweed.
+- Sunflowers are common along the border with Ukraine as well as more eastern oblasts like Ulyanovsk, Samara, and northern Orenburg.
+- Blue-pod lupines appear very commonly in northern Vladimir Oblast, eastern Ivanovo Oblast, and southwestern Kostroma Oblast. It can also be found less commonly elsewhere in Kirov Oblast and towards the Baltics.
+- The black poplar is commonly found south, near the border with Ukraine, as well as toward the western border with Kazakhstan.
+- The Russian olive is typically found along the Kazakhstan border.
+- Lined oak trees, often with a single white stripe around the trunk, are extremely common in Kaliningrad.
+- Sparsely planted larches along the road with open rolling fields is common in Tatarstan and adjacent federal subjects.
+
+- REGIONAL COORDINATE GUIDE (use vegetation/landscape to pick coordinates):
+- EUROPEAN RUSSIA (lon -30 to +60°E, lat 50-65°N): Most coverage. Includes Moscow (~55.7°N,37.6°E), St. Petersburg (~59.9°N,30.3°E). Birch/mixed forests, flat or gently rolling, similar to Eastern Europe.
+- URAL REGION (lon 58-62°E): Transition zone. Low mountains, mixed birch/conifer forests.
+- WESTERN SIBERIA (lon 60-85°E, lat 53-70°N): Very flat, birch/pine taiga, marshy, endless forests. Novosibirsk ~55°N,83°E.
+- EASTERN SIBERIA (lon 85-130°E): Larch taiga increasingly dominant, more remote, rougher terrain. Irkutsk ~52°N,104°E near Lake Baikal.
+- FAR EAST (lon 130-145°E): Coastal, mountainous, Sakhalin island, bamboo grass. Vladivostok ~43°N,132°E.
+- CAUCASUS (lat 43-45°N, lon 38-47°E): Mountains, subtropical vegetation near Black Sea coast (Sochi ~43.6°N,39.7°E).
+- KALININGRAD (lat 54-55°N, lon 19-22°E): Exclave between Poland and Lithuania — lined oaks, EU-style roads but Russian signs.

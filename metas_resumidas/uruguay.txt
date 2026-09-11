@@ -1,0 +1,7 @@
+- Focus on immediate visual identifiers.
+- Combine related items where possible.
+- Ensure strict adherence to constraints.
+- **License Plates:** Plain white background with black text; lacks Argentina’s central black dot or top blue bar.
+- **Road Markings:** Unique triple-line pattern (double yellow borders with white dashes in the center); also yellow-white or simple white lines.
+- **Utility Poles:** Common "trident" poles (3 upward-pointing insulators); also round poles with flat metal tops or square concrete poles.
+- **Bollards & Barriers:** White concrete bollards (often yellow on one side) and low stone barriers.

@@ -1,0 +1,41 @@
+--- TAIWAN PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Taiwan
+- Taiwan uses Traditional Chinese. It is one of the most complex scripts visible on street view, with intricate characters that consist of many strokes.
+- NOTE: Hong Kong also uses traditional Chinese characters on signage.
+- Japanese uses some Chinese characters (kanji), meaning the script can look somewhat similar. However, Japanese will also have a considerable amount of more simplified looking characters (katakana and hiragana).
+- Poles almost always feature these black and yellow diagonal-striped markings that run all the way to the bottom.
+- NOTE: Similar markings can be seen in South Korea. However, the markings are much shorter and do not run all the way to the bottom.
+- Taiwan drives on the right side of the road.
+- NOTE: Japan and Hong Kong drive on the left.
+- Roads in Taiwan generally feature double yellow middle lines with single white outer lines. Thinner roads sometimes use single dashed yellow lines instead.
+- Roads with outside white road lines and no middle lines at all are common. In the absence of better clues, this type of road line can be a very good way to identify Taiwan.
+- Red outer lines that indicate no parking are common in Taiwan, especially in cities. This is essentially unique to the country.
+- Taiwan uses black on yellow chevrons.
+- These mirrors with orange hoods are frequently featured in intersections and bends.
+- Taiwan uses these bollards with either two or three circular reflectors on a black rectangle.
+- You can also find these lollipop looking reflectors on guardrails, similar to the designs found in Japan.
+- Concrete drainage ditches are commonly found on the side of roads.
+- These distribution transformers that look like boxes are frequently found in Taiwan, especially in urban areas.They are mostly painted in dark green or grey.
+- Architecture in Taiwan varies in designs, ranging from cramped, multiple-story housing to flat, single-story houses with backyards. Many residential buildings have a very boxy look. A lot of walls are covered in tiles, usually white. Sheds made out of tin are also featured, commonly painted in a light green colour.
+- In Generation 3 coverage, you can find this black car with a long antenna and a red brake light in the middle, similar to the one you can see in Russia.
+- You can also find this Generation 3 car with a very large blur that covers the entire car and almost looks like low-cam.
+- Note that this is not the same as low-cam: the camera is still at a normal height, meaning you see the world around you from a normal vantage point.
+- Step 2 - Regional and county-specific clues
+- This is a map of the counties of Taiwan. Importantly, Taiwan has a couple of smaller islands and island groups with coverage that are fairly far away from the main island. It is important to be aware of these, as they often catch beginning players off-guard. These include:
+- Kinmen close to the coast of mainland China.
+- Kinmen close to the coast of mainland China.
+- Lienchiang (Matsu Islands), also close to the coast of mainland China.
+- Lienchiang (Matsu Islands), also close to the coast of mainland China.
+- Penghu in the middle of the Taiwan Strait.
+- Penghu in the middle of the Taiwan Strait.
+- Green Island and Orchid Island, southeast of the main island. These two islands belong to Taitung County.
+- Green Island and Orchid Island, southeast of the main island. These two islands belong to Taitung County.
+- Taiwan telephone numbers are 10 digits, with the first two digits indicating the area code. Area codes range from 02 to 08, increasing as you go south.
+- NOTE: Oftentimes the area code will be written within parentheses. Mobile numbers start with 09.
+- Taiwan’s National Freeway system is organised so that odd numbers represent north-south roads and even numbers represent east-west. Generally, numbers also increase moving west to east and north to south. The 1 and the 3 are by far the longest, running across the west coast.
+- You can click on the image to enlarge it.
+- These signs indicate Township roads, with the character written before or above the road number indicating the county.
+- You can click on the image to enlarge it.
+- Many poles in Taiwan feature these blue plaques with strings of letters and numbers that act as precise coordinates.
+- For an example of how to read the plaques in-game, the only thing that is useful here is the string “E3264”. “BE08” can further narrow down the position but is not practical in-game.
+- “E” refers to the 50x80km rectangle from this map.

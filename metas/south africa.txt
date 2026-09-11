@@ -1,0 +1,41 @@
+--- SOUTH AFRICA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying South Africa
+- South Africa drives on the left.
+- NOTE: A handful of other countries also drive on the left. See this infographic for more information.
+- On most roads, South Africa utilizes single yellow outer lines and white centre lines.
+- NOTE: The other southern African countries of Botswana, Eswatini, Lesotho and Namibia also use single yellow outer lines.
+- Australia practically never uses yellow outer lines.
+- South Africa occasionally features unique white triple centre lines with 2 solid lines on the outside and a dashed line on the inside.
+- You may also sometimes encounter another unique triple centre line, consisting of two white lines with one yellow line in the middle. These centre lines are usually found on larger main roads.
+- NOTE: The only other countries where you will find road lines like these are the other southern African countries of Botswana, Eswatini, Lesotho and Namibia.
+- Generation 2 coverage is quite common in the country.
+- It can be recognized by the large circular car blur and the halo-like colour distortion in the sky.
+- NOTE: On the continent of Africa, Generation 2 is only found in South Africa.
+- South Africa has 11 official languages: English, Afrikaans, and various Bantu languages. English is the lingua franca and therefore appears most often on signage.
+- Afrikaans is a Germanic language that is closely related to Dutch. Common Afrikaans place name suffixes are -fontein, -kraal, -kop, -dorp, -nek, and -berg or -burg. While Afrikaans is most commonly spoken in the western half of the country, you will find Afrikaans place names all over South Africa, meaning that it is not useful for region-guessing.
+- NOTE: Afrikaans is rare to non-existent in Eswatini and Lesotho. It is also abundantly rare in Botswana, but has some limited presence in the form of place names.
+- The most common type of pole in South Africa features 1 to 5 horizontal bars with thin white insulators that resemble rows of birds, which is why they are referred to as “bird poles” in the community.
+- NOTE: South Africa has a wide variety of other poles and pole tops. Some of these are (mostly) limited to a certain region; you can learn more about them in the region guessing section.
+- South Africa uses green directional signs with the road number in yellow.
+- NOTE: Green directional signs with yellow road numbers are also used in Lesotho, Eswatini, Botswana and Namibia. Here, the format of road numbers is useful:
+- N and R-roads are exclusive to South Africa.
+- N and R-roads are exclusive to South Africa.
+- A and B-roads are exclusive to Botswana, Lesotho and Namibia. In addition to this, Namibia uses C, D, M and F roads.
+- A and B-roads are exclusive to Botswana, Lesotho and Namibia. In addition to this, Namibia uses C, D, M and F roads.
+- MR-roads are exclusive to Eswatini.
+- MR-roads are exclusive to Eswatini.
+- South Africa utilizes triangular warning signs with a red border and a white background.
+- NOTE: The four other southern African countries use similar warning signs.
+- Australia and New Zealand use yellow diamond-shaped warning signs.
+- South Africa uses white-and-red chevrons. You can find a similar chevron pattern below directional signs.
+- In addition, unique-looking small, thin chevrons with one arrow are common next to roads.
+- NOTE: The thin chevrons can also be found in the other southern African countries of Botswana, Eswatini, Lesotho and Namibia.
+- Suburban houses in and around large cities will often be surrounded by high walls, fences, and gates to deter criminals.
+- All Generation 4 coverage in South Africa was taken by a blue Street View car with a short antenna.
+- NOTE: The antenna is sometimes hidden by the blur.
+- South Africa also has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, but with a short antenna on the back.
+- Step 2 - Regional and province-specific clues
+- Each province features a different licence plate design, which can be somewhat visible through the blur. Most notably Free State or KwaZulu-Natal, which have a slight green tint and blue tint respectively.
+- You can click on the image to enlarge it.
+- A map of major highways in South Africa. On road signs, the letter ‘N’ should appear in front of the highway number. On Google Maps, however, the letter ‘N’ will not be present. Instead, a blue pentagon with the number will be displayed.
+- You can click on the image to enlarge it.

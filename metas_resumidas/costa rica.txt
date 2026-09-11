@@ -1,0 +1,9 @@
+- License plates: white background, blue text/border. Format includes letters+numbers. Older plates have blue stripe.
+- Language: Spanish. "PARE" = stop, "CEDA" = yield. Road signs use metric.
+- Landscape: lush tropical green mountains; cloud forest; Pacific coast (dry in north, wet in south); Caribbean coast (jungle). Very hilly/mountainous — no flat terrain except coastal plains.
+- Utility poles: wooden poles with single crossbar; concrete poles; chaotic overhead wiring common.
+- Road quality: variable — main highways paved, rural roads unpaved/rocky. Bridges often narrow wooden/metal.
+- Architecture: colorful painted concrete houses; corrugated metal roofs; small shops ("sodas") with painted signs.
+- Vegetation: extremely dense green; banana plantations; coffee farms on hillsides; flowering trees.
+- CONFUSION with Colombia/Ecuador: Costa Rica is smaller, more mountainous relative to size, Central American not South American. Look for CR plate code.
+- REGIONAL COORDS: San José/Central Valley (9.9,-84.1), Pacific coast Guanacaste (10.4,-85.7), Caribbean coast Limon (10.0,-83.0), Arenal north (10.4,-84.7).

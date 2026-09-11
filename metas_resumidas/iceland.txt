@@ -1,0 +1,5 @@
+- License plates: All-white background, blue text, NO left-side blue EU strip.
+- Bollards: Bright yellow with white reflectors (ubiquitous on rural roads).
+- Road markings: Strictly all-white lines (solid or dashed); zero yellow lines.
+- Directional signs: Yellow background, white inset box for route numbers (dashed box border = nearby route).
+- Pedestrian signs: Yellow background with four stripes (unique to Iceland in Europe).

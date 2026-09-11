@@ -1,0 +1,41 @@
+--- BOLIVIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Bolivia
+- Bolivia has short, white licence plates with blue text. The blue text can be hard to see through the blur, so plates might appear as plain white.
+- Bolivia only has Generation 3 camera coverage. All of the country was covered by a solid white Google car with no antenna.
+- NOTE: In Latin America, white cars with no antenna can also be found in Peru and Chile.
+- Many buildings in Bolivia consist of large red bricks. Buildings often have an ‘unfinished' look.
+- NOTE: This style of architecture is also common in parts of Peru.
+- Middle road lines can be all-yellow, yellow and white, or all-white, while outer road lines are always white.
+- NOTE: Road lines in Chile are always all-white or all-yellow, never a combination of the two. In Peru, you can find roads having outer lines with no middle line. Such outer line-only roads are very rare in Bolivia.
+- Bolivia has a lot of standard asphalt roads, but concrete slab roads are also fairly common.
+- There are also a lot of cobblestone roads. These roads often have a specific pattern, with several neat lines of stones separating the more disorganised cobblestones in between.
+- Bolivia typically uses bulky, white square signposts.
+- NOTE: Peru typically uses black and white striped “zebra” signposts.
+- Guardrails sometimes feature yellow and black markings. These markings always have the yellow stripes on the outside.
+- NOTE: Peru has similar markings. However, in Peru, the markings have the inverse colour scheme: the black stripes are always on the outside.
+- Two types of utility poles are common in Bolivia:
+- Round concrete poles, often with small pinholes near the top.
+- Round concrete poles, often with small pinholes near the top.
+- Poles in Bolivia are very inconsistent and should not be relied on too much. Poles can have a variety of pole tops. On rare occasions, you can find Argentina-style concrete poles.
+- Many wooden utility poles, particularly in the eastern parts of Bolivia’s Street View coverage, are noticeably curvy and look like they are made from locally sourced tree trunks.
+- NOTE: While you may see slightly bent poles in other places, extremely curvy poles are a very good clue for Bolivia.
+- Kilometre markers are black and white. The top part is black and features the abbreviation ‘Km’, while the bottom part is white and shows the distance. These markers do not have road numbers.
+- NOTE: They can look somewhat similar to Argentinian road markers, especially from a distance. The main difference is that the markers in Argentina feature a road number.
+- Many Bolivians wear traditional clothing, especially women. Folk dress for women typically consists of bowler hats, colourful shawls, and big pleated skirts (pollera).
+- NOTE: Similar folk dress can sometimes be found in parts of Peru, especially those close to Bolivia.
+- At the time Bolivia was covered by Street View, its ruling political party was the Movimiento al Socialismo (MAS). Political graffiti often features the words MAS and Evo, short for then-president Evo Morales.
+- Additionally, many random objects are painted in the party’s colours: black, white, and a large blue field. This distinctive colour scheme is a good clue for Bolivia.
+- Bolivia has a second official flag, called the Wiphala. It is a square patchwork of seven diagonally arranged colours. It is sometimes seen on government buildings and project signs.
+- In urban areas, you will often see ads for the telecom company Tigo, with its distinct blue logo. Crucially, this company does not operate in Peru, meaning it can help you solve urban 50-50s.
+- NOTE: This company does operate in several other Latin American countries, so only use this tip to differentiate between Peru and Bolivia.
+- If all else fails, and you have a tough 50-50, it can help to look at the colour of the rocks and soil, which often have a distinct reddish tint in Bolivia, more so than the other Andean countries.
+- This information should be used with a fair amount of caution, as there are many variables. Only use it when you have no other clues available.
+- Step 2 - Regional clues
+- Coverage in Bolivia is very limited, both in geographic scope and the density of roads covered.
+- Only the central and central-western parts of the country have coverage. Most coverage is found in and around the six main cities of La Paz or El Alto, Cochabamba, Oruro, Sucre, Potosi, and Santa Cruz.
+- These aforementioned six cities have in-depth side-street coverage. Outside these cities, coverage is mostly limited to main roads. Beware that “main road” is a relative concept in Bolivia: many of these, even some that are marked yellow on the map, have large unpaved sections.
+- The Altiplano (“high plain”) is an immense highland plateau that dominates most of western Bolivia. It is covered in grasslands that range from green to arid. Some parts are suitable for agriculture, whereas other parts are extremely dry. Grass growing in tufts is common (sometimes referred to as “Bolivian hedgehogs” in the community).
+- NOTE: While it is generally fairly flat, you will often see hills and mountains around you. However, as a general rule, the road itself will be mostly flat.
+- The grasslands of the Altiplano tend to look more lush in the more northern half: the area close to El Alto and La Paz.
+- NOTE: Due to seasonal coverage, there are some exceptions to this, but in general this is a good rule of thumb to distinguish between the different parts of the Altiplano.
+- Conversely, the Altiplano looks more arid in the more southern half: around Oruro, and the roads going southwest towards Chile.

@@ -1,0 +1,41 @@
+--- PORTUGAL PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Portugal
+- Portuguese plates are long and white, with a blue strip on the left. Most plates have a yellow strip on the right, which is unique to Portugal.
+- The yellow strip was discontinued in 2020, so in Generation 4 coverage you may sometimes see plates with just the blue strip.
+- Portuguese is a Romance language that is closely related to Spanish. Unlike Spanish, Portuguese includes the letters Ç, Ã, Õ, Â, and Ê, while it does not include the letter Ñ, which is very common in Spanish.
+- NOTE: You can also find Ç in Catalan.
+- Eucalyptus trees are very common in Portugal. The only other part of Europe where you’ll commonly see eucalyptus is northern Spain.
+- The Portuguese word for road is ‘Rua’.
+- NOTE: In Galician, the word for road is ‘Rúa’, with an accent on the ‘u’.
+- Concrete ladder poles, with very tall ladder steps, are common in Portugal. Each step often has a small see-through hole.
+- NOTE: In Spain and France you will commonly see ladder poles with short steps.
+- Hunting signs with a red and white colour scheme are a common sight in rural areas. They are either diamond shaped or rectangular.
+- NOTE: In contrast, Spanish hunting signs are white and black.
+- Portuguese bollards are either wedge-shaped with a noticeably thin white top, or flat with a wide reflector. While most reflectors will be white, you may also find orange reflectors. These are noticeably darker than the yellow reflectors in Spain.
+- Directional signs are generally white, with black arrows that are not touching the borders of the sign.
+- NOTE: Spanish directional signs will typically feature the road number in colourful boxes and do not have a black arrow, other than a thin black border.
+- Most kilometre markers are wide rectangles with a coloured section on the left side divided diagonally from the white part. Every kilometre you will find a larger square sign with a coloured top half featuring the road number.
+- Black and white waystones can commonly be found in Portugal.
+- Stop signs in Portugal feature a fairly large font.
+- NOTE: This is mostly useful to distinguish it from Spain, where stop signs have a distinctly small and compact font.
+- Portuguese chevrons are black with yellow arrows.
+- NOTE: Portugal is the only Mediterranean country with this chevron colour scheme.
+- Pedestrian signs have five stripes, and the person is wearing a belt, which is noticeably high.
+- NOTE: Spanish pedestrian signs have eight stripes, Italian signs don't have a belt and Greek signs have two dotted lines instead of stripes.
+- Portugal uses A-type guardrails with red reflectors.
+- NOTE: This is mostly useful to tell apart Portugal and Spain, which uses yellow reflectors.
+- Portuguese road signs are typically encased by a white border.
+- NOTE: Most Spanish signs don’t have a white border.
+- Cobblestone roads are very common in Portugal. These will typically be made of square cobblestones arranged diagonally compared to the road direction.
+- Similarly, cobblestone sidewalks made of distinctly bright stones are very common.
+- White painted stone houses with orange tiled roofs are extremely common in Portugal.
+- You’ll commonly see blue or yellow lines painted around windows and doors, as well as around the edges of walls.
+- Houses made of decorative mosaic tiles are somewhat common in Portugal.
+- Portugal has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- Step 2 - Region-specific clues
+- The first three digits of Portuguese landlines make up the area codes, which are distributed as seen on the map. Phone codes not starting with a 2 are not regional, and codes starting with 29 will either be the Azores or Madeira.
+- For a complete list of the third digits, see this page.
+- In the Faro district in the south of Portugal you will very commonly come across decorative chimneys, which will either be round or square shaped with small spire-shaped tops. The round chimneys are a particularly strong clue.
+- Houses in northern Portugal are often made of square concrete blocks, which are commonly put together with white mortar.
+- NOTE: Very similar architecture, but typically without the white mortar, is commonly found over the border in Galicia.
+- Open fields sparsely populated with holm oaks (Quercus ilex) and cork oaks (Quercus suber) are very common in the southeast. These species of oaks tend to be on the smaller side, and have a Mediterranean look. While these fields will look quite dry during summer and fall, they will look much lusher during spring.

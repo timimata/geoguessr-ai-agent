@@ -1,0 +1,41 @@
+--- THAILAND PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Thailand
+- Thailand uses large, white licence plates on passenger vehicles, and yellow ones on commercial vehicles.
+- NOTE: Within Southeast Asia, yellow commercial plates are only found in Thailand. Be careful, however, as Laos uses yellow licence plates for regular vehicles.
+- Thailand drives on the left hand side of the road.
+- NOTE: Cambodia and Laos drive on the right hand side.
+- The Thai bollard is square shaped with a pointed top, and has black-and-white stripes.
+- NOTE: In Southeast Asia, these bollards are also found in Cambodia, Laos and Indonesia.
+- Signposts in Thailand are square and bulky in shape, usually white, and often have the bottom painted black.
+- NOTE: In Southeast Asia, this design is unique to Thailand.
+- Concrete roads are common in Thailand. They often have a large square shaped pattern.
+- NOTE: In Southeast Asia, these can also be found commonly in the Philippines, and less commonly in Indonesia.
+- Thai poles are square and have small holes running vertically up the pole.
+- NOTE: You will see similar poles in Sri Lanka, Cambodia and Laos. Make sure to look for other clues before guessing.
+- Thai script is compact and in many fonts has tiny circles within most letters.
+- NOTE: The Cambodian (Khmer) script often has longer lines and more accents underneath the lettering, as opposed to the Thai script. The Lao script looks similar to the Thai script. Make sure to check the driving side before guessing.
+- Thailand has yellow middle lines. These middle lines are either solid or dashed lines.
+- NOTE: Malaysia only has white middle lines.
+- Street light poles have red-and-black or black-and-white stripes on the bottom.
+- Thailand has very distinct long, thin lamp posts that hang over the side of the road.
+- Directional signs on smaller roads are white, and are composed of two signs: one with an arrow at the bottom, and one with the information at the top. These can have place names. When they do not, you will see them as just the road number with a Garuda. Moreover, highway signs are green, and frequently feature the place names in Latin script below the Thai name.
+- Stop signs in Thailand feature the Thai script, instead of Latin.
+- NOTE: Stop signs in Laos feature the Lao script, similar to Thai, but they have just 2 characters instead of 3.
+- These two road markers are generally found in Thailand. They will either have a white or a black Garuda on them.
+- NOTE: White Garudas are found on country roads and appear white on the map, while black ones are found on province roads and appear dark blue on the map.
+- On the map, national roads are white-and-black, while provincial roads are blue-and-yellow.
+- Thailand often has many flags lining the side of its streets. Aside from the national flag, you can often see royal flags, which are usually yellow.
+- These distinctive green signs can be found all around Thailand, often in small villages.
+- NOTE: You will not find this sign in any other country.
+- Most Generation 3 coverage has no visible Street View car.
+- NOTE: Vientiane and some Generation 3 coverage in Cambodia will also not have a visible car. Bike trekkers and a white car with a brake light can rarely be found all throughout the country in Generation 3.
+- Step 2 - Regional/province-specific clues
+- Thai landline phone numbers have 9 digits. The first digits of phone numbers are the area code. The Bangkok area code is 02, the other area codes have three digits. The area codes are grouped, so even just learning the first digit is useful.
+- NOTE: Mobile phone numbers start with 08 or 09 and have 10 digits. None of these numbers overlap with the area codes. Numbers starting with 06 are also not regional.
+- National roads are grouped into four regions based on their first digit. Roads beginning with 1 can be found in the north, 2 in the northeast, 3 in the centre and 4 in the south of the country.
+- NOTE: Large one- and two-digit highways may pass through multiple regions. Remember that this map does not apply to provincial roads.
+- Waystones and road signs on provincial roads will often provide a two-letter abbreviation of the province in Thai script. They will not appear on waystones or road signs for national roads.
+- You can use this site to view and practice all province abbreviations.
+- These black boxes will often provide a three-letter abbreviation of the province. Two formats are used:
+- Starting with the abbreviation followed by 4 numbers
+- Starting with the abbreviation followed by 4 numbers

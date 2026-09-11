@@ -1,0 +1,41 @@
+--- MONTENEGRO PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Montenegro
+- Montenegro uses the standard European plate with a blue strip, and the Montenegro coat of arms on a red circle. The red circle is visible through the blur.
+- NOTE: The white section of Albanian licence plates do not have a red circle.
+- Montenegro is a small, mountainous country. Inland mountains are lush and green, while most coastal mountains have distinct exposed, light coloured rock. Most roads are also only 1 or 2 lanes wide.
+- The most common bollard is white with a red reflector on the front and a white one on the back. The bollard also has a black top.
+- NOTE: These bollards are also found in Slovenia.
+- Montenegro uses black on white or red on yellow chevrons.
+- NOTE: Albania uses white on black chevrons.
+- Guardrails in Montenegro are often rusted.
+- Montenegro is the only Balkan country where you’ll commonly see both A-type and B-type guardrails.
+- NOTE: For a good overview of European guardrails, see this infographic.
+- Montenegro uses simple round concrete or wooden poles.
+- ‘Rifts’ can commonly be seen in Montenegrin coverage, due to poor stitching.
+- NOTE: Rifts are also common in Albania, and can rarely be seen in various other countries.
+- Step 2 - Regional and municipality-specific clues
+- Coverage in Montenegro is limited to main roads, with very few minor roads covered. The only main road not covered is the A1, south of Kolasin.
+- This map shows the distribution of where rifts are found. Although rifts are common in Montenegro, coastal rounds will almost never have them. By the coast, there will be a short antenna with no rifts. There will be a long antenna with rifts inland.
+- NOTE: An exception to this is the area around the coastal villages of Utjeha and Dobra Voda.
+- You can click on the image to enlarge it.
+- Green, agricultural valleys with deforested hills to make way for farmland are most commonly seen in the north.
+- The Bay of Kotor has a touristy and populated feel to it, with many people dressed in swimwear. A distinct steep, rocky ridge can also be seen.
+- Dry mountains with a lack of trees are seen around Podgorica, and to the south of it. Vineyards are also commonly seen in this region.
+- Pine forests can be found in the north and a small area north of Nikšić, but most commonly in the east.
+- Durmitor National Park can be recognized by a distinct landscape consisting of grassy, treeless mountains with a high-altitude feel.
+- The town of Žabljak is situated in this national park, and can be recognized by the landscape but also by the unique architecture.
+- Step 3 - Spotlight
+- Podgorica is the capital and largest city in Montenegro, and can be recognized by the modern buildings, wide roads and modern infrastructure.
+- These distinct staircase-like mountainsides can be seen in the Cemi River Valley.
+- Many small islands can be seen within Slansko Lake.
+- The Pljevlja Coal Mine can be recognized by the wide, artificial wall of gravel. The mine can often be seen from afar.
+- The Google Car can be seen chasing this police car on the P15, between Lovcen National Park and Čevo.
+- The southern part of the E80, between Orahovo and Đurmani, can be recognized by the yellow outer lines.
+- The Skadar Lake Bridge can be recognized by the railway and stone bollards next to the road.
+- Step 4 - Maps and resources
+- GeoGuessr’s own official maps are not very good, for a variety of reasons. Plonk It recommends you play these maps instead:
+- AI gen - Montenegro (map link) - A balanced map of Montenegro with over 10,000 locations.
+- AI gen - Montenegro (map link) - A balanced map of Montenegro with over 10,000 locations.
+- To report inaccuracies, suggest new clues or give general feedback about our content, please use this form: https://www.plonkit.net/feedback
+- All content published on Plonk It is licensed under CC BY-NC-SA 4.0.
+- © 2021-2026 Plonk It.

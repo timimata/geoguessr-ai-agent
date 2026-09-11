@@ -1,0 +1,3 @@
+- Road lines: Outer always solid white; middle = white dashes (± solid) or solid yellow w/ white dashes.
+- Bollards: Long black/white, rectangular front reflector, diagonal black strip, 2 rear dots.
+- Snow poles: Orange with single thin white band near top.

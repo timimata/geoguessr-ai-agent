@@ -1,0 +1,41 @@
+--- KENYA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Kenya
+- Kenya has many unique Google cars, almost all of which will have visible car meta. In Generation 3 you will typically see a car with a roof rack and a snorkel. In Generation 4 you will always have a large pickup truck, which will either be white or grey. The grey car comes in two slightly different variations, of which one can either be with or without a snorkel.
+- It is the only country other than Mongolia with a snorkel.
+- NOTE: You can see National Park Cars in other countries with a snorkel on the front of the vehicle. Each vehicle will have its own distinct look.
+- On a lot of the coverage you will see a grey Toyota SUV following the Street View car.
+- Kenya uses long white front licence plates. The rear counterpart is square and yellow.
+- This mobile network brand named Safaricom is unique to Kenya, and almost every city has one location.
+- Outer lines in Kenya will always be solid white, while inner lines will be yellow and either solid or dashed.
+- Directional signs are green with a white border and text. They often display road numbers in white or yellow.
+- While infrequent, road signs in Kenya will mostly be red and white.
+- Upon closer inspection of signs, billboards and posters, you will notice that the county name is often written. Therefore, knowledge of Kenyan counties can be extremely useful in region guessing.
+- You can practise Kenyan counties using the quiz in the resource section.
+- These repurposed vans can be found all over Kenya.
+- NOTE: While these vans can also be found in Uganda, the design of the vehicle wrap is clearly different.
+- Many species of eucalyptus are commonly found in Kenya. They can be identified by their long, often clumped leaves, and smooth bark.
+- NOTE: Eucalyptus trees can be found in other countries. Use this information to help reinforce your country guess.
+- While the vast majority of Kenyan car coverage has a visible Street View car, it is possible to find Generation 3 coverage with no visible car.
+- Step 2 - Regional/county-specific clues
+- Most of the coverage in Kenya outside of the southwest is limited to main roads.
+- You can click on the image to enlarge it.
+- The natural formation of land has great diversity between regions. The east and large portions of the north are extremely flat. In contrast, the further southwest you travel, the higher the elevation becomes on average.
+- You can click on the image to enlarge it.
+- Kenya has distinct regional climates. Some of these include:
+- As regions vary, this means that there will be many transitional climates. Use this as a guide to quickly determine the general area to assist with region guessing.
+- You can click on the image to enlarge it.
+- This Generation 3 grey car with a large snorkel is mostly found in the west, but can also be found in the Mombasa and Nairobi areas, and regions east of Nairobi near Kitui.
+- NOTE: Most Generation 3 coverage has been overridden by Generation 4.
+- This Generation 3 black car with a small snorkel is mostly found in the east of the country. You can also see it north and south of Nairobi.
+- NOTE: Most Generation 3 coverage has been overridden by Generation 4.
+- Kenya has mostly Generation 4 coverage covered by a large grey Google car, with or without a snorkel. There are many metas regarding Generation 4, too many in fact to break down here.
+- RESOURCE: Therefore, please use this document. It covers this area in depth, and was created by snowf_lake#9088.
+- Key meta information can be found in the tips below. Other less extensive, but still noteworthy car meta, can be found in the spotlight section.
+- You can see pieces of white tape on the roof of the Google car in a lot of the coverage north and south of Nairobi.
+- The A109 between Mombasa and Nairobi has light orange dirt and many hills around the road and in the distance. You will additionally see many transportation trucks delivering various goods.
+- Most of the coverage between Mombasa and Emali also has a unique car, which has a cord on the left.
+- Mombasa and the other coastal towns are easily identified from the white sandy soil, palm trees and coastal feel.
+- The far west areas of the country that are northwest and southwest of Kisumu are the most agricultural parts of the country. You will often see farms, grassy hills, and tall eucalyptus trees in this region of the country.
+- The area around Kitui is semi-arid, usually mountainous, and has light orange, sandy dirt.
+- The northwest part of the country has very limited coverage, most of which is on the A1 or in Sibiloi National Park. It has faintly tan soil and sparse low trees. A lot of the coverage in this area is very flat, but you can also see hills or mountains.
+- White flowers, especially when they are in large numbers, are commonly found east of Chyulu Hills National Park, as well as in Tsavo National Park and near the A109 south of Nairobi.

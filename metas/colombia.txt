@@ -1,0 +1,41 @@
+--- COLOMBIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Colombia
+- Colombian licence plates are typically yellow.
+- NOTE: Within South America, yellow licence plates are almost exclusively found in Colombia.
+- In Generation 3 coverage, a short thick antenna is sometimes visible with a black, white or grey car. In Generation 4 coverage, a white or silver car is commonly found.
+- NOTE: Within the Americas, you can also find the antenna in Mexico, Ecuador and Brazil. However, Colombia is the only country with this antenna on a black Google car.
+- Signposts in Colombia are made of white metal, and join to form a distinct cross on the back of signs.
+- NOTE: White metal signposts can also be found in Brazil, however these are usually wider.
+- Colombia uses two types of kilometre markers: a tall green version with the letters “Pr” at the top, and the traditional stone marker with black lettering. Both designs are unique to the country.
+- NOTE: The first two digits at the bottom indicate the road number. In this case, the road number is 90. The last two digits indicate the section of the road, which increase west to east on even numbered highways, and south to north on odd numbered highways.You can use this resource to help identify each section.
+- Colombian poles are often marked with unique black-and-yellow or black-and-orange stripes.
+- Wooden fences are particularly common in Colombia.
+- NOTE: In addition to the unpainted variants, some fence posts are painted and sharp at the top. These are almost exclusive to Colombia.
+- Colombian taxis are always this pastel yellow colour. As opposed to private vehicles, they have white licence plates, which are often printed on the side and roof. If unblurred, you will often see the city name.
+- NOTE: Ecuadorian taxis may look similar. However, they use a slightly more saturated yellow and typically have orange plates.
+- Colombian poles are generally concrete with a variety of pole tops.
+- Moreover, dark-coloured poles are more common in Colombia than in neighbouring countries.
+- NOTE: It is the only country in the Americas, apart from Mexico and Ecuador, where octagonal poles can be found.
+- In Colombia, it is particularly common for sidewalks to be decorated with reddish tiles.
+- Step 2 - Regional and province-specific clues
+- Coverage in Colombia is mainly found in the north and west. The islands of Providencia and San Andrés, northwest of the mainland, also have coverage.
+- The Northern part of the country is characterised by white, sandy soil and an arid landscape.
+- East of the Andes lies a vast lowland called Llanos. It is characterised by open tropical grasslands, savannas with scattered trees, small areas of forest and seasonal flooding.
+- These pole markings with one short black strip on the top and bottom, and a longer yellow section in the middle, are most commonly found in the Antioquia department. Sometimes, you can find them in the Cordoba department as well.
+- As a result of slave trade, the Pacific coast of Colombia is home to an overwhelming majority of Afro-Colombians.
+- Sugar cane is grown along the Cauca river in Valle del Cauca and neighbouring departments.
+- A camera glitch that makes a part of the image look very saturated can be found in southern Colombia.
+- Step 3 - Spotlight
+- This landscape is typical of the far Northern province of La Guajira: extreme dryness, low vegetation and occasional cacti.
+- In addition, you can often recognise the Uribia-Puerto Bolivar road because of this landscape, the straightness and the train track always present to the East.
+- You can recognise the narrow Ruta 90 landbridge between Barranquilla and Cienaga thanks to the dashed yellow lines and shallow bodies of water next to the road. Open ocean can often be seen to the north.
+- NOTE: In the older Generation 3 coverage, you will also see tall mountains in the distance.
+- Intersections in the coastal city of Barranquilla are commonly marked by small concrete poles (mojones) bearing street names. For example, this image was taken at the intersection of Carrera 42 and Calle 68.
+- This unique vehicle can be found in and around Leticia, the Southernmost town in Colombia.
+- NOTE: The long concrete blocks seen in the bottom left corner are a reliable way of recognising the road North of Leticia.
+- Coverage on the Caribbean island of San Andrés was taken by this distinct white car.
+- The island of Providencia, located roughly 90 kilometres North of San Andrés, is home to this unique grey truck.
+- Providencia street lights are green and supported by a trapezoidal sheet of metal underneath.
+- NOTE: The uniquely shaped supporting metal piece can also be found in Barranquilla.
+- To go further, Plonk It recommends the following documents created by the GeoGuessr community:
+- Colombia Guide for Geoguessr (doc link) by Vamp

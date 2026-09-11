@@ -1,0 +1,3 @@
+- Need to prioritize things visible in a single static frame: plates, bollards, poles, signs, architecture, vegetation, hydrants, road markings.
+- Combine related items to save space.
+- Ensure strict adherence to constraints (no car meta, no gen history, <1000 chars, 8-10 bullets).

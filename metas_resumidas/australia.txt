@@ -1,0 +1,10 @@
+- Left-hand traffic. WHITE outer road lines (unlike South Africa's yellow).
+- License plates: white/yellow background, black text, no EU strip. Each state has different color: NSW yellow, VIC blue/white, QLD white, WA yellow, SA white, TAS white.
+- Utility poles: tall wooden poles with crossbar; very distinctive thick black electrical transformers mounted mid-pole.
+- Vegetation: eucalyptus/gum trees (distinctive mottled grey-white trunks, sparse drooping leaves) — unique identifier. Red/orange scrubland outback. Yellow wattle in spring.
+- Road lines: white outer lines, white dashed center; yellow center lines on some rural roads.
+- Bollards: white rounded top with black or red reflector stripe; sometimes yellow posts.
+- Landscape: flat red outback (center, lat -25), tropical north QLD (lat -15, green), SE coastal (lat -33 to -38, temperate green), NW desert (lat -22, hot red).
+- CONFUSION with NZ: NZ has possum guards on poles, red-top bollards. Australia has eucalyptus (NZ has ferns/NZ bush). Australia = right-size continent, NZ = islands.
+- CONFUSION with South Africa: SA has YELLOW outer lines + bird poles. Australia has WHITE outer lines + eucalyptus.
+- REGIONAL COORDS: Sydney/NSW (-33.9,151.2), Melbourne/VIC (-37.8,145.0), Brisbane/QLD (-27.5,153.0), Perth/WA (-31.9,115.9), Adelaide/SA (-34.9,138.6), Darwin/NT (-12.5,130.8), Alice Springs (-23.7,133.9).

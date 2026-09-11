@@ -1,0 +1,29 @@
+--- PUERTO RICO PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Puerto Rico
+- Puerto Rico is a United States overseas territory. As such, it is counted as the US for country streaks purposes.
+- Nearly all of the coverage was captured with smallcam, a variant of Generation 4, which in this case can be recognised by the wide blur and antenna that is often visible. The camera is lower and the front blur more round than pickup truck blurs.
+- The Generation 3 Street View car found in Puerto Rico has an antenna at the front right. The antenna has a small white dot on the tip.
+- NOTE: The Google car on Guam and NMI also have an antenna at the front right. Make sure to look out for other clues before guessing.
+- The entirety of Puerto Rico uses (787) as their regional phone code. This number can be seen in front of phone numbers using this format:
+- NOTE: While far less common, you may also encounter the phone code 939.
+- Spanish, instead of English, can commonly be seen on signs around Puerto Rico.
+- American store chains, such as Wal-Mart, are very common in Puerto Rico. This will help distinguish Puerto Rico from other nearby Latin American countries and territories, where American stores are not common.
+- Front plates are not mandatory in Puerto Rico. Therefore, seeing cars with front plates is rare. This helps differentiate from Guam and Northern Mariana Islands.
+- A significant part of the coverage in rural Puerto Rico is taken on large divided highways.
+- Here is an example of what highway shields in Puerto Rico look like. From top left to bottom right they are: primary highway shields, primary urban highway shields, secondary shields, and tertiary shields. These will not be present in any other state or territory of the US.
+- Speed limit signs in Puerto Rico are identical in shape and size to speed limit signs seen in the mainland US. The major difference is that these signs will always be in Spanish, instead of English.
+- Stop signs in Puerto Rico say ‘PARE’ instead of stop.
+- NOTE: ‘PARE’ is also used in all of South America as well as the Dominican Republic.
+- Puerto Rican kilometre markers are tall, green and with “km” written at the top, followed by a number written vertically in large text.
+- Most homes in Puerto Rico are made of concrete and have flat rooftops. Metal gates in front of homes are common features as well, especially in urban areas.
+- NOTE: Homes in other areas of Latin America can have a similar appearance.
+- Step 2 - Regional clues
+- Southern Puerto Rico can often look distinctly drier than the rest of the island.
+- The North and South coasts of Puerto Rico typically feature flat coastal plains or rolling hills.
+- Most of the mountainous regions of Puerto Rico are located in the middle section of the country. Most of the coverage in these areas is limited to divided highways.
+- Step 3 - Spotlight
+- The Southern city of Ponce features many buildings in the style of Ponce Creole Architecture, which is a combination of Victorian and Spanish Revival styles. Buildings are typically made out of wood and masonry.
+- Old Town San Juan is located at the far Northwest tip of the city of San Juan. This area has very narrow streets, colourful buildings, and a mix of Gothic, Renaissance, and Baroque architecture. Also, some streets in this area are made of bricks.
+- To report inaccuracies, suggest new clues or give general feedback about our content, please use this form: https://www.plonkit.net/feedback
+- All content published on Plonk It is licensed under CC BY-NC-SA 4.0.
+- © 2021-2026 Plonk It.

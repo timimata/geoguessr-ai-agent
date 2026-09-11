@@ -1,0 +1,41 @@
+--- NORTH MACEDONIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying North Macedonia
+- North Macedonian licence plates are white and sometimes have the standard European blue strip on the left. They also have a noticeable red block near the left side of the licence plate.
+- NOTE: Serbia will almost always have a blue strip on their licence plates.
+- North Macedonia uses two types of bollards. One is rounded and very thin, while the other one is wedge-shaped. They both are white and have red or white reflectors, typically on a black surface.
+- NOTE: Croatia uses the same wedge-shaped bollard. Hungary has a similar wedge-shaped bollard but with more white space above the black rectangle.
+- North Macedonia uses A-Profile guardrails, like most of Europe. The guardrails have red reflectors.
+- NOTE: Serbia uses B-Profile guardrails. For a good overview of European guardrails, see this infographic.
+- Direction signs in North Macedonia are typically yellow with biscriptal text: town names are written in both Latin and Cyrillic script.
+- NOTE: Serbia, Slovenia, Croatia, and Montenegro have similar signs. Serbia is the only one that will have biscriptal text though.
+- Macedonian is a Slavic language which uses the Cyrillic script. Road signs have Latin on them too, although most other signs are fully in Cyrillic.
+- The letters ‘Ѓ’ and ‘Ќ’ are unique to Macedonian. ‘Љ’, ‘Њ’, and ‘Џ’ are only in Serbian and Macedonian.
+- All coverage in North Macedonia is Generation 3. There will never be an antenna on the Google car.
+- Every other country in Europe will sometimes or always have an antenna in Generation 3 coverage. For clarity’s sake: this means that cars with no antenna can be found outside North Macedonia.
+- NOTE: The only other country to have no antenna the majority of the time is Serbia, although there will be an antenna sometimes.
+- Rural coverage in North Macedonia will normally mostly be on highways. This is because of the limited coverage outside urban areas in the country.
+- The general landscape of North Macedonia consists of relatively dry grasslands, and small hills and scattered trees.
+- These ‘Greek Lamps’ on utility poles can be found in North Macedonia. They can also be found in various other countries, such as (unsurprisingly) Greece or Serbia.
+- North Macedonia normally uses yellow-filled in warning signs. Most of Europe uses white ones.
+- NOTE: In southeastern Europe, Greece also commonly uses yellow-filled in signs. Slovenia sometimes has yellow-filled signs.
+- Step 2 - Regional/city-specific clues
+- Coverage is sparse, only including some highways and some cities in the country.
+- The cities of Skopje, Bitola, Kumanovo, Prilep, Tetovo, Veles, Ohrid, and Strumica are the only ones with significant coverage inside the city.
+- You can view the official coverage in more detail on this site.
+- Skopje is the capital and by far the largest city. If you see any large apartments or buildings, you are almost guaranteed to be in Skopje.
+- Winter to late fall coverage is found in the cities of Skopje, Tetovo, Prilep, Bitola, and Ohrid.
+- A green truck is visible behind the Google Car for a portion of the E-65. The truck is visible from Kichevo to Arbinovo.
+- For some of the E-75 north of Veles, there are triple yellow lines with a dashed centre line. In the northern part of the road, there is a yellow-truck following the Google car.
+- The rest of the road is either under construction or newly paved. This road is very similar to the A3 east of Veles, although that one is much flatter and has an arid landscape surrounding it.
+- A section of the A3 east of Veles also has triple yellow lines, which in Europe is extremely uncommon. The rest of the road has a very arid landscape and is noticeably under construction.
+- Step 3 - Smudges
+- You can sometimes see some smudges on the camera. If you see one black smudge on the camera, you will most likely be on the A3 between Bitola and Prilep, or the R1302 in the far east. Keep in mind smudges can be randomly seen throughout the country.
+- If you see three smudges, you will always be on the R1304. The only large city on this road is Kočani, although it has extremely limited coverage.
+- If you see a brown smudge, you will be in the far southeast of the country.
+- A fly can be seen on the southern portion of the R1205. This is found nowhere else in the country.
+- Step 4 - Divided roads
+- Some roads in North Macedonia are divided. The map shown here gives an overview of where you can find such roads.
+- You can learn more about these roads below.
+- The E-65 just south of Tetovo has one concrete median separating each lane instead of a normal guardrail. This is the only highway in the country to have this.
+- The E-65 between Tetovo and Skopje will sometimes have trees in between the guardrails.
+- This is the only highway to have them, besides a small part of the E-75/A1 road south of Veles (see the next tip).

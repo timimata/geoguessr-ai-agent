@@ -1,0 +1,41 @@
+--- INDONESIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Indonesia
+- Indonesian licence plates are black with white letters. The letters usually appear as three white sections through the blur.
+- Commercial vehicles use yellow licence plates.
+- Plates in newer coverage can be white too.
+- NOTE: Malaysian licence plates are also black, but generally have two white sections.
+- Indonesia drives on the left.
+- NOTE: Malaysia drives on the left, while the Philippines drives on the right.
+- Indonesia uses white or yellow centre lines. Outer lines will always be white. The centre lines will be solid or dashed.
+- In Generation 3 coverage, yellow centre lines are more rare, as Indonesia only recently started using this colour for its road lines.
+- NOTE: Malaysian road lines are always all white.
+- Poles in Indonesia are typically round and made out of either steel or concrete. Many of the steel poles are painted black, and also feature the Indonesian flag colours on them. The pole tops are usually either even or uneven, depending on the region.
+- You can learn more about regional poles in the region-guessing section.
+- Indonesia commonly uses these black-and-white square or circular bollards, as well as these yellow-and-black ones, which can also have a red reflector. Other designs can also be found.
+- NOTE: UK-style bollards are mostly found in Kalimantan.
+- Usually yellow waystones that are angled towards the road, and have a cutout close to the top are unique to Indonesia. They include shorthand for three cities or towns, with the biggest one being on the top in the cutout section.
+- NOTE: Waystones in the Philippines are perpendicular to the road and have the text facing away from the road.
+- Indonesian can look very similar to Malaysian, however Indonesian has been influenced by Dutch, and Malaysian by English. These small changes in spelling may help differentiate the two.
+- An example is the word television in English, which translates to ‘televisi’ in Indonesian, similar to the Dutch word ‘televisie.’ In Malaysian, it translates to ‘televisyen’, more similar to English.
+- You can find these rows of red and white banners all around Indonesia. Sometimes, more colourful flags can be found.
+- Cigarette ads can be found all over Indonesia, usually with a black or red colour scheme and around a price of 18,000 Rp. Keep an eye out for illustrated graphic pictures, and the word ‘PERINGATAN’.
+- Motorcycles in Indonesia have front licence plates, as opposed to other south-east Asian countries which do not.
+- The official Indonesian currency is the Rupiah (Rp).
+- Step 2 - Regional and province-specific clues
+- Coverage in Indonesia is fairly limited. Notably, there is no coverage on Papua or adjacent islands, and coverage is sparse in areas such as Kalimantan, Aceh, Central Sulawesi and North Maluku.
+- The names of 2nd level subdivisions, named ‘Kabupaten’ or ‘Kab’ for short, translating to regency, can be found all over Indonesia on various signs and billboards. Each province is split up into multiple Kabupatens, totalling to 417 which are covered by street view, and therefore applicable in Geoguessr. These are learnable with enough time and patience.
+- See the resources section for more information.
+- You can find the cardinal directions written on many addresses. They are as follows:
+- Central = Tengah
+- Central = Tengah
+- Indonesia uses two types of pole tops: even and uneven. This refers to the bar that holds the insulators and whether it is symmetrical to the pole itself. Knowing where even and uneven poles are most commonly found is useful for region guessing.
+- You can find these poles with a triangle attachment under the horizontal bar in the following regions.
+- NOTE: This does not apply to stacked poles.
+- Poles with an indent on both sides are found in West Java, Jakarta, and Banten.
+- Trident style pole tops are most commonly found in Central Java and Yogyakarta, and rarely in South and West Kalimantan, and North Sumatra and Riau.
+- Bali features both even and uneven poles, as well as the Lesser Sunda island variants. You can also find this unique rectangle attachment on the pole tops in Bali.
+- On the Lesser Sunda Islands (“Nusas”), you can find poles with an extra long support on the pole top. Sometimes, two supports can be present.
+- Pole tops in North and Central Sulawesi, and Gorontalo commonly feature an extra attachment right under the horizontal bar.
+- You can often see thin, black poles next to regular poles near the East Peninsula of Central Sulawesi. Two pieces of tape can be seen near the top of the poles, usually light blue and green. These can rarely be seen in northern South East Sulawesi.
+- These poles are almost exclusive to North Sumatra. The bar which holds the insulators is even, but features uneven insulators with one on one side and two on the other.
+- Satellite dishes can help you determine whether you are north or south of the equator. For example, if the satellite dish points north, you are most likely south of it, and vice versa. The angle of the satellite dish can also tell you how far away from the equator you are. The more levelled it is, the closer you are.

@@ -1,0 +1,41 @@
+--- SOUTH KOREA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying South Korea
+- South Korea uses a variety of different licence plates.
+- Pre-2006 plates are short and green. These will still show up in the street view coverage.
+- Pre-2006 plates are short and green. These will still show up in the street view coverage.
+- Post-2006 plates are white for private vehicles, and yellow for commercial vehicles. These can be long and short.
+- Post-2006 plates are white for private vehicles, and yellow for commercial vehicles. These can be long and short.
+- Almost all road coverage in South Korea is made with a Generation 3 camera.
+- In most, but not all, of the coverage, the back of the Google car is visible. You can see three colours: black, white and silver. The car never has an antenna.
+- A considerable amount of the coverage was made during autumn and winter.
+- Note that more pleasant-looking spring and summer coverage is also not uncommon.
+- The Korean writing system (Hangul) is very unique and recognizable. One of its standout features is the presence of circles in many of its letters. This sets it apart from most other East Asian writing systems.
+- Utility poles almost always have these pole markings near the bottom, consisting of black and yellow diagonal stripes.
+- These markings look similar to the ones found in Taiwan. There are however two main differences:
+- In South Korea, the stripes do not reach all the way to the bottom, whereas in Taiwan they do.
+- In South Korea, the stripes do not reach all the way to the bottom, whereas in Taiwan they do.
+- In South Korea, the stripes are more yellow. In Taiwan, they have more of an orange tint.
+- In South Korea, the stripes are more yellow. In Taiwan, they have more of an orange tint.
+- Most poles have a tapered “spike” on top.
+- South Korea drives on the right.
+- Roads generally have yellow middle lines and white outer lines.
+- You can sometimes see red block markings on the road.
+- Triangular warning signs have a yellow background.
+- Note that circular prohibition signs, such as speed signs, have a white background. Yield signs also have a white background.
+- Street signs will be blue, arrow-shaped and commonly hanging from a metal bar mounted to utility poles.
+- Direction signs in South Korea have white text on a green background.
+- Speed bumps are often painted yellow and white.
+- South Korean pedestrian crossing signs can be easily recognised from the distinct pentagonal shape combined with the blue background.
+- Korean buildings have very distinctive house numbers. They are blue and usually are shaped quite literally like a house. The full address of the building is written on them, in both Hangul and Latin script.
+- Some places have unique house numbers, which you can use to region-guess. More information about this can be found in the spotlight section.
+- You will sometimes see these black and white wedge-shaped bollards. They have a round yellow reflector on the front, and a grey one on the back.
+- The South Korean landscape is predominantly mountainous. It is very rare to not see at least some hills or mountains in the distance. Even in the flat areas, you can almost always see elevation on the horizon.
+- Red brick is a very common building material in South Korea.
+- Many buildings have traditional tiled roofs like these. These often have decorative elements on the corners, and tend to have sides that curve slightly upwards. Blue roofs are quite common.
+- Step 2 - Region-specific clues
+- South Korea has fairly limited and very spotty coverage. Other than large highways, most of the coverage is concentrated in and around major cities.
+- Area codes in South Korea increase to the south, from 02 in the north, to 064 on Jeju. It is also notable that Seoul has the only two-digit area code in the country.
+- Generation 2 coverage is almost exclusively found in Seoul and Busan. It can also be found on a couple of highways outside the cities, however almost all of that coverage has been overwritten.
+- A small camera can be seen mounted above the brake light on the Street View car on coverage northeast of Seoul and around Pohang.
+- Jeju is a volcanic island with a lot of dark volcanic dirt, where you can also often see volcanoes in the distance.
+- Jeju also has a lot of rock walls, made of dark volcanic rocks.

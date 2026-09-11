@@ -1,0 +1,53 @@
+--- UNITED STATES PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying the United States
+- Step 1.1 - US-specific
+- The US uses American English spelling (e.g. center, color).
+- In addition, the US primarily uses the imperial system for measurements. For example, speed and distance are measured in miles. You will also often see feet and inches on signs, indicating the height of bridges.
+- NOTE: This is useful to distinguish between the English-speaking parts of Canada, where British English spelling and (usually) the metric system are used. For example, Canada measures speed in kilometres.
+- Generation 2 coverage is rare in the US. If you have a Generation 2 location in a North American setting, you are more likely to be in Canada.
+- The exception to this is Alaska, and to a lesser extent Hawaii, which have a fair amount of Generation 2. You can also rarely see generation 2 in rural areas of the deep south.
+- Generation 3 coverage is also significantly less common than in Canada.
+- Road signs in the US tend to use more words compared to their Canadian counterparts. A good example are railway crossing signs, which feature the literal words ‘railway crossing’ on them. In Canada, these signs are typically blank.
+- This tendency is also noticeable on yellow diamond warning signs. In Canada, the words will usually be on a rectangular sign below the yellow diamond, which would have a diagram on it instead.
+- The US uses the phrase ‘Speed Limit’ on their speed signs.
+- The numbers on American speed signs are usually lower than that of Canada’s, since they use miles instead of kilometres. In addition, speed limits ending in 5 are more common in the US.
+- NOTE: Canada uses the word ‘Maximum’ on their speed signs.
+- Triangular yellow signs with the phrase ‘No Passing Zone’ are exclusive to the US.
+- American yield signs are shaped like an upside down triangle with a red border, with a white field with the word ‘YIELD’.
+- NOTE: Canadian yield signs look similar, but lack the ‘YIELD’ text.
+- American one-way signs are usually a horizontal black rectangle with a white arrow inside of it. These signs will also always have the words ‘ONE WAY’ printed on them. In cities, they are a white vertical rectangle with the words ‘ONE WAY’ on them and an arrow underneath.
+- NOTE: Canadian one-way signs are of the same shape and colour, but might not have the words ‘ONE WAY’ on them.
+- Parking indicator signs in the US are typically white metal signs with red, green, or black text. They may include specific information about when you can park on said road, and arrows indicating where parking is (or is not) allowed.
+- NOTE: Canadian parking signs use similar styles and colours, but typically are less ‘wordy,’ instead using more symbols when applicable.
+- Large highways in the US use large, rectangular, green metal signs with curved edges and white text to mark highway exits, distances to nearby towns, and the names of upcoming roads (mainly in cities).
+- NOTE: Canadian highway signs have a similar appearance, but will typically have squared edges, instead of curved edges.
+- Leading up to exits on large highways you commonly see large, blue rectangular signs with white text, highlighting services, such as food, lodging and petrol, that are available at the upcoming highway exit.
+- NOTE: Canada uses similar signs on some of their highways.
+- These rectangular junction signs with a single or double arrow are found in the US.
+- NOTE: Canada uses diamond-shaped junction signs.
+- White and orange fibre optic cable markers are almost unique to the US.
+- NOTE: On very rare occasions, they can be found in Canada.
+- This is an example of the most common type of orange construction barrel in the United States. They are made out of orange plastic with horizontal white stripes and a black rubber base. They are usually used to block off lanes to traffic during times of road construction.
+- The US uses yellow middle lines and white outer lines. Double middle lines are the most common.
+- On divided roads, the outer line closest to the median will be yellow, and the other lines will usually be white.
+- NOTE: Double middle lines are less common in Canada, but not rare – use this meta with caution. Furthermore, yellow road lines are very rare in Europe.
+- Interstate highways, US highways, and some state roads have rumble strips in each edge of the road; which are small indentations in the pavement perpendicular to the road. These can be located on the outside edges of the road and in between lanes on multi-lane highways.
+- NOTE: Rumble strips may appear in Canada, but are much more rare.
+- Small, rectangular manufactured homes, also known as mobile or ‘trailer’ homes, are popular in rural areas of the US. In general, mobile homes are more common in the Southeast but they can be seen anywhere in the country.
+- NOTE: This style of home can sometimes be seen in Canada, but to a much lesser extent.
+- Baptist churches are very common in the United States. Similar to mobile homes, these are more common in the Southern Plains and Southeast United States, but can be found in all 50 states.
+- NOTE: Baptist churches are rare in Canada.
+- Pictured here is a group of gas stations and convenience store chains that operate in the United States, but not in Canada. This is not a comprehensive list, but some of the most common American-only chains. Regional gas station chains are found near the end of the ‘Step 2’ section of this guide.
+- You can click on the image to enlarge it.
+- REGIONAL COORDINATE GUIDE (use visual clues to pick the right region):
+- NORTHEAST (lat 40-47°N, lon -69 to -79°W): Dense deciduous forest, older brick buildings, narrow winding roads, rocky terrain, stone walls along fields, colonial-era architecture. States: Maine, Vermont, New Hampshire, Massachusetts, Connecticut, Rhode Island, New York, Pennsylvania, New Jersey.
+- SOUTH (lat 25-36°N, lon -76 to -97°W): Red/orange clay soil, Spanish moss on trees, mobile homes, Baptist church signs, very flat terrain (Gulf Coast), pine forests, warm humid look, cotton/tobacco fields. States: Georgia, Alabama, Mississippi, Louisiana, Tennessee, Carolina, Virginia, Florida.
+- MIDWEST (lat 37-47°N, lon -82 to -100°W): Flat or gently rolling terrain, corn/soybean fields, grain elevators, very straight roads on grid, small towns with water towers. States: Ohio, Indiana, Illinois, Iowa, Missouri, Kansas, Nebraska, Minnesota, Wisconsin, Michigan.
+- GREAT PLAINS (lat 35-49°N, lon -96 to -104°W): Extremely flat, endless grassland/wheat fields, very long straight roads, sparse trees, visible horizon. States: North/South Dakota, Kansas, Nebraska, Oklahoma, Texas panhandle.
+- TEXAS (lat 26-36°N, lon -94 to -106°W): Huge state — East Texas has pine forests like the South; Central Texas has limestone hills and live oak; West Texas is dry desert. Yellow "Farm to Market" (FM) road signs unique to Texas.
+- MOUNTAIN WEST (lat 35-49°N, lon -104 to -117°W): Rocky Mountains clearly visible, high desert, sagebrush/juniper, red rock canyons (Utah/Arizona), snow-capped peaks. States: Colorado, Utah, Montana, Idaho, Wyoming, Nevada, New Mexico, Arizona.
+- SOUTHWEST DESERT (lat 31-37°N, lon -109 to -114°W): Saguaro cacti (tall multi-arm cacti) = Arizona only. Red sandstone mesas = Utah/Arizona. Flat scrub desert with creosote bushes = Nevada/New Mexico.
+- PACIFIC NORTHWEST (lat 42-49°N, lon -116 to -124°W): Dense dark green evergreen (Douglas fir) forests, overcast/rainy, mountains with snow, fjord-like coastline. States: Washington, Oregon.
+- CALIFORNIA (lat 32-42°N, lon -114 to -124°W): Mediterranean climate, golden-brown hills in summer, palm trees near coast, eucalyptus trees, Spanish-named towns, chaparral vegetation. Central Valley is flat agricultural.
+- ALASKA (lat 55-71°N): Tundra, gravel roads, very mountainous, no trees above treeline, extreme wilderness.
+- HAWAII (lat 19-22°N, lon -155 to -160°W): Tropical volcanic islands, lush green, Pacific Ocean visible, unique flora.

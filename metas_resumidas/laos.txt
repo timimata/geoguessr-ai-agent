@@ -1,0 +1,9 @@
+- License plates: white background, black text + red Lao script at top. Format includes province code.
+- Language: Lao script (curvy, circular letters similar to Thai but slightly different; Lao is simpler/rounder than Thai). Road signs in Lao + some in English.
+- Landscape: landlocked; mountainous north (Luang Prabang, lat 20); Mekong River lowland plain in center/south (Vientiane lat 18); dense jungle; red/orange laterite soil.
+- Utility poles: wooden poles; concrete poles with crossbars; often sparse rural electrification.
+- Road lines: yellow center lines; white outer; road quality variable — good in cities, poor/unpaved rural.
+- Architecture: traditional wooden stilt houses (raised on wooden posts); Buddhist temples with tiered roofs and upturned eaves (similar to Thailand but plainer); French colonial architecture in Vientiane/Luang Prabang.
+- CONFUSION with Thailand: Thai script has more complex characters with loops and subscript marks; Lao is rounder/simpler. Thailand has more modern infrastructure and yellow EU-style rear plates. Laos is less developed.
+- CONFUSION with Cambodia: Cambodia uses Khmer script (angular/curvy but different from Lao). Lao = gentler curves.
+- REGIONAL COORDS: Vientiane (17.9,102.6), Luang Prabang (19.9,102.1), Pakse south (15.1,105.8), Savannakhet (16.6,104.8).

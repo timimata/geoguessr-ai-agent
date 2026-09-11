@@ -1,0 +1,3 @@
+- License plates feature distinct red text.
+- Bollards: white with yellow rectangular front reflector, or dark brown with two red top stripes.
+- Utility poles: concrete, square/oval cross-section, vertical tiny holes, often wrapped in metal.

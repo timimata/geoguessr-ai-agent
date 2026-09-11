@@ -1,0 +1,9 @@
+- License plates: white with blue EU left strip (H). Black text, standard EU rectangular.
+- Language: Hungarian (Magyar) — completely unique, non-Slavic, non-Germanic. Key words: "utca/u." (street), "út" (road/way), "Budapest" prefixes. Unique letters: á, é, í, ó, ö, ő, ú, ü, ű. The ő and ű (double acute accent) are unique to Hungarian.
+- Utility poles: concrete holey poles (round holes) — similar to Romania, but Hungarian ones tend to be fewer holes and better maintained. Also wooden poles.
+- Road lines: white outer lines; white dashed center. Road quality varies — good near Budapest, poorer in rural east.
+- Bollards: white rounded top with orange or yellow reflector band (similar to standard EU).
+- Landscape: flat Pannonian plain (Great Hungarian Plain/Alföld) in east — extremely flat, agricultural, very wide horizon. Hilly Transdanubia in west. Danube and Tisza rivers.
+- Architecture: Soviet-era concrete blocks in towns; rural farmhouses with whitewashed walls and reed-thatched roofs in Puszta. Baroque architecture in Budapest.
+- CONFUSION with Romania: Romanian has ă/â/î/ș/ț (cedilla-style accents); Hungarian has ő/ű (double acute). Romanian holey poles have holes lower than Hungarian.
+- REGIONAL COORDS: Budapest (47.5,19.1), Debrecen east (47.5,21.6), Pecs south (46.1,18.2), Miskolc northeast (48.1,20.8), Great Plain/Alföld (47.0,20.5).

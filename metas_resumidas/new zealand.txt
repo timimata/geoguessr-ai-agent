@@ -1,0 +1,10 @@
+- Left-hand traffic (like Australia/UK). White outer road lines (NOT yellow like SA).
+- Bollards: distinctive red top strip wrapping front+back + thin yellow/white reflector. Unique to NZ.
+- License plates: white background, black text. Blurs white in Street View.
+- Utility poles: concrete poles with single long vertical indent + small silver possum guards. Circular wooden poles also common.
+- Road lines: white outer (yellow dashed in towns). Center: single dashed white OR double unbroken yellow.
+- Landscape: very green rolling hills (both islands); snow-capped mountains (South Island, Southern Alps); NZ bush with ferns; no native land mammals (no deer fences).
+- Architecture: weatherboard wooden houses, corrugated iron roofs; bungalows; no double-brick like Australia.
+- CONFUSION with UK/Sweden/Ireland: NZ is SOUTHERN HEMISPHERE (lat -36 to -47, lon 166-178). No European country has NZ bollards. UK has yellow rear plates; NZ has white.
+- CONFUSION with Australia: Australia has white outer lines too but AU has different bollards and eucalyptus trees. NZ has more ferns, no eucalyptus.
+- REGIONAL COORDS: Auckland (-36.9,174.8), Wellington (-41.3,174.8), Christchurch (-43.5,172.6), Queenstown (-45.0,168.7), NZ North Island average (-38,176), South Island average (-43,171).

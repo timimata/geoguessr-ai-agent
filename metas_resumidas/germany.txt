@@ -1,0 +1,10 @@
+- License plates: white with blue EU left strip (DE). Black text. City code on left of plate (e.g. "B" Berlin, "M" Munich, "HH" Hamburg).
+- Town entry signs: YELLOW background with black text and black border (unique to Germany — Austria uses white).
+- Bollards: white rounded top with 2 bolts on reflector face; vertical black racing stripe on the post.
+- Utility poles: concrete poles with rings/grooves; wooden poles common in rural east. Often blurred houses near highways (Autobahn roadside houses blurred).
+- Road lines: short dashed white outer lines; white dashed center. Autobahn has no speed limit signs (but has km/h emergency lane markings).
+- Language: German. "Straße/Str." (street), "Weg" (way), "Bundesstraße" (federal road). Umlauts: ä, ö, ü, ß.
+- Landscape: north (flat lowlands, Baltic/North Sea coast, Holstein), central (hilly Mittelgebirge, Rhine valley, Black Forest), south (Bavarian Alps, Danube valley). Wind turbines VERY common — especially east/north.
+- Architecture: red brick in north (Hamburg/Berlin style); half-timber Fachwerk in central; white stucco + dark wood in Bavaria.
+- CONFUSION with Austria: Yellow town entry signs = Germany. White town entry signs = Austria. "Einbahnstraße" = Germany; "EINBAHN" = Austria. Turbines visible = likely Germany.
+- REGIONAL COORDS: Berlin (52.5,13.4), Hamburg (53.6,10.0), Munich/Bavaria (48.1,11.6), Cologne/NRW (51.0,6.9), Frankfurt/Hesse (50.1,8.7), Dresden/Saxony (51.1,13.7), Black Forest (48.0,8.2).

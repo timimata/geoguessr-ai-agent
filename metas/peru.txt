@@ -1,0 +1,41 @@
+--- PERU PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Peru
+- Peruvian licence plates are either white or yellow. In contrast to the white plates, yellow plates are less likely to be seen.
+- Additionally, taxis in Peru typically use licence plates that are yellow on the top and white on the bottom.
+- NOTE: Within South America, yellow licence plates are only found in Peru, Colombia and rarely, Chile.
+- In Gen 3 coverage, Peru uses a solid black or white Google car.
+- NOTE: In South America, these two cars are limited to the following countries:
+- The black Google car is only found in Peru, Argentina and Uruguay.
+- The black Google car is only found in Peru, Argentina and Uruguay.
+- The white Google car is only found in Peru, Bolivia and Chile.
+- The white Google car is only found in Peru, Bolivia and Chile.
+- An important thing to note is that Peru has Generation 4 Street View coverage, whereas the neighbouring country of Bolivia does not. While Ecuador does have some Generation 4 coverage, it will always have a large pickup truck.
+- Peru also has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front.
+- NOTE: Peru, Brazil and Argentina are the only South American countries with smallcam.
+- Peruvian roads always have white outer lines. On highways, you will find either single yellow dashed or double yellow middle lines. On rural mountain roads, you will most likely see white outer lines without any centre line. On divided highways, the road lines may be completely white in colour.
+- NOTE: In the continent of South America, rural mountain roads, with the features mentioned above, are predominantly found in Peru.
+- Peru is the only South American country to use black-and-white striped signposts. In some areas, black-and-yellow signposts can be seen.
+- NOTE: Uruguay sometimes uses black-and-white posts for its traffic lights, but not for road signs.
+- Bollards in Peru are painted red or yellow, and the country mainly uses a variety of triangular-shaped concrete bollards. Occasionally you will also spot other designs, such as these circular concrete variants.
+- Black-and-yellow stripes on guardrails are seen throughout the country. You might sometimes find different designs, such as this sharp arrow design.
+- NOTE: Similar striped guardrails are also found in Bolivia. To differentiate them, just have a look at the outer stripe. Peru uses a black one, while Bolivia features a yellow one.
+- Kilometre markers in Peru are made out of concrete and are painted black and white.
+- NOTE: When entering and leaving urban areas, the markers will sometimes feature the road number.
+- Peruvian metal signposts feature concrete blocks at the bottom.
+- NOTE: Within South America, Peru is the only country to do so.
+- The country uses a variety of poles. They are made out of either concrete or wood, and sometimes feature distinct horizontal concrete bars.
+- NOTE: Horizontal concrete bars are also found in Argentina.
+- Some poles in Peru have painted bottom sections. Most commonly they will be black or black-and-yellow.
+- NOTE: This pattern of pole paint is unique to Peru within South America, however, similar ones can be seen in other South American countries, such as Colombia.
+- Bridges in Peru are commonly painted orange.
+- Peru largely consists of semi-arid mountain ranges and valleys.
+- Tuk tuks, called mototaxis in Peru, are frequently seen in the country, especially in major cities such as Lima, Trujillo, Chiclayo, Piura, and Iquitos.
+- Wide red and white stickers will typically be attached to the side of taxis and commercial vehicles.
+- NOTE: While less common, these can be found in some neighbouring countries.
+- Peruvian electricity counters have a unique design: They are rectangular, metallic, and typically feature two or three horizontal slits.
+- Sol is the currency of Peru. You will occasionally spot it on street view and its symbol is S/.
+- NOTE: The currency is unique to Peru.
+- Peru has many political party logos and all of them are unique to the country. Here is a list with other parties in Peru.
+- Peru is home to diverse and somewhat unique architecture. Here are a few examples of types of buildings commonly seen in Peru; ranging from Colonial-era buildings, contemporary “boxy” buildings, and traditional red brick buildings.
+- Some of these styles are broken down further in Step 2 of this guide.
+- Step 2 - Region-specific clues

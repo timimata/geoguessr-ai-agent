@@ -1,0 +1,9 @@
+- License plates: white rectangular, black text, no EU strip. Format: А123ВС 77 (letter-digits-letters + region code).
+- Cyrillic script. Key letters: Ы, Э, Ё, Ъ. улица/ул. (street), город/г. (city), область (region).
+- Utility poles: A-frame wooden poles common in rural areas; concrete cylindrical poles; bases often painted BLACK. Massive overhead wire clusters.
+- Bollards: thin post + black top + red vertical reflector stripe. Often at abnormally wide intersections.
+- Road lines: white center dashed; white outer; road quality degrades rapidly outside major cities.
+- Architecture: Soviet khrushchyovka grey concrete blocks in towns; wooden izba houses with carved window frames in rural areas.
+- CONFUSION with Ukraine: Ukraine has red car antenna visible on Google car; Russia has plain black car. Ukraine = warzone damage visible.
+- CONFUSION with Romania: Romanian holey poles vs Russian A-frame/concrete. Romanian Cyrillic-like signs are actually Latin alphabet.
+- REGIONAL COORDS: Moscow (55.7,37.6), St.Petersburg (59.9,30.3), Krasnodar/south (45.0,39.0), Tatarstan/Kazan (55.8,49.1), Ural Perm (58.0,56.3), Novosibirsk/W.Siberia (55.0,82.9), Irkutsk/E.Siberia (52.3,104.3), Vladivostok (43.1,131.9), Khabarovsk (48.5,135.1).

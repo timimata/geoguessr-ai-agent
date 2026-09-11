@@ -1,0 +1,8 @@
+- Architecture: Luxurious apartment blocks, neoclassical details, pastel facades (Southern France/Northern Italy style)
+- License Plates: Short Monaco plates lack the EU blue strip; common French plates may have yellow rear plates
+- Terrain/Topography: Steeply hilly, densely built-up with virtually no rural zones
+- Vegetation: Planted palm trees frequent; Mediterranean scrub in non-built areas
+- Street Level: Rows of parked mopeds common; extensive tunnel network
+- Harbour/Coast: Dense clusters of luxury yachts; steep hills rising directly behind waterfront
+- (I need to make sure it's under 1000 chars and max 10 bullets. I'll combine/condense.)
+- Architecture: Luxurious, densely packed apartment blocks with neoclassical details & pastel facades (Southern France/Northern Italy style)

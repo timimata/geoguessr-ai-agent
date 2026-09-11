@@ -1,0 +1,4 @@
+- Hangul script features prominent circular letterforms.
+- License plates: pre-2006 short/green; post-2006 white (private) or yellow (commercial).
+- Utility poles: black/yellow diagonal hazard stripes near base (don’t touch bottom, distinctly yellow); tapered spike on top.
+- Road lines: yellow center dividers, white edge lines; yellow/white speed bumps; occasional red block markings.

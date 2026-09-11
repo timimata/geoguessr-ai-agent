@@ -1,0 +1,41 @@
+--- ITALY PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Italy
+- Contrary to most European licence plates, Italian plates have blue strips on either side of the plate. Furthermore, the front plate is distinctly shorter than most European plates, which in combination with the two strips, makes it unique.
+- NOTE: Albanian licence plates also have two blue strips, and French licence plates have a smaller strip on the right. However, neither Albanian nor French front plates are short.
+- Italian bollards are triangular in shape, and white with a black top. They have a red front and a white rear reflector.
+- NOTE: Albania uses the same bollards.
+- One of the most common types of Italian road lines are white solid outer lines with no middle line. This is generally less common in other Mediterranean countries.
+- Italian is the most spoken language in Italy. It uses many double consonants, and typically has a very large number of i’s. You can also find ì, é and à. Most words will end with a vowel.
+- NOTE: The Italian word for street is ‘via’, and can be found on most street signs.
+- Italy has a Mediterranean landscape with a lot of agricultural fields on rolling hills, and forested mountain valleys.
+- Italian architecture mainly consists of pastel coloured stone houses, generally with terracotta roofs. Houses will very commonly have wooden shutters, which will typically be divided in two and open sideways.
+- Unlike most Mediterranean countries, Italy features a lot of round concrete poles.
+- Wooden poles in Italy will commonly feature a small white pole sticker.
+- The most common pole tops in Italy are concrete trident pole tops.
+- There are several possible configurations of insulators.The two shown in the image are the most common ones.
+- It is very common to find double guardrails in Italy.
+- Italian guardrails feature red front reflectors.
+- NOTE: This is most useful to distinguish Italy from Spain, which uses yellow reflectors. For a good overview of European guardrails, see this infographic.
+- Italian guardrails commonly end in this distinct shape. The guardrail gets flatter, wider, and it bends away from the road.
+- It is very common for the back of Italian road signs to be black, or dark grey.
+- Directional signs are blue with a white arrow. All letters on these signs will be capitalised.
+- Directional signs in national roads (Strada Statale) are blue with a white and blue border.
+- Divided highways (Autostrade) have green signs with a white and green border.
+- Italian kilometre markers are white squares with a roman numeral on top and an arabic numeral on the bottom. The arabic numeral gives you the number of kilometres and the roman numeral gives you the number of hundred metres from the start of the road.
+- Italian road numbers will normally begin with the letters “SS”, “SR” or “SP”.
+- The second letter can be used to identify the type of road.
+- "S" when it is a State road, so the number is unique within the country.
+- "S" when it is a State road, so the number is unique within the country.
+- "R" when it is a Regional road, so the number is unique to the region.
+- "R" when it is a Regional road, so the number is unique to the region.
+- "P" when it is a Provincial road, so the number is unique to the province.
+- "P" when it is a Provincial road, so the number is unique to the province.
+- Italian chevrons are white arrows on a black background.
+- NOTE: In Southern Europe, white on black chevrons can also be found in Spain, Greece and Albania.
+- Street signs are typically white with a thin blue border and black text.
+- Italian pedestrian signs have five stripes and a basic person without a belt.
+- These signs, featuring a “no parking”-sign with the text “passo carrabile” are commonly found in urban areas. At the top of these signs you will typically find the municipality (comune) name.
+- Italy has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- Step 2 - Regional clues
+- Italian area codes follow a pattern where the first digit generally increases to the east, then south.
+- Each Italian region has its own unique flag.

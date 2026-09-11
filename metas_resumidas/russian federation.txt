@@ -1,0 +1,9 @@
+- License plates: white rectangular with black text; no EU blue strip. Format: letter-digits-letters (e.g. А123ВС 77).
+- Cyrillic script everywhere. Key letters not in other Slavic languages: Ы, Э, Ё, Ъ. Street = улица/ул., city = город/г., region = область.
+- Utility poles: A-frame wooden poles very common in rural areas; concrete cylindrical poles; bases often painted BLACK. Huge overhead wires crossing roads.
+- Bollards: thin post with black top + red vertical reflector stripe; often at wide intersections (wider than European norm).
+- Road lines: white outer lines; white dashed center; road quality deteriorates rapidly away from major cities.
+- Landscape: endless birch/pine forests dominate center/north; dry steppe in south (Krasnodar/Volga); permafrost tundra in Siberia.
+- Architecture: Soviet khrushchyovka concrete blocks in towns; wooden izba (log houses) with ornate carved window frames in rural areas; often unpainted.
+- CONFUSION: Russia↔Ukraine — Ukraine has red antenna on Google car; Russia has plain car. Russia↔Romania — Romanian holey poles vs Russian A-frame/concrete. Vast size: European Russia (west of Urals, lon <60) vs Siberia (east, lon 60-180).
+- REGIONAL COORDS: Moscow (55.7,37.6), St.Petersburg (59.9,30.3), Krasnodar south (45.0,39.0), Ural (57,58), W.Siberia Novosibirsk (55.0,82.9), E.Siberia Irkutsk (52.3,104.3), Far East Vladivostok (43.1,131.9).

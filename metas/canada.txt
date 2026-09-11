@@ -1,0 +1,41 @@
+--- CANADA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Canada
+- The English-speaking parts of Canada use British English spelling (e.g. centre; colour). In addition, Canada mostly uses the metric system. For example, speed is measured in kilometres per hour.
+- NOTE: This is useful to distinguish between the US, where American English spelling and (usually) the imperial system are used. For example, the US measures speed in miles.
+- Canada has a fair amount of Generation 2 coverage, especially in rural or remote areas. Generation 2 can be recognized by the big circular car blur and the halo-like colour distortion in the sky.
+- NOTE: Generation 2 is very rare in the US. If you are between Canada and the US, and the location is in Generation 2, you are much more likely to be in Canada.
+- Generation 3 is significantly more common in Canada than in the US.
+- In addition, the side mirrors are blurred out differently: While they generally appear as two peaks in Canadian Gen 3 coverage, you will mostly see a single peak in the US.
+- Canada also has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot. When the car isn’t blurred properly, you will usually see a mirror sticking out on the right side.
+- Canada uses unique diamond-shaped T-Intersection signs.
+- Some provinces use different designs. You can learn more about those in the region guessing section.
+- NOTE: Canada is the only country in the world where you can find these signs. The US, for example, uses rectangular T-Intersection signs.
+- Canada uses the word ‘maximum’ on speed signs. Because speed is measured in kilometres instead of miles, the numbers tend to be higher than the US which can be identifiable from afar.
+- NOTE: The US uses the words ‘speed limit’ on such signs. In addition, speed limits ending with 5 are more common in the US, and the ‘speed limit’ text takes up two lines versus one for ‘maximum’ in Canada.
+- Canadian roads usually have single yellow centre lines. However, double middle yellow centre lines are still decently common.
+- NOTE: Double yellow centre lines are more common in the US. This is not a 100% reliable clue, so make sure to use this along with other clues.
+- You can sometimes find communal mailboxes in Canada. Personal mailboxes are still very common, though.
+- Canada Post has a red logo, which sometimes appears on mailboxes.
+- NOTE: These communal mailboxes are very rare in the US. In addition, the US Postal Service has a blue logo.
+- Canadian road signs tend to be less wordy compared to their US counterparts. Good examples of this are railroad crossing and yield signs. In the US, these usually have the literal words ‘railroad crossing’ and ‘yield’ written on them, whereas in Canada, these signs are typically blank.
+- Step 2 - Regional/province-specific clues
+- Each province has its own unique licence plates, some recognizable from afar even when blurred. Multiple provinces do not require front plates, which can be useful when deciding between provinces.
+- NOTE: Since 2019, front plates are no longer required in New Brunswick. However, you should still expect to see them in older coverage. As well, all commercial vehicles in Newfoundland and Labrador are required to use front plates, and so it is possible to see them on vans and pickup trucks.
+- You can click on the image to enlarge it.
+- French is the majority language in Québec and parts of New Brunswick.
+- NOTE: At the federal level, French has official status alongside English, so you can sometimes find bilingual signs in other parts of Canada. In addition, French is also spoken in several communities in Nova Scotia, Ontario and Manitoba.
+- Each province has their own highway shields with unique designs.
+- The green Trans-Canada Highway shield, shown in the top right of the image, can be found in all 10 provinces.
+- You can click on the image to enlarge it.
+- Each province has its own unique kilometre markers that vary slightly.
+- Notably, Ontario KM markers have a white square at the bottom, which is unique to the province.
+- You can click on the image to enlarge it.
+- Some provinces have unique speed signs.
+- Ontario speed limit signs may have a black section on the bottom with the words ‘km/h’ or ‘begins’ written in white.
+- British Columbian signs also include the ‘km/h’ but lack the black section.
+- Québec can sometimes have French on their speed limit signs.
+- You can click on the image to enlarge it.
+- Alberta has a unique black and white bollard that is often found at intersections. It has a cylindrical shape and two black bands that wrap all the way around. It is one of the most useful Canadian bollards to learn because it appears so frequently.
+- NOTE: Some Alberta bollards have a yellow band between the two black bands, instead of a white one. Blue bands can also rarely be seen, particularly in and around Calgary, while green bands are rarely seen in and around Edmonton.
+- Manitoba uses black and grey painted bollards. Most of the time an orange stripe will be present below the grey one.
+- Wooden, rectangular bollards of this form are typically found further north in Manitoba.

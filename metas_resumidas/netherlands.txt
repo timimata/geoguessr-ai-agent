@@ -1,0 +1,9 @@
+- License plates: YELLOW background, black text (unique in western Europe — most EU countries use white). Blue EU left strip (NL). Format: two letters + two digits + two letters.
+- Language: Dutch. "Straat" (street), "Weg" (road/way), "Laan" (lane), "Dijk" (dike). Double vowels: "aa", "oo", "uu", "ee" very common. "ij" (written as ij or IJ).
+- Landscape: EXTREMELY FLAT — one of the flattest countries on earth. Below sea level in many places. Windmills (old), wind turbines (modern), polders, drainage canals everywhere. Cycling infrastructure (dedicated red-brick cycle paths alongside roads).
+- Utility poles: wooden poles with crossbar; sometimes orange or brown; well-maintained.
+- Road lines: white outer lines; white dashed center. Cycling lane often a parallel red-brick/tarmac path.
+- Architecture: narrow brick townhouses (Amsterdam style, stacked gabled); farmhouses with wide low roofs; no steep terrain anywhere.
+- CONFUSION with Belgium: Belgium also has yellow plates but "BEL" code. Both flat but Netherlands has more prominent cycling infrastructure and more polders/windmills.
+- CONFUSION with Germany: Germany has WHITE plates, not yellow.
+- REGIONAL COORDS: Amsterdam (52.4,4.9), Rotterdam (51.9,4.5), The Hague (52.1,4.3), Utrecht (52.1,5.1), Groningen north (53.2,6.6), Eindhoven south (51.4,5.5).

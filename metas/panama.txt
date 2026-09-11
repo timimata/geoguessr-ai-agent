@@ -1,0 +1,41 @@
+--- PANAMA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Panama
+- Panama features short licence plates, most commonly white with a horizontal turquoise strip on the top. Rarely, the strip can have other colours.
+- Front plates are not required in Panama.
+- Panama was covered by a large white pickup truck with a white metal frame behind the driver's cabin, that can either be fully visible or mostly blurred. There is always a short black antenna attached to the front of the car, which may sometimes also be blurred.
+- NOTE: The Costa Rican truck does not have this white metal frame. Also, a fully blurred out car is more common in Panama. The car used in Ecuador has neither an antenna nor a white metal railing.
+- Panama is a tropical country with a lot of hills. You will find a lot of palms and other tropical plants along with drier rolling hills and fields.
+- Most roads are paralleled by fences that are partly or fully made out of small trees. The rest of the fence posts are also almost always wooden.
+- Panamanian architecture often reflects Spanish colonial influences, featuring vibrant colours, and some ornate detailing. The most common type of building has painted concrete or sometimes brick walls with red metal sheets or tiles for a roof. Many windows have bars on them for security.
+- Panama features a diverse set of road lines, but the most common combination is solid outer white with an inner yellow line. However, those are not unique to Panama. Within Latin America, solid outer white lines with no middle line are almost unique to Panama.
+- Panama uses a wide variety of poles, but the most common type is a round concrete pole, with a varying amount of insulators. Poles can also be wooden or metallic. They often have plates attached to them. Blue, white, or red numbers are commonly painted on them as well.
+- Yellow taxis with a chequerboard patterned horizontal stripe are a common sight in Panama. The licence plate will be drawn on the side, containing the city name and a regional code.
+- Panama uses the Spanish word “ALTO” on stop signs.
+- NOTE: Mexico, Costa Rica and Guatemala also use “ALTO”, but the font is thinner.
+- Red octagonal signs with an oddly realistic eye are unique to Panama.
+- Step 2 - Regional clues
+- While Panama is quite well covered, there is barely any coverage on the north coast, or east of Panama City.
+- The first digit of phone numbers can be used to regionguess Panama.
+- The numbers with a smaller font indicate potentially useful regional two-digit codes.
+- NOTE: Only phone numbers with 7 digits are helpful, and any numbers starting with 5, 6, or 8 are useless as well.
+- The first digit of taxi and bus licence plates can be used to regionguess Panama.
+- NOTE: Cars travel, so they are not always reliable, especially outside of cities.
+- Green tropical landscapes with palm trees and very tall grass are common around Colón and Panama City.
+- Volcanic rocks that are either scattered on the ground, or built into rock walls, are common north of David.
+- The area around David is very flat, with lots of fairly open fields. Usually, mountains will be visible to the north and northeast.
+- The region around Aguadulce is relatively flat and features a lot of agricultural fields along with very brown or orange soil.
+- The eastern provinces often have tall vertical plates that can be yellow or white. They are commonly attached to poles by black zip ties.
+- NOTE: Be careful not to mix them up with these white vertical plates, often attached by metallic zip ties. They are slightly wider than the eastern plates and always have 6 digits.
+- Many poles in the western provinces will have horizontal plates attached to them. However, if one of these is accompanied by an eastern vertical plate, the eastern plate takes precedence.
+- Thin yellow plates, vertical or horizontal, with a visible black border are most common in the Colón Province.
+- Wind turbines can be seen south and north of Penonome.
+- The main covered road in the Ngäbe-Buglé province is very high-altitude and almost above the clouds. The surrounding mountains tend to be quite dry, and the altitude makes for many stunning views.
+- The road going to Changuinola features a lush and green hilly landscape. The weather is cloudy or overcast on the entire road.
+- Highway 9 going from Panama City north to Colón is a divided concrete highway. The road is visibly grainy and has a lot of tar lines. The landscape is lush and hilly.
+- Most of Road 407 features a freshly paved road, with visibly orange soil on the sides of the road. The southern portion is hilly, right before the road quality deteriorates.
+- A small cluster of dirt on the car can be found on the eastern road.
+- In a lot of central Panama, the Google car will have either one or two black dots visible on the front.
+- This small red spot can mostly be found in Panamá Oeste and on the road 2 going from southern Los Santos province to the Verguas province.
+- The antenna can be seen folded down, most commonly in Colón and Panamá provinces, and occasionally in the city of David.
+- Step 3 - Spotlight
+- Panama City can be recognised by the large number of white high-rise buildings.

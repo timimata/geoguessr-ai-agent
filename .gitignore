@@ -1,0 +1,15 @@
+.env
+user_data/
+screenshots/
+log.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated/cache data (regenerable via indexador.py from log.json)
+chroma_db/
+chroma.sqlite3
+vetores_db/
+compass_debug/
+compass_debug.jpg

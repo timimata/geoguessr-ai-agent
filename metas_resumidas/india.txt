@@ -1,0 +1,8 @@
+- License plates: white (private) or yellow (commercial) background, black text. Format: 2-letter state code + 2-digit district + letters+numbers (e.g. KA 05 AB 1234).
+- Language: Hindi (Devanagari script: rounded letters with horizontal top bar) + English on most signs. Regional scripts in respective states: Tamil (south, curvy), Telugu (south), Malayalam (southwest, very curvy), Kannada (south), Bengali (east), Gujarati (west).
+- Road lines: yellow center lines common; white outer lines; road quality highly variable.
+- Utility poles: concrete cylindrical poles with multiple crossbars; wooden poles; chaotic wiring everywhere.
+- Landscape: north plains (flat wheat/rice fields, lat 27-30°N), south tropical (lush green, palm trees, lat 10-15°N), west arid (Rajasthan desert, lat 25-27°N), east humid (West Bengal, lat 22-24°N), Himalayas (north, lat 30-35°N).
+- Architecture: concrete construction with exposed brick; painted advertisements on walls; temples (Hindu = gopuram towers in south; north = domes); colorful painted trucks.
+- REGIONAL REASONING: North (Delhi lat 28.6,77.2): flat, wide highways, Hindi signs, wheat fields. South (Bangalore lat 12.9,77.6): lush green, Kannada/Tamil script, palm trees, cooler. West (Mumbai lat 19.1,72.9): dense coastal, Marathi signs. East (Kolkata lat 22.5,88.4): humid, Bengali script. Rajasthan (lat 26,74): arid yellow/orange desert.
+- Do NOT default to Bangalore unless you see Kannada/Tamil script and tropical green landscape.

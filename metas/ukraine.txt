@@ -1,0 +1,41 @@
+--- UKRAINE PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Ukraine
+- Important note: Ukraine and Russia can look a lot like each other. This step 1 is split up in three sections:
+- Metas that can help distinguish Ukraine from Russia (and other countries).
+- Metas that can help distinguish Ukraine from Russia (and other countries).
+- Metas that are found in both Ukraine and Russia.
+- Metas that are found in both Ukraine and Russia.
+- Tips to get better at vibe-guessing.
+- Tips to get better at vibe-guessing.
+- Step 1.1 - Country Specific
+- The following information is not commonly shared with Russia. While there are occasional similarities, these tips are used to identify Ukraine rather than Russia.
+- Ukraine uses long, white licence plates, with a distinctive blue and yellow strip on the left (the colours of the flag).
+- You may also come across older plates, where the blue and yellow are difficult to spot.
+- NOTE: Russia uses fully white licence plates, without a strip on the left.
+- All coverage in Ukraine is Generation 3. Most of it was made using a red Google car. This car is almost unique to Ukraine. It sometimes has an antenna, and sometimes no antenna. Note that the car is not always visible, though at times you will still be able to tell its colour due to the car blur glitch.
+- NOTE: The car meta can be very useful to tell Ukraine and Russia apart:
+- Most importantly, you will not find the red Generation 3 car in Russia.
+- Most importantly, you will not find the red Generation 3 car in Russia.
+- Russia can have Generation 4 (and sometimes Generation 2). Ukraine never has either Generation.
+- Russia can have Generation 4 (and sometimes Generation 2). Ukraine never has either Generation.
+- Russian Generation 3 cars always have either a short or long antenna. If you see no antenna at all, consider Ukraine.
+- Russian Generation 3 cars always have either a short or long antenna. If you see no antenna at all, consider Ukraine.
+- Also note that some parts of Belgium can have a red google car with a long antenna.
+- More rarely, you can also find several other Google cars in Ukraine:
+- Black car with a long antenna
+- Black car with a long antenna
+- White car with a long antenna
+- White car with a long antenna
+- Grey car with a short antenna
+- Grey car with a short antenna
+- These cars can be found in multiple countries, including Russia. See the region guessing section to see where you can find these cars within Ukraine.
+- On average, Ukraine has some of the worst roads in Europe. Most rural roads have lots of potholes, cracks and warped pavement.
+- This abysmal road quality can really help with tough 50-50s with Russia, which generally has somewhat better roads.
+- Many random streetside objects are painted in the colours of the Ukrainian flag: blue and yellow. Most commonly, you will see fences that have this colour.
+- The Ukrainian language uses the Cyrillic script.
+- These letters are unique to Ukrainian, compared to Russian:
+- Є є (not to be confused with Э э in Russian and Belarusian.)
+- Є є (not to be confused with Э э in Russian and Belarusian.)
+- NOTE: Other European languages that use Cyrillic include Russian, Belarusian, Bulgarian, Serbian, and Macedonian.
+- The Ukrainian word for street is вулиця (vulytsya), abbreviated вул. (vul.).
+- The Russian word is улица, abbreviated ул., without a в at the beginning.

@@ -1,0 +1,50 @@
+--- SPAIN PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Spain
+- Spain uses standard long, white European plates with a single blue strip on the left.
+- NOTE: Most Portuguese plates have a yellow strip on the right. Italian plates have two blue strips on either side of the plate.
+- The standard Spanish bollards have a yellow-orange reflector on the front and two white dots on the back (though the back can also be blank). They are typically hollow.
+- NOTE: Very close to Andorra, you can find a slightly different bollard, which is also used in Andorra itself.
+- In Spain, you can find a variety of electricity poles and pole tops. In small towns and sparsely populated rural areas concrete ladder poles and wooden poles are the most common.
+- “Ladder” poles have indents that resemble a ladder, hence the name.
+- “French style” poletops are common in Spain. They are shaped like an upside down triangle, with a horizontal top bar that is curved slightly upwards. They are usually found on top of tall ladder poles or medium sized steel poles.
+- NOTE: As the name suggests, French poletops are also very common in France.
+- High voltage electricity lines supported by pylons are very common in Spain, especially compared to other Mediterranean countries.
+- Spain has distinct road markers with a variety of colourful borders. The code on top is the number of the road.
+- NOTE: Andorra has similar markers and the letter codes preceding the road number on these markers are often an important region-specific clue. You can learn more about these codes in the region guessing section.
+- In rural areas you will often find hunting signs. There are two versions, both of which are unique to Spain. One is a simple white sign with a text starting with “coto” and ending in “caza”. The other one has a diagonally divided black and white background.
+- NOTE: These signs have an identifying code that can sometimes be read. In this case “Ex” stands for Extremadura.
+- Spain has yellow reflectors on rounded A-type guardrails.
+- NOTE: Belgium, Andorra, Gibraltar and most Latin American countries also have yellow reflectors. For a good overview of European guardrails, see this infographic.
+- Spanish pedestrian crossing signs have 8 stripes. This is the highest number of stripes in Europe, and almost unique to Spain.
+- NOTE: The only other European country with 8 stripes is Andorra.
+- Spanish stop signs have a distinct small font.
+- NOTE: These are mostly useful to distinguish Portugal from Spain: Portuguese stop signs have a noticeably larger font.
+- Red borders on road signs extend all the way to the edge of the sign. There is no small white border separating the red part from the edge.
+- NOTE: France, Italy and Portugal have a small white border on the edge of such road signs.
+- Almost all traffic signs, kilometre markers, chevrons and some direction signs in Spain have a flat signpost.
+- NOTE: Flat signposts in Europe are also present in Portugal, France and Andorra.
+- Spain has two chevrons: black with white arrows, and blue with white arrows. Chevrons with a single arrow are rare.
+- In Southern Europe, black with white chevrons can be found in Italy, Greece and Albania.
+- In Southern Europe, black with white chevrons can be found in Italy, Greece and Albania.
+- France is the only other European country that has blue with white chevrons.
+- France is the only other European country that has blue with white chevrons.
+- Portugal has black with yellow chevrons.
+- Portugal has black with yellow chevrons.
+- Spanish direction signs have a white background. They often feature colourful boxes with road numbers, making them recognizable. These road number boxes can be many different colours.
+- Highway signs have a blue background.
+- Rural roads sometimes have dashed outer lines. This can help tell Spain apart from Portugal and Italy, where such road lines are (almost) non-existent.
+- Note that the reverse is not true: like Italy and Portugal, many Spanish roads do have solid outer lines.
+- Spanish is the main language in most of the country. It is a Romance language that is closely related to Portuguese.
+- Spanish and Portuguese can look very similar. Some key differences between the two:
+- Ñ is unique to Spanish.
+- Ñ is unique to Spanish.
+- Ç and lh are unique to Portuguese (Ç is also present in Catalan).
+- NORTH SPAIN CONFUSION WARNING: The northern coast (Galicia, Asturias, Cantabria, Basque Country) is green, rainy, and mountainous — easily confused with Portugal (Galicia), France (Basque), or even UK/Ireland. Key confirms: Spanish stop signs (small font), Spanish road markers with colored boxes, "Coto de Caza" hunting signs, flat signposts. Galicia shares border with Portugal — look for "Xunta de Galicia" signs or Galician language (similar to Portuguese but with Spanish road infrastructure). Basque Country has unique Basque-language signs (Euskara) with -ko, -tik, -ra suffixes.
+- REGIONAL COORDINATE GUIDE:
+  - GALICIA (lat 42-44°N, lon -7 to -9°W): Green, rainy, fjord-like coast (rías), granite buildings, Galician language on signs. Looks like Portugal/Ireland but has Spanish infrastructure.
+  - BASQUE / CANTABRIA / ASTURIAS (lat 43-44°N, lon -1 to -8°W): Green mountains, Basque language signs (Euskara), industrial coast. Looks French/British but Spanish plates.
+  - CATALONIA (lat 40-43°N, lon 0 to 3°E): Catalan language on signs (Carrer, Avinguda, Carretera), Mediterranean coast, AP-7 motorway. Distinct from French side.
+  - MADRID / CENTER (lat 39-41°N, lon -3 to -4°W): Flat meseta, dry brown landscape, pine forests, wide highways.
+  - ANDALUSIA (lat 36-38°N, lon -2 to -7°W): Very hot, olive groves, white villages, dry. Latitude ~37°N. Looks like Morocco but European infrastructure.
+  - CANARY ISLANDS (lat 27-29°N, lon -13 to -18°W): Volcanic, arid, subtropical. Off West Africa coast. Tenerife, Gran Canaria. NOT mainland Spain.
+  - VALENCIA / MURCIA (lat 37-40°N, lon -0.5 to -1.5°W): Orange/lemon groves, flat coastal plain, very dry summer.

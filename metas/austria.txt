@@ -1,0 +1,41 @@
+--- AUSTRIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Austria
+- Austria has long, white licence plates with the standard blue EU strip on the left.
+- NOTE: Italian plates have two blue strips, on both sides of the plate. Italian plates also tend to be noticeably shorter.
+- Swiss plates are long and white, but lack the blue strip.
+- Austria uses white bollards, with a black top. The colour of the reflector is (dark) red or dark grey.
+- Many bollards also feature a small nipple-shaped black cap on the top. Bollards sometimes have a snow pole on top.
+- NOTE: Slovenia and Montenegro use the same bollards, but with bright red reflectors instead of grey or dark red. Germany uses simple white bollards with grey reflectors.
+- Austria uses two colour schemes for chevrons:
+- NOTE: Germany mostly uses red on white chevrons, and rarely red on yellow.
+- Round wooden poles are the most common type of pole found in Austria.
+- Most of Austria is mountainous and covered in forests. However, some areas in the east and northeast are much more flat and agricultural.
+- Alpine architecture is common in Austria and other countries in the Alps. Houses commonly have distinct light coloured walls, with wooden elements such as balconies or panelling around the top floor, with dark-coloured wooden roofs that extend outward. The roofs can sometimes be angled downward at the front and back. In addition, houses are also often multi-storeyed.
+- NOTE: Germany uses similar architecture in its southern states.
+- The official language of Austria is German. The German language uses the special letters Ä, Ö, Ü and ß.
+- NOTE: The other majority German-speaking countries with coverage are Switzerland and Germany. In addition, German is spoken in East Belgium and the Italian province of South Tyrol.
+- You can tell the three German-speaking countries apart by camera meta alone:
+- Austria only has Generation 3 and Generation 4 coverage (the only exceptions being Generation 2 on one road in Burgenland, and several ski resort trekkers).
+- Austria only has Generation 3 and Generation 4 coverage (the only exceptions being Generation 2 on one road in Burgenland, and several ski resort trekkers).
+- Germany only has Generation 4 coverage. (the only exceptions being spills and trekkers)
+- Germany only has Generation 4 coverage. (the only exceptions being spills and trekkers)
+- Switzerland car coverage is always low-cam. This can be recognized by the much bigger car blur.
+- Switzerland car coverage is always low-cam. This can be recognized by the much bigger car blur.
+- Austria also has generation 4 “smallcam” coverage, which is mounted lower than regular generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- NOTE: Most of Western Europe also has smallcam.
+- Direction signs have a white background, a blue outline, and a unique font.
+- Similar white signs with a blue outline and unique font can also be seen at the entrance of towns.
+- NOTE: Germany uses yellow town entrance signs with a black outline.
+- Green signs can commonly be seen, giving directions to different local facilities.
+- Pedestrian signs have a unique design: instead of zebra stripes, they have two horizontal dashed lines.
+- NOTE: All neighbouring countries have pedestrian signs with zebra stripes.
+- Road signs in Austria are sometimes mounted by four metal clips, which is unique within central Europe. However, plenty of Austrian signs are attached in other ways.
+- Road markers are blue with white numbers. They have one decimal separated by a comma, making them very recognizable.
+- NOTE: Slovenian road markers are white. And German markers have a thin white outline.
+- Austrian bus stop signs contain a yellow and green circle with the letter H.
+- NOTE: This design is relatively unique in Europe. The only other country with similar bus stop signs is Germany.
+- These one-way traffic signs, with the word ‘EINBAHN’ written on them, are unique to Austria.
+- NOTE: In Germany there will be “Einbahnstraße” written on the sign.
+- “No Stopping” and “No Waiting” signs in Austria will often have the words “Anfang” or “Ende” (meaning “beginning” and “end”) written on, or below, them.
+- These simple dead-end signs with a white upside down T are unique to Austria.
+- These yellow natural gas poles, which resemble snow poles, are unique to Austria.

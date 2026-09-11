@@ -1,0 +1,43 @@
+--- FRANCE PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying France
+- Modern French plates are long and white, with blue strips on both sides of the plate. The left strip will be more visible than the right strip.
+- Some older French plates lack the right blue strip, with the rear plate being yellow. These are very rare in newer coverage.
+- NOTE: Italian plates also have two blue strips, which are equally visible. In addition, Italian front plates are considerably shorter.
+- French is a Romance language that is closely related to languages like Catalan, Spanish and Italian. It uses these diacritics and special letters:
+- Accent grave: à, è, ù
+- Accent grave: à, è, ù
+- Accent circonflexe: â, ê, î, ô, û
+- Accent circonflexe: â, ê, î, ô, û
+- Trema: ë, ï, ü, ÿ
+- Trema: ë, ï, ü, ÿ
+- Cédille: ç with a small hook
+- Cédille: ç with a small hook
+- In addition, the -ux suffix is only found in French.
+- NOTE: Other European countries with sizable francophone populations include Belgium, Luxembourg, Monaco and Switzerland.
+- The French word for street is “rue”.
+- The French bollard is extremely recognizable and appears very often. It is a round white post with a pointed top and a reflector band going all the way around. The band can be grey or red. Some rare variations have a fully red top.
+- NOTE: A bollard that is commonly found in Scotland looks similar, but has a blunt top instead of a pointed one.
+- A different round white bollard, with two reflective indented bands, is unique to France.
+- You can also find this design in other colours like green or yellow.
+- Less common wedge-shaped bollards with wide rectangular white reflectors on both the front and back are also unique to France.
+- Concrete poles with step-like indents are common in France. They are referred to as ladder or waffle poles by the community.
+- NOTE: They are also common in Spain.
+- Wooden poles and thin octagonal metal poles are very common in rural areas and small towns.
+- Small blue rectangular markings on utility poles are unique to France. They are often referred to as ‘stickers’ by the community, but are actually small plates.
+- You will find these plates on almost all wooden and metallic poles, but not as often on ladder poles.
+- Diamond shaped pole tops with three wires are commonly called “French poletops” within the community. They are most frequently found on top of ladder poles.
+- NOTE: Within Europe, “French poletops” in conjunction with ladder poles are also common in Spain.
+- Some variations of the French pole tops have the insulators on top. These variations may resemble an arrowhead and are unique to France.
+- France has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- NOTE: Most of Western Europe also has smallcam.
+- Small yellow signs displaying the road number, which typically starts with a “D”, are unique to France. They are commonly placed on top of directional signs or town entry signs.
+- French directional signs are usually white with a black outline slightly offset from the edge. They have an arrow-like shape, with the black border getting thicker at the point.
+- Highway directions have either a blue or green background.
+- Smaller places and points of interest are frequently written in an italic font.
+- Town entrance signs in France have a red border with a thin white outline.
+- French road signs have a red border with a thin white outline. You will often find white rectangular signs with black text below traffic signs.
+- NOTE: Road signs in Spain have a thick red border that goes all the way to the edge.
+- Many traffic signs in France have flat rectangular signposts.
+- Signposts, along with signbacks, can be dyed with unorthodox colours, more so than in other countries. Some of those are regional, which you can learn more about in the regionguessing section.
+- CORSICA (Corse): French island in the Mediterranean between France and Italy. Looks subtropical/Mediterranean — rocky mountains, maquis scrubland (dense low green vegetation), blue sea visible. Despite looking like it could be Italian, Greek or even tropical, it IS France. French signs, French bollards, and French plates (EU strip FR) confirm it. Do NOT confuse with Italy, Greece, or any tropical/Caribbean country.
+- FRENCH OVERSEAS TERRITORIES that appear in GeoGuessr: French Guiana (dense Amazon jungle, South America — coordinates near Cayenne ~5°N, 53°W), Martinique/Guadeloupe (Caribbean islands — lush tropical, ~16°N, 61°W), Réunion (volcanic Indian Ocean island, ~21°S, 55°E), New Caledonia (Pacific, ~21°S, 165°E). All have French signs and FR plates. If you see tropical jungle or a Caribbean/Indian Ocean island with French text, it is one of these territories — place pin at the correct geographic location, NOT in metropolitan France.

@@ -1,0 +1,11 @@
+- Need max 8-10 bullets.
+- Must be under 1000 chars.
+- Focus on immediate visual identification.
+- Remove fluff, car meta, gen info, coverage notes.
+- Divided main roads with black-and-white curbs & double yellow outside lines.
+- Green street/directional signs with rounded edges & white font; English text only.
+- All road signs mounted on square white backgrounds (unique globally).
+- Black license plates with continuous white text (no section dividers like Malaysia/Indonesia).
+- Rain trees frequently planted along major roads.
+- Concrete bus stop bollards with black-and-yellow hazard bands.
+- Traffic lights mounted on curved metal sheets with multiple ventilation holes.

@@ -1,0 +1,9 @@
+- License plates: white background, black text. Format: letters+numbers+region code. Cyrillic letters used.
+- Language: Kyrgyz (Cyrillic script) + Russian. Kyrgyz has letters: Ң, Ү, Ө, Ж, which are not in Russian. Most signs bilingual Kyrgyz/Russian.
+- Landscape: dramatic high mountain scenery — Tian Shan mountains dominate (peaks 4000-7000m). Narrow valleys with rivers; alpine meadows (jailoo). Very rugged terrain, few flat areas except Fergana Valley and Chuy Valley (north).
+- Road quality: poor to moderate. Narrow winding mountain roads; unpaved tracks common. Soviet-era concrete roads in cities.
+- Utility poles: wooden poles with crossbar; concrete poles; often leaning/damaged in rural areas.
+- Architecture: Soviet concrete blocks in Bishkek; traditional yurt-style decorative elements on modern buildings; rural mud-brick houses with flat roofs.
+- CONFUSION with Kazakhstan: Kazakhstan is flatter steppe; Kyrgyzstan = dramatic mountains. Kazakhstan plates slightly different format.
+- CONFUSION with Mongolia: Mongolia has Cyrillic + very flat steppe. Kyrgyzstan = mountains + different Cyrillic letters.
+- REGIONAL COORDS: Bishkek/Chuy (42.9,74.6), Osh south (40.5,72.8), Issyk-Kul lake (42.4,77.2), Naryn valley center (41.4,76.0), Batken SW (40.1,70.8).

@@ -1,0 +1,41 @@
+--- LAOS PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Laos
+- Street View coverage in Laos is very limited. Only five cities are covered: Vientiane, Vang Vieng, Luang Prabang, Savannakhet, and Pakse.
+- In addition, all coverage in Laos was taken by a Generation 3 camera.
+- All five cities have a distinct look and with some practise they are easily distinguishable from each other. The differences are discussed in more detail in the region-guessing section, but the summarized version is as follows:
+- Luang Prabang: historical architecture, hills, palms
+- Luang Prabang: historical architecture, hills, palms
+- Vang Vieng: distinct mountains
+- Vang Vieng: distinct mountains
+- Vientiane: no roof rack, large city
+- Vientiane: no roof rack, large city
+- Savannakhet: very flat
+- Savannakhet: very flat
+- Pakse: red soil, arid, hills
+- Pakse: red soil, arid, hills
+- In all cities except for the capital, Vientiane, this Google car will be visible. It is silver-coloured, with a roof rack with two metal bars and black side mirrors.
+- NOTE: A similar car can be found in Guatemala, so be sure to look at the other clues before guessing.
+- Laos drives on the right hand side of the road.
+- NOTE: This is mostly useful to distinguish between Thailand, which drives on the left hand side of the road.
+- Laotian licence plates are short and yellow. This distinguishes them from nearby Thailand and Cambodia, who both use white plates on non-commercial vehicles.
+- Laotian commercial plates are white, and government plates are blue.
+- NOTE: Thailand uses yellow plates for commercial vehicles, such as taxis.
+- Lao script is compact and curvy, with some diacritics on top and below characters.
+- NOTE: It is very similar to Thai script, but (in most fonts) Lao script has fewer straight lines.
+- Laos is a majority Buddhist country. Buddhist temples are a common sight. They can be recognized by their ornate decorations, often with gold leaf detailing.
+- NOTE: Thailand and Cambodia are also majority Buddhist.
+- Striped curbs of various colours, such as red, yellow, or black with white, can be seen throughout Laos.
+- Stop signs feature the Lao script. Sometimes, the sign features the word ‘stop’ in Latin script below the Lao script.
+- NOTE: In Laos, stop signs only have 2 characters, compared to 3 in Thailand.
+- Laos uses square concrete poles, with small pinholes on the sides in a row from top to bottom.
+- NOTE: Similar poles are found in Thailand, Sri Lanka, and less commonly, Cambodia.
+- Laos uses square concrete black and white bollards with one or more black bands.
+- NOTE: Thailand, Indonesia, and rarely Cambodia use similar bollards.
+- Some lamp posts have diagonal red and white striped markings that do not go down to the base.
+- A red and white painted cuboid concrete bollard can sometimes be seen a few metres off the side of the road.
+- Laos has a communist government. You can sometimes see red hammer and sickle flags.
+- Step 2 - City-specific clues
+- Luang Prabang is located on the Mekong River and surrounded by low mountains and hills (not always visible).
+- Palm trees are common in Luang Prabang.
+- Luang Prabang is the former royal capital of Laos and a UNESCO heritage site. The city has a lot of historical architecture, including several temples. Many buildings make use of traditional dark wooden architectural elements. There are also some buildings dating back to French colonial rule of Laos.
+- Within Laos, blue sign backs are only found in Luang Prabang.

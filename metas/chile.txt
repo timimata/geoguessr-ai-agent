@@ -1,0 +1,41 @@
+--- CHILE PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Chile
+- Chilean road lines are either all white, or all yellow:
+- All white road lines are most common. Within the Americas, they are a good clue for Chile, though not completely unique.
+- All white road lines are most common. Within the Americas, they are a good clue for Chile, though not completely unique.
+- All yellow road lines are seen in National Parks or areas of high snowfall. Within the Americas, these all yellow road lines are essentially unique to Chile.
+- All yellow road lines are seen in National Parks or areas of high snowfall. Within the Americas, these all yellow road lines are essentially unique to Chile.
+- You will almost never see a combination of the two colours, apart from a few rare exceptions.
+- NOTE: It is important to note that Argentina has a decent amount of roads with all white road lines.
+- Chile has a solid white Google Car with no antenna in Generation 3. There are two variants:
+- A plain white car (left).
+- A plain white car (left).
+- A white car with a visible black section (right). This car is unique to Chile.
+- A white car with a visible black section (right). This car is unique to Chile.
+- A blue Google Car can be seen in Generation 4.
+- NOTE: In Generation 3, a plain white Google Car with no antenna can also be seen in Peru and Bolivia.
+- Chile uses square concrete poles with an indent on both sides. They are somewhat similar to Brazilian poles, however have fewer horizontal supports in the indent. The upper part typically has small pinholes.
+- Wooden poles are also fairly common.
+- Regular vehicles have white licence plates, while commercial and taxi vehicles have orange plates.
+- NOTE: Orange plates can also be seen in Ecuador. Brazilian commercial plates are red, but can look similar in some lighting.
+- Slots can often be seen at the top of signposts.
+- Chilean bollards are similar to Spanish style bollards, with a white reflector at the front and a yellow-orange reflector at the back. They are not super common.
+- While regular bollards are somewhat rare in Chile, you may sometimes find this orange, temporary bollard, with two white stripes at the top.
+- Bridges in Chile often have red painted fence posts.
+- Step 2 - Region-specific clues
+- Shown here is a Köppen climate map of Chile.
+- Chile is a long and narrow country that spans more than 4,000 kilometres from north to south, meaning that its climate varies significantly due to latitude.
+- The northern parts of the country, which lie in the tropical zone, are dry and arid, leading to a mild desert climate. In the centre, around the capital, the climate becomes less arid, leading to a temperate mediterranean climate. In the southernmost regions of Chile, which lie in the subantarctic zone, the climate is cold and wet, leading to a cool oceanic climate.
+- You can click on the image to enlarge it.
+- Chile uses a memorable regional road naming system, where the first letter increases between A and Y from north to south. For more information on specific regions, see here.
+- Chilean phone codes will sometimes have a two digit area code in front, followed by seven digits. The patterns of the codes are easily memorable. Most of the central states also have different area codes for specific provinces, which can help you make accurate guesses.
+- The Atacama is an extremely arid desert covering the northern third of Chile. Some parts of it experience the lowest rainfall on the planet. As a result, many locations in this desert are almost completely devoid of any vegetation: you will often just see sand and bare rock without any plants in sight anywhere.
+- NOTE: The Atacama Desert also covers parts of southern Peru, western Bolivia and northwestern Argentina.
+- The region of Arica y Parinacota can be recognized by the smooth, sandy mountains that may look slightly eroded, or have bulbous formations. Valleys are also common, which are rarely seen in other parts of Chile.
+- These rocky, uneven mountains are most commonly seen in Atacama and northern Coquimbo.
+- This brownish red soil can sometimes be seen in Atacama region.
+- NOTE: This is most reliable in Generation 3. This soil can be seen in other regions in Generation 4.
+- Eucalyptus plantations combined with a somewhat dry climate are a good indicator that you are in southwestern Valparaíso.
+- The region around Santiago can be recognized by its semi-arid climate, having dry hills and scattered vegetation.
+- Compared to the area around Santiago, the Maule region has a similar look. However, it has a Mediterranean climate, and is generally greener. Vineyards are also commonly seen in this region.
+- Concepcion pines, scientifically named Pinus radiata, can be recognized by their puffy needles. They are most commonly found in Bio Bio, where the city of Concepcion is located, and less commonly in Ñuble and Araucania.

@@ -1,0 +1,41 @@
+--- TUNISIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Tunisia
+- Tunisian licence plates are black with white text.
+- NOTE: Military plates feature a small Tunisian flag on the left side of the plate, which is visible on the dark green follow car.
+- One of the best ways to recognize Tunisia is that, in most coverage, the Google car is escorted by a follow car.
+- There are several different follow cars and these are four of the most commonly found ones.
+- NOTE: Follow cars can be in front of the street view car, or very far behind. Make sure to pan and zoom if you do not find them immediately.
+- The Google car in Tunisia is black with a medium-length, thin antenna.
+- NOTE: The colour of the car is not always perceptible. Make sure to look around for other more helpful clues.
+- Tunisia has Mediterranean, dry and semidesert climates.
+- NOTE: In the second step, you will find more about region specific climate and landscape.
+- These olive tree plantations can often be found along roads. They consist of nicely arranged rows of olive trees on an often raked, weedless soil.
+- Tunisia usually has white road lines. Outer road lines can be dashed or solid.
+- NOTE: A few roads in Sfax have yellow middle lines.
+- In Tunisia, both French and Arabic are common. The Arabic script can be identified by its lines and dots. You can often see bilingual signs.
+- NOTE: The UAE and (more rarely) Jordan use English and Arabic.
+- Most direction signs have a white background with towns listed in Arabic and Latin script. The font of the Latin script is usually quite distinctive.
+- NOTE: Many direction signs include the capital Tunis, but this does not necessarily mean you are anywhere near that city.
+- Doors, windows, gates and other architectural elements are sometimes painted with this specific traditional shade of blue.
+- NOTE: This shade of blue can be found all over the country, but is especially common on the island of Djerba, where buildings tend to be older and more traditional.
+- Red and white striped curbs are common in Tunisia.
+- NOTE: Similar curbs are also common in Israel and Palestine. Make sure to look for additional information!
+- These white concrete markers with a rounded red or yellow top can be found throughout Tunisia. The top can be red, yellow, or green.
+- NOTE: They are very useful for pinpointing your exact location. On either side, they show the distance in kilometres to the nearest town. The side facing the road shows the road number.
+- Tunisia has a fairly unique stop sign with Arabic and Latin script.
+- NOTE: Similar stop signs can be found in Jordan and the UAE. However, Israel and Palestine use a different unique stop sign with a hand instead of text.
+- Step 2 - Regional and governorate-specific clues
+- Coverage is mostly limited to the east coast, between Bizerte in the north and Medinine in the south. Most coverage is in bigger towns and on main roads. The biggest towns and the island of Djerba have quite extensive side road coverage.
+- This light green Toyota follow car can be found everywhere in the northernmost part of Tunisia. You will never see it south of Hammamet.
+- The dark green Mazda is the most common follow car in Tunisia. This becomes apparent if you look at the coverage map, it can be found all the way from Hammamet to Djerba. Aside from the darker colour, it can also be recognized by its military licence plate with a red strip on the left.
+- Tunis, the capital of Tunisia, has a lot of different follow cars. Most of them can be found all over the city. The light green Toyota can also be spotted here.
+- The city of Kairouan in central-northern Tunisia has this unique follow car, a white Mitsubishi with white mirrors. The dark green follow car can also sometimes be spotted following the Mitsubishi.
+- NOTE: Some white follow cars in Tunisia can look similar to the Kairouan car. However, none of them are Mitsubishis.
+- The island of Djerba is the only region of Tunisia where you are usually not accompanied by a follow car. Most coverage completely lacks one.
+- While it is rare, this white Mercedes and the dark green follow car can be present.
+- The area north of Tunis has a Mediterranean climate with hilly terrain. The region is very agricultural and at the time the coverage was captured, almost all fields laid fallow.
+- The area between Tunis and Hammamet looks similar to the area north of Tunis, but the hills tend to be higher and more vegetated.
+- The large middle region between Hammamet and Gabes is very flat, and more arid. Olive tree plantations are common and the more south you go, the drier the landscape becomes.
+- South of Gabes is where the landscape changes into something more akin to a desert. A lot more rubbish and small white rocks can be found along the roads. Olive tree plantations are still somewhat common. A mountain range far in the distance is often visible to the southwest.
+- The island of Djerba can sometimes have a distinct vibe. There tend to be a lot of palm trees. Whitewashed, traditional buildings with blue doors and windows are common.
+- NOTE: Not all locations on the island will have this distinct vibe. A lack of a follow car is another good way to confirm that you are on Djerba.

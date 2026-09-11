@@ -1,0 +1,41 @@
+--- KYRGYZSTAN PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Kyrgyzstan
+- Licence plates in Kyrgyzstan have a red strip on them.
+- NOTE: Licence plates with red strips can sometimes be seen in Albania and very rarely in the UAE.
+- Kyrgyzstan can be recognised from the silver car and four bars that are visible. All coverage is Generation 3.
+- NOTE: No other country with a similar landscape has a similar Street View car.
+- The Kyrgyz script is similar to Russian. However, the Cyrillic script used for Kyrgyz includes additional characters not found in Russian Cyrillic, such as:
+- All of Kyrgyzstan was covered during the winter months, so many of the trees will lack leaves, the landscape will be quite drab, and you can see snow in many parts of Kyrgyzstan.
+- In Kyrgyzstan, you will often see trees and concrete poles that are painted white on the bottom.
+- Kyrgyzstan uses these simple white bollards with a diagonal black stripe near the top.
+- These kilometre markers with a red-and white triangle pattern are unique to Kyrgyzstan.
+- The majority of Kyrgyzstan’s population is Muslim. Hence, you will see a lot of mosques throughout the country.
+- Step 2 - Regional clues
+- The coverage in Kyrgyzstan is very limited. So learning which roads are covered will help you improve a lot.
+- You can click on the image to enlarge it.
+- Learning which direction the Google Car is driving on most major roads will help you narrow down your options when guessing.
+- You can click on the image to enlarge it.
+- You can use the Google car’s mirror to region-guess Kyrgyzstan. In the southern region, less of the road is visible on the mirror. The car’s reflection is more diagonal. For comparison, this is what it usually looks like.
+- Within this southern region, west of the roundabout that takes you up to Manas (Previously Jalal-Abad), the mirror will have a varying degree of dirt on it.
+- If you see a small black dot on the Kyrgyzstan car mirror, you will be in this region.
+- Divided roads are mostly concentrated in and around the capital, Bishkek. A major divided highway runs from Bishkek to Balykchy in the east.
+- NOTE: The cities marked on the map also have at least one divided road.
+- Lake Issyk Kul is the biggest body of water in Kyrgyzstan. You will often be able to spot it on the roads north and south of the lake. Sometimes it will be obscured by buildings or trees, but the lack of any mountains in the direction of the lake will be a good clue.
+- NOTE: There are two other significant bodies of water that can be seen from the road: the Toktogul Reservoir and Lake Song-Kul. With a bit of practice, you can reliably distinguish these from Issyk Kul however.
+- These northern roads have a considerable amount of snow, and the sky is generally bright.
+- The individual sections of these roads are discussed in more detail in step 3.
+- NOTE: There is also snow coverage in the south. However, you can use the mirror to distinguish these roads.
+- Step 3 - Spotlight
+- As the capital city of Kyrgyzstan, Bishkek is by far the most developed city, featuring many taller multi-story buildings you would not see elsewhere. And on the outskirts, you can see fancier buildings as well. There are also mountains south of Bishkek, but these can be hard to see at times.
+- You can find urban snow coverage in this region of Bishkek.
+- The coverage south of Bishkek is generally a bit hilly, and you will see the snowy Tian Shan mountains to the south. And as Bishkek has the most polluted air of any city, there will usually be visible smog to the north.
+- These towns east and west of Bishkek feature these colourful poles with yellow, green, white, and sometimes red on top.
+- NOTE: Sokuluk will not have the red paint on top.
+- Osh is the second-biggest city in Kyrgyzstan. It is one of several towns that has coverage with the southern mirror. This allows you to easily distinguish it from Bishkek.
+- The weather in Osh is fairly good, with some clouds, but never fully overcast.
+- NOTE: Manas (Previously Jalal-Abad), the other big city with the southern mirror, will always have very overcast coverage.
+- You can also distinguish Osh from Bishkek by looking at the trees: most still have their leaves.
+- In the centre of Osh, you can see these unique mountains with radio masts on top of them.
+- Manas (Previously Jalal-Abad) is the third-biggest city in Kyrgyzstan. Like Osh, its coverage has the southern mirror.
+- You can recognise it from the extremely overcast coverage, with no gaps in the clouds. This allows you to easily distinguish it from Osh, which has better weather.
+- To the east, you can see this slightly snowy hill.

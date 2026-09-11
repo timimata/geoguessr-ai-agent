@@ -1,0 +1,50 @@
+--- INDIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying India
+- The vast majority of the coverage in India was taken with what’s commonly referred to as “shitcam”, which is a low-quality camera that can typically be recognised by the brownish colours and often, but not always, by a large circular blur covering the Street View car.
+- NOTE: Within Asia, Nepal is also entirely “shitcam”, while it’s also common in Cambodia and can rarely be seen in Sri Lanka and Bangladesh.
+- All the Generation 4 coverage in India was taken using the smallcam, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- While most of India is covered in shitcam, there is also a significant amount of Generation 3 trekkers throughout the country.
+- India drives on the left side of the road.
+- A wide variety of scripts can be found in India. Most of them can be used to narrow down the region.
+- English is also an official language in India and can be seen on a lot of signage.
+- Indian licence plates are typically fairly long, with the most common design being white. Commercial vehicles typically use yellow plates, while electric vehicles use green.
+- India typically has black and white striped signposts.
+- NOTE: Bangladesh, Nepal and Sri Lanka also have black and white signposts.
+- The most common Indian utility pole is a concrete square pole with a trident pole top.
+- Beware that many regions have their own distinct poles and poletops.
+- NOTE: Indian poles will almost always be made of concrete or metal. Wooden poles are extremely uncommon.
+- Step 2 - Regional and state-specific clues
+- Hindi is the most common language in India and can be found in many central and northern regions. It uses the Devanagari script, which can be recognised by the line going through the top of each word and the straight vertical lines found in the majority of all letters.
+- Marathi, found in Maharashtra, also uses the Devanagari script, however it sometimes uses the letter ळ which is not found in Hindi.
+- Punjabi can be found in Punjab in northwestern India. While the script looks somewhat similar to Hindi, it can generally be differentiated by the softer shape of the letters and the horizontal bar being broken over certain letters. It also has some distinctly different features, such as the letters ਨ, ਲ and ਅ as well as a diacritic in the shape of a soft curve beneath a letter.
+- Gujarati, found in Gujarat, has a script with several similarities to the Hindi script, however it notably lacks the horizontal line at the top of every word.
+- Bengali is found in northeastern India and has a similar look to Devanagari (Hindi), however it can usually be recognised by the many letters featuring left-facing triangular shapes.
+- NOTE: This is also the language found in Bangladesh.
+- Assamese, mainly found in Assam, also uses the Bengali script, with the addition of some characters, most notably ৰ and ৱ.
+- Kannada is found in Karnataka and has a script with a lot of smooth curves and small circles. It is very similar to the Telugu script, with Telugu having one additional feature described in the next tip. Many characters also feature a distinct squiggly tail in the top right corner, which is less common in Telugu.
+- Telugu, found in Telangana and Andhra Pradesh, has a script very similar to Kannada, but you’ll often see diacritics resembling checkmarks at the top of letters.
+- The Tamil script is found in Tamil Nadu and has a distinct combination of curves, straight lines and 90° angles. Some letters also have diacritics shaped like dots.
+- NOTE: Tamil is also commonly found in Sri Lanka.
+- The Oriya script is found in Odisha and has a curvy look, with many letters having wide semi-circles covering the top. Many letters have a distinct diacritic in the shape of a wide curve above the top of the letter. A useful mnemonic is that the shape of the characters resembles a skull emoji.
+- The Malayalam script can be found in Kerala and mostly consists of somewhat simple-looking curvy letters, often containing upside-down U-shapes.
+- Manipuri, also called Meitei, is the official language of Manipur. It is written using the Meitei script, which can be recognised by its many vertical lines and right angles.
+- Mizo, found in Mizoram, is the language most commonly found on the Indian coverage other than English, which uses the Latin script.
+- While English can be found anywhere in India, Meghalaya is the only region which almost exclusively uses English.
+- Yellow tuk tuks with black roofs are common in the southern Indian states of Telangana, Andhra Pradesh, and Tamil Nadu.
+- NOTE: They can also rarely be found elsewhere.
+- Concrete holey poles are unique to Gujarat and the Union territory of Daman and Diu, and Dadra and Nagar Haveli.
+- Gujarat uses a variety of poletops, some of which can be used to identify other states. Beware that holey poles generally take precedence over poletop metas.
+- NOTE: They are rarely found in other states especially Maharashtra, Madhya Pradesh, and Chhattisgarh.
+- Poles divided in two sections, in a similar fashion to Brazilian poles, are common in Andhra Pradesh and Telangana.
+- Metal poles with a mesh pattern are commonly found in Sikkim.
+- Metal holey poles are common in Kerala.
+- Thin grey metal poles are seen all over northeastern India and in the Himalayan region of Uttarakhand and Himachal Pradesh. You will commonly see two of these poles in close proximity.
+
+- REGIONAL COORDINATE GUIDE (combine script + landscape for coordinates):
+- NORTH INDIA (lat 24-32°N, lon 73-88°E): Hindi/Devanagari script dominant. Flat Indo-Gangetic plain, wheat/sugarcane fields. Delhi ~28.6°N,77.2°E. UP, Bihar, Haryana, Rajasthan (desert in west ~26°N,72°E).
+- NORTHWEST (lat 28-34°N, lon 73-77°E): Punjab — Punjabi (Gurmukhi) script, very flat, irrigated green fields. Chandigarh ~30.7°N,76.8°E.
+- WEST (lat 18-24°N, lon 70-77°E): Maharashtra (Marathi/Devanagari) — Deccan plateau, basalt black soil, scrubby vegetation. Mumbai ~19°N,73°E. Gujarat (Gujarati script) — flat, arid, white salt flats near coast.
+- SOUTH (lat 8-15°N, lon 76-80°E): Tamil Nadu (Tamil script — rounded letters) ~11°N,79°E. Kerala (Malayalam script — very round) — lush green coast, coconut palms ~10°N,76°E. Karnataka (Kannada) ~13°N,77°E. Andhra/Telangana (Telugu) ~17°N,80°E.
+- NORTHEAST (lat 22-28°N, lon 88-97°E): Assam, Bengal — Bengali script (curved), very green/lush, tea plantations, hilly jungle. Kolkata ~22.6°N,88.4°E. Far northeast is mountainous with tribal scripts.
+- CENTRAL (lat 20-24°N, lon 77-83°E): Madhya Pradesh, Chhattisgarh — forested hills, tribal areas, Hindi dominant. Dense jungle (tiger reserves).
+- KERALA COAST: Unique — dense coconut palm forests, backwaters, very green, left-hand drive, Malayalam script.

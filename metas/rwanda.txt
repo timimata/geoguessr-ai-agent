@@ -1,0 +1,41 @@
+--- RWANDA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Rwanda
+- Rwanda uses long white front and yellow back licence plates.
+- All the coverage in Rwanda is made with a Generation 4 camera. In most of the coverage, the Google car is entirely visible: it is a big white, black, or brown pickup truck. The camera mount is visible.
+- Occasionally, the Google car will be covered entirely by a big blur.
+- The coverage has a noticeable hazy tint to it, which is especially apparent in the sky.
+- NOTE: In Africa, similar hazy Generation 4 coverage is common in Senegal.
+- Rwandan architecture features a lot of brick and concrete. Most houses in Rwanda are single family houses, which can have rather steep roofs. Houses also often have fences for protection. The most notable feature of Rwandan architecture are the ‘ventilation bricks,’ which are present in many houses.
+- Rwanda is generally quite hilly, but not very mountainous.
+- Most of the soil in Rwanda has a noticeable red tint to it.
+- Banana plants are common throughout Rwanda.
+- Rwanda uses multiple different red and white cylindrical bollards.
+- Rwanda uses various different styles of white concrete waystones.
+- Streets in Rwanda are noticeably very clean and free of garbage.
+- Kerbs are often painted with black and white stripes.
+- Villa neighbourhoods often have a lot of tall security fences and walls.
+- Rwanda drives on the right.
+- All motorcyclists in Rwanda are required to wear red vests and helmets.
+- Step 2 - Regional clues
+- Rwanda has quite limited coverage: street view is limited to Kigali, and a couple of other patches elsewhere in Rwanda.
+- NOTE: Coverage is being sporadically released, so click the link below to view an up-to-date map.
+- You can check out the coverage in detail on this site.
+- Street names often have a two-letter code, which tells you the district you are in.
+- Lamps are fairly consistent on National Roads in Rwanda, but other designs can be sometimes found on some sections.
+- Roads marked in green mainly use lamps, with lamp arms that have a slight curve near the end and extend past the lamppost.
+- Roads marked in green mainly use lamps, with lamp arms that have a slight curve near the end and extend past the lamppost.
+- Roads marked as red have lamps with shorter arms and a sharper bend near the top of the lamppost.
+- Roads marked as red have lamps with shorter arms and a sharper bend near the top of the lamppost.
+- Roads marked with blue use lamps with a longer arm that curves for the entire length.
+- Roads marked with blue use lamps with a longer arm that curves for the entire length.
+- Grey roads rarely have lamps.
+- Grey roads rarely have lamps.
+- Lampposts along many national roads will have the road number painted in black letters. Below that, you will find the lamp number, which generally, but not always, increases the further from Kigali you get.
+- The black pickup truck can be found in most of Kigali.
+- Tea plantations are common in Western Rwanda, and a couple other pockets.
+- Northeastern Rwanda has less extreme elevation compared to the rest of Rwanda. It more so consists of rolling hills and open agricultural land or undeveloped grassland.
+- Volcanoes and volcanic rocks can be seen in northwestern Rwanda.
+- The Akagera national park features a very vegetated yet dry landscape with wide unpaved roads that are reddish-brown in colour.
+- You can also find these rectangular waystones at intersections.
+- This coverage was taken with the brown Google car.
+- NOTE: There is some coverage on the paved section south of the national park.

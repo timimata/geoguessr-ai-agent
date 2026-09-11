@@ -1,0 +1,49 @@
+--- BRAZIL PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Brazil
+- Licence plates in Brazil were white until 2018. Now, a white plate with a blue stripe on top is used. Red is still used for commercial vehicles.
+- Portuguese is spoken in Brazil, as opposed to most Latin American countries which speak Spanish. Compared to Spanish, some essential differences are that Portuguese uses -ão rather than -ón, -ch/-lh instead of -ll and -nh instead of -ñ.
+- Soil in most of Brazil is distinctly red. It can range from a light pink around Mato Grosso to a deep maroon near the Paraná river. The soil is usually not red in the North East, or in the majority of Rio Grande do Sul, however.
+- NOTE: Parts of Paraguay and the nearby Argentine province of Misiones have deep red soil, as well a handful of other regions around the world.
+- The most common poles in Brazil have some resemblance to a ladder in the bottom portion. They are rectangular, have long segments running through the bottom, and small holes near the top.
+- NOTE: Paraguay uses similar poles.
+- Most Brazilian road signs have the backs painted black.
+- NOTE: This is also common in Paraguay.
+- Blue road markers with the road number and kilometre can be seen on the sides of roads.
+- Brazil uses yellow on black chevrons, as opposed to most of South America, which use black on yellow chevrons.
+- Roads in Brazil will usually feature double yellow middle lines, with white outer lines. Roads can occasionally have a single dashed yellow line.
+- There are frequently white painted kerbs on Brazilian roads.
+- Many houses throughout Brazil have orange tiled roofs.
+- It is fairly common to see transparent satellite dishes, which within Latin America is generally unique to Brazil.
+- Blue Fortlev water tanks are often seen on Brazilian roofs.
+- In Generation 3 coverage, you can see two different cars:
+- A white car with a stubby antenna. There is a diagonal coil wrapped around the antenna.
+- A white car with a stubby antenna. There is a diagonal coil wrapped around the antenna.
+- A white car with no antenna.
+- A white car with no antenna.
+- The car’s colour is not always visible, meaning you will often see either just the stubby antenna, or no hints of the car at all.
+- The stubby antenna with a diagonal coil can also be found in Ecuador, Colombia, and Mexico.
+- The Generation 4 cars you can find in Brazil have a visible front, and have one of the following three colour patterns:
+- White with a blue stripe
+- White with a blue stripe
+- Brazil also has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front.
+- NOTE: Brazil, Peru and Argentina are the only South American countries with smallcam.
+- Step 2 - Regional and state-specific clues
+- Most of the coverage in Brazil is along the eastern half, with only sparse coverage in the Amazon.
+- It is useful for beginning players to start forming a rough mental map of where the (limited) coverage is in the western half. When you get Amazonian rounds, this can prevent you from wildly plonking hundreds of kilometres away from the nearest road.
+- Area codes are common to see in Brazil. They are often notated using parentheses, or at minimum as two separate numbers. Phone numbers are sometimes without area codes, and without them will be 8 numbers long for landline and 9 for mobile.
+- The pattern for each of the states is very learnable and useful. The area codes are grouped by first digit, so even just learning those can already help a lot. Notably, area codes ending in 1 will always be around major cities and state capitals.
+- Each Brazilian state has a two-letter acronym. These show up most prominently in the numbers of state roads (found on kilometre markers). They can also be found in other contexts however.
+- The state acronyms show up when you zoom out a little bit on Google maps, which is also possible in the minimap while in-game. However, for quick and or competitive games, it can be very useful to learn them by heart anyway, as this can help a lot with eliminating scanning time.
+- Postcodes (CEP) are seen frequently on street signs in Brazil (though sometimes hard to read). The first two numbers will depict an area, a state or multiple states. The numbers go anti-clockwise from São Paulo, ending in Rio Grande do Sul.
+- Shown here is an elevation map of Brazil. It can help to have a rough mental map of where you can find mountains, and which regions are more flat. The highest mountains are generally found near the southeastern coast.
+- Northeastern Brazil can be identified by its dry soil, shrubs and succulents (the Caatinga landscape). In rainy season coverage, the shrubs are still recognisable, but can be deceptively green.
+- The Amazon is a dense rainforest that comprises 40% of Brazil’s total area. Not many roads are within it, but those that are, mostly go through either biodiverse forest or grassy hills with sparse trees.
+- Acre has a unique landscape of small grass hills and sparsely growing trees. The roads often do not cut around the hills like in most of Brazil, but ride the hills instead. A similar landscape can also be seen near Maraba in the state of Pará.
+
+- REGIONAL COORDINATE GUIDE (soil + vegetation key for coordinates):
+- SOUTHEAST (lat 19-24°S, lon 42-48°W): Most populous. Deep red terra roxa soil. Dense urban (São Paulo ~23.5°S,46.6°W, Rio ~22.9°S,43.2°W). Atlantic Forest remnants. Coffee plantations.
+- SOUTH (lat 24-34°S, lon 48-54°W): European-influenced (German/Italian) architecture in small towns. Pines (Araucaria), temperate climate, NO red soil (dark basalt soil). Curitiba ~25.4°S,49.3°W. Vineyards in Rio Grande do Sul ~29°S,51°W.
+- CENTER-WEST (lat 15-20°S, lon 45-58°W): Cerrado (dry savanna) — yellow-brown grasses, twisted trees, red/orange laterite soil. Brasília ~15.8°S,47.9°W. Very flat agricultural soy/corn fields.
+- NORTHEAST (lat 3-15°S, lon 34-45°W): Caatinga — dry thorny scrubland, pale sandy/grey soil (NOT red), cacti, very hot and arid look. Salvador ~13°S,38.5°W. Fortaleza ~3.7°S,38.5°W.
+- NORTH/AMAZON (lat 0-8°S, lon 48-74°W): Dense tropical rainforest (Amazon), brown rivers, very humid and green, no agricultural land visible. Manaus ~3°S,60°W.
+- COASTAL BAHIA (lat 10-18°S, lon 37-40°W): Transition — coconut palms, Atlantic coast, warmer and greener than caatinga.

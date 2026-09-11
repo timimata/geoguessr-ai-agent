@@ -1,0 +1,41 @@
+--- SWEDEN PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Sweden
+- Swedish licence plates are long, white, and have the standard blue EU strip on the left side. Licence plates on taxis have a yellow background instead of white.
+- Swedish is a North Germanic language that is closely related to Danish and Norwegian. The Swedish alphabet contains the special letters Å, Ä and Ö.
+- NOTE: The special letters found in Swedish can also be found in some of the other Northern Germanic languages:
+- Danish uses Å, but not Ä or Ö.
+- Danish uses Å, but not Ä or Ö.
+- Norwegian uses Å, but not Ä or Ö.
+- Norwegian uses Å, but not Ä or Ö.
+- Icelandic uses Ö, but not Å or Ä.
+- Icelandic uses Ö, but not Å or Ä.
+- Finnish uses Ä and Ö. Å is also used, but is treated as Swedish. Finnish words are typically longer and often use double vowels, which are very rare in Swedish.
+- On smaller roads, the outer road lines are white and dashed. They are distinctly shorter than the Norwegian dashed lines. In contrast to Norway and Finland, all road lines are white.
+- The outer road lines on highways look solid from a distance, but are typically divided into small sections with a unique pattern, which is different from the solid lines in Finland and Norway. Road lines in Denmark can have a similar pattern, however the individual sections should be rectangular.
+- Swedish bollards are black-and-white, typically with a grey reflector. Reflectors by intersections are commonly orange instead. They can be either wedge-shaped, round, or thin and curved.
+- Snow poles are typically orange, with a tall white reflector slightly above the middle of the pole. Some poles have a second, thinner reflector above the normal one.
+- NOTE: Finland and Norway both have similar orange snow poles. The reflector on Finnish poles is usually much thinner and very close to the top. Norwegian poles typically have either one or two slightly thinner reflectors, with one commonly being very close to the middle.
+- Swedish utility poles are usually wooden and can have a variety of poletops. There is commonly a small black metal cap on the very top, which is only found in Nordic countries.
+- NOTE: Norway and Finland also use primarily wooden poles.
+- Lamps attached to wooden poles in Sweden are normally mounted slightly below the top of the pole with a double bolting.
+- NOTE: Within Scandinavia, Finland also uses double bolting. However, Finland’s lamps are mounted at the top and are much straighter.
+- These wooden electricity markers, with a blue and a white stripe at the top, are often found near utility poles and pylons, and are not found in any other Nordic country.
+- Swedish pedestrian signs have four stripes. There is notably a version featuring a female silhouette.
+- NOTE: Finnish and Danish pedestrian signs have five stripes. Norwegian pedestrian signs usually have four stripes, but can also have five.
+- Most directional signs are blue with a white font and border. A thin arrow shows the direction.
+- Yellow signs with a black font and red border are also common. Places showcased on yellow signs are typically very small and thus hard to find on a map.
+- NOTE: Norwegian directional signs are yellow or white, and the white arrow on Finnish signs is filled in.
+- Swedish road signs have a red border and a yellow background.
+- NOTE: Finnish road signs have a thin yellow border outside the red one.
+- Sweden is the only country in Europe whose chevrons have yellow arrows on a blue background.
+- NOTE: While very rare, yellow on blue chevrons also exist in Luxembourg.
+- On smaller roads, it is common to see these blue signs with a large white M.
+- NOTE: Similar signs can be found in Norway, however the font is distinctly different. The middle point of the M extends to the bottom of the letter. There are no similar signs in Finland.
+- Signposts will often have striped markings. Blue and white, and red and yellow are the two most common, but you can also find other colours such as blue and red or white and red.
+- NOTE: Blue and white markings can be found in several other countries, such as Finland and Estonia, however the other colour schemes are essentially unique to Sweden.
+- On top of having red and yellow road signs and signpost markings, Sweden often has a lot of road infrastructure, such as road work signs and road blocks, painted red and yellow. You can even come across red and yellow chevrons.
+- Swedish street names most commonly use the suffixes “vägen” and “gatan”. They are often shortened into “v” and “g” respectively on street signs. Street names can also use “väg” or “gata” as a separate word in a street name. Additionally, the suffix “gränd” can be found near city centres.
+- NOTE: Norway uses veien or vei, gate or gaten, and gata attached to the rest of the street name, rather than as a separate word. Denmark uses vej and gade.
+- Houses in the Swedish countryside are most commonly wooden and often painted with a distinct dark red paint, which is almost exclusively found in Sweden, Norway and Finland.
+- Urban architecture is usually modern and made of concrete and bricks, while suburban buildings are commonly freestanding single family houses built of either wood or brick.
+- Sweden has a varied landscape, with a lot of boreal forests, small to medium-sized farmlands and many lakes. The northern and western parts of the country are quite mountainous, with long, narrow lakes and rivers, while the southern and eastern parts are generally flatter.

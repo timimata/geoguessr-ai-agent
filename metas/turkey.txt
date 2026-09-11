@@ -1,0 +1,41 @@
+--- TURKEY PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Turkey
+- Turkey uses the same licence plates as most of Europe: they are long and white, with a blue strip on the left.
+- The Turkish language has a fairly unique look. It uses the following special characters:
+- Ç ç and Ş ş with a cedilla (“hook” below the letter).
+- Ç ç and Ş ş with a cedilla (“hook” below the letter).
+- Ö ö and Ü ü with an umlaut (two dots).
+- Ö ö and Ü ü with an umlaut (two dots).
+- Ğ ğ with a breve.
+- Ğ ğ with a breve.
+- Dotless I ı. This letter in particular is noteworthy, as it is essentially unique to Turkish. In case you are confused: this is similar to the letter i, but without a dot when written in lowercase.
+- Dotless I ı. This letter in particular is noteworthy, as it is essentially unique to Turkish. In case you are confused: this is similar to the letter i, but without a dot when written in lowercase.
+- Capital İ with a dot.
+- Capital İ with a dot.
+- Turkish bollards have a simple design: rectangular, plain white, and with a red reflector on the front. They are thin when seen from the side.
+- NOTE: Romania has similar bollards. However, bollards are relatively rare in Romania.
+- The colour of Turkish road lines is somewhat inconsistent. Most roads simply have white road lines. However, it is not uncommon to see yellow road lines. These roads can have fully yellow lines, or a combination of yellow and white lines.
+- Many roads have pavement with a grainy “salt and pepper” texture.
+- Divided highways are extremely common, especially compared to other Mediterranean countries.
+- Turkish chevrons are typically red on white. Beware that there are some other regional variants.
+- Usually, the tip of the arrow does not touch the edge of the chevron. Some chevrons have a neon yellow border.
+- On intersections, you can often find this distinctive black and yellow chevron, with multiple arrows that point upward.
+- Sometimes, you can see these narrow chevrons that have a red and white colour scheme.
+- NOTE: Almost identical chevrons can be found in South Africa.
+- Direction signs use a very distinct font that can often be recognised by the noticeably wide letter spaces.
+- Snow poles usually feature a colour sequence of black-orange-black-white from top to bottom, with small red reflectors.
+- Stop signs have the word “DUR” written on them. This is unique to Turkey.
+- Turkey uses both main types of guardrails:
+- A-type guardrails, which have rounded edges.
+- A-type guardrails, which have rounded edges.
+- B-type guardrails, which have square edges.
+- B-type guardrails, which have square edges.
+- While most Mediterranean countries use the A-type, B-type can help solve some tough 50-50s. Furthermore, seeing both types will exclude all southern European and Middle Eastern countries, other than Montenegro and Israel & the West Bank. For a full overview of which guardrails are found in which European country, see this infographic.
+- Metal poles, either in the shape of a ladder or with a mesh pattern, are extremely common in Turkey.
+- In the Generation 3 coverage, the Google car never has an antenna.
+- The Generation 4 coverage in Turkey typically features a white Google car. Usually, only a tiny sliver of the back of the car is visible. The car can have a short antenna, or no antenna at all.
+- A grey pickup truck can be found in some Generation 4 coverage.
+- NOTE: Similar pickup trucks can also be found in Senegal and Kenya.
+- Turkey also has Generation 4 “smallcam” coverage, which is mounted lower than regular Generation 4 and has a relatively big circular blur with a small protrusion at the front. The blur can also be fully transparent, making it harder to spot.
+- The Turkish landscape ranges from arid in the southeast to a Mediterranean landscape in the southwest. In the north you will often find a more forested and lush landscape. The most typical landscape is semi-arid, either rolling or flat, with vast agricultural fields, containing very limited vegetation other than crops.
+- Beware that Turkey is a very naturally diverse country with many landscapes that are not mentioned in this tip.

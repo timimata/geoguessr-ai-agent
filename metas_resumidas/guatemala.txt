@@ -1,0 +1,4 @@
+- Short license plates with blue/green left tint.
+- Thin road lines: solid white edges, single yellow center.
+- Architecture: pastel stone houses, rusted corrugated metal roofs, exposed white brick.
+- Stop signs read “ALTO”.

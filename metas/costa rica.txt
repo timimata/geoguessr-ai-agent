@@ -1,0 +1,41 @@
+--- COSTA RICA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Costa Rica
+- Costa Rica’s Generation 4 imagery was captured using a large white pickup truck. In many locations, it is either fully or partially visible, but can occasionally be entirely blurred out. There is an antenna attached to the front of the car.
+- NOTE: The Panamanian truck has a distinctive white metal frame behind the driver’s cabin and a fully blurred out car is more common there. The truck used in Ecuador does not have an antenna.
+- Costa Rican licence plates are typically short and white with blue text, giving them a light blue tint through the blur.
+- Costa Rica is a mostly lush tropical country, with rolling hills, agricultural lowlands, peaky volcanoes running through the centre of the country, as well as dense rainforests dotted around.
+- Costa Rican architecture is less colonial than that of Panama. Few houses have proper tiled roofs, with dark red sheet metal or dark red plastic tiles being more common. Buildings typically have pastel-coloured concrete walls and are usually either a low single-family house or boxy two-storey structure. They are often heavily guarded with fences and barred windows, to the point that it can be hard to even see a building on many streets.
+- Like in most of Latin America, Spanish is the official language of Costa Rica.
+- NOTE: In Brazil, they speak Portuguese.
+- Like in Mexico, Panama and Guatemala, Costa Rican stop signs display the word “ALTO”.
+- NOTE: Stop signs in Panama use a thicker font. Furthermore, in the rest of Spanish Latin America they say “PARE”.
+- Red taxis are the standard in Costa Rica.
+- NOTE: Panama uses yellow taxis.
+- Costa Rica uses long silver insulators.
+- NOTE: Panama uses a variety of insulators, some of which are also long silver insulators, they also use short silver, long black, UFO and white mushroom insulators. Additionally, Brazil can have long silver insulators. Lastly, Ecuador uses UFO and mushroom insulators.
+- One of the most common pole tops is an even crossbar with uneven insulators, meaning there is one on one side and two on the other. Additionally, the crossbar is further down on the pole than usual.
+- NOTE: 2 on 1 insulator poles with a low crossbar can also be found in Panama. However, poles in Costa Rica usually feature support bars, while this is much more rare on Panamanian poles.
+- Poles that have a single insulator attached to the side at the top of the pole are commonly found in Costa Rica.
+- Utility poles in Costa Rica feature a lamp with a blue dot on the top, similarly to other Latin American countries like Panama, Colombia and Brazil.
+- Also common is this thin metal crossbar that is bent 90 degrees to form an L-shape.
+- NOTE: Also commonly found in Panama, Colombia and Ecuador. However, poles with crossbars are generally not as common in Panama as they are in Costa Rica.
+- Many road signs have a distinct cross on the back. This is most common on diamond-shaped warning signs, while others are mostly attached regularly.
+- NOTE: Signs in Colombia almost always have a cross at the back, but they use white signposts.
+- The equivalent of a bollard in Costa Rica would be these vertical orange boards with 3 black circles on them.
+- Electricity counters in Costa Rica are circular and often have a big metal box alongside them.
+- NOTE: Circular counters may be found in other North American countries, most notably Mexico.
+- Imperial beer ads with its black eagle mascot are a common sight in Costa Rica.
+- Step 2 - Regional and province-specific clues
+- The provinces are sometimes written on signs, so they are useful to know. We will also refer to them in the clues below.
+- Each province has their own provincial flag.
+- Area codes are moderately useful to learn for Costa Rica.
+- Poles are sometimes marked with large black or white stickers, containing multiple lines of text. The first digit of the topmost number is province-specific.
+- For more specific information, please see this research document created by L’Heureux Traité.
+- Asymmetrical pole tops with one insulator on one side of the pole and two on the other are found in and around San José.
+- NOTE: Fully asymmetrical pole tops with all insulators on one side of the pole can be found all across the country.
+- Pole attachments consisting of numbers made out of wires are found in central Alajuela and over the border in Heredia province.
+- White pole plates with black lettering are specific to the Greater Metropolitan Area. They are usually attached to the pole using metal bands, although these may sometimes be missing.
+- Usually blue lettering forming a P-XXXXX code with or without the accompanying white background can be found in western Cartago province.
+- Small black stickers with a QR code on the bottom can be seen around Corralillo, south of San José.
+- Yellow pole paint that is tall and has 3 sections with numbers is mainly found in Puntarenas and southern Alajuela provinces.
+- Yellow pole paint that is shorter and contains all the numbers without dividing lines is mainly found in Guanacaste and northwestern Alajuela provinces.

@@ -1,0 +1,3 @@
+- Road lines: Yellow center lines, white edge lines; double yellow common; rumble strips on highways.
+- Signs: "SPEED LIMIT" text (numbers often end in 5); yellow diamond warnings have text directly on them; inverted triangle yield sign has explicit "YIELD" text; horizontal black "ONE WAY" sign with white arrow.
+- Highway/Exit: Large green rectangular signs with *curved* edges; blue rectangular service signs (food/lodging/petrol) before exits.

@@ -1,0 +1,41 @@
+--- CAMBODIA PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying Cambodia
+- Licence plates are white with blue letters. The blue sheen of the letters can be hard to see through the blur, and the plates might appear as plain white.
+- Plates on government vehicles are green.
+- On the Generation 3 coverage you can find two different Google cars:
+- A car with a short, stubby antenna. The antenna has three ridges. It can sometimes be hard to tell if the antenna has ridges.
+- A car with a short, stubby antenna. The antenna has three ridges. It can sometimes be hard to tell if the antenna has ridges.
+- A white car with stripes and no antenna. There is a white stripe on the left, and a yellow stripe on the right. The stripes are sometimes poorly visible.
+- A white car with stripes and no antenna. There is a white stripe on the left, and a yellow stripe on the right. The stripes are sometimes poorly visible.
+- The car is not always as visible as shown in the example images.
+- NOTE: This specific striped white car is unique to Cambodia. Make sure not to mix it up with the Bangladeshi striped car, which looks slightly different.
+- The Latin American countries of Mexico, Colombia, Ecuador and Brazil also have cars with similar short antennas. However, these have a diagonally coiled ridge, instead of Cambodia’s three ridges.
+- Cambodia drives on the right.
+- NOTE: Thailand drives on the left, while Laos also drives on the right.
+- Khmer is the official language of Cambodia. It has its own unique script, which is very distinct and recognizable. In most fonts, letters have an intricate, curvy look.
+- Khmer can look fairly different depending on the font used. A compilation of what this script looks like in street view can be found here.
+- NOTE: The Thai and Lao scripts look similar, but the letters tend to have a less intricate look. However, some simplified Khmer fonts can look a bit like Thai and Lao.
+- Two types of poles are common:
+- Concrete ladder poles (so named because the indents and ridges resemble a ladder).
+- Concrete ladder poles (so named because the indents and ridges resemble a ladder).
+- Round concrete poles with small holes.
+- Round concrete poles with small holes.
+- Rarely, you might see simple wooden poles.
+- NOTE: The same type of round concrete pole is also common in Vietnam.
+- You can easily distinguish between Thailand and Cambodia based on the poles. Thailand uses square concrete poles with rows of small pinholes on the sides. Such poles are very uncommon in Cambodia (but not completely absent).
+- Cambodia has a variety of different bollards. The most common ones are:
+- A stone bollard with red-and-white stripes.
+- A stone bollard with red-and-white stripes.
+- A stone bollard with a red top and a white base, usually with a reflector in the red part.
+- A stone bollard with a red top and a white base, usually with a reflector in the red part.
+- Some bollards are unique to a road or region. More details can be found in the region-guessing section.
+- Cambodian road markers are made of stone, with a white-coloured base and a rounded red top. You will find the road number on the narrow side and a town name with a distance on the main side.
+- Chevrons in Cambodia are black with yellow arrows.
+- Chevrons are somewhat rare. On many occasions, Cambodia prefers to use bollards instead of chevrons to mark curves in the road.
+- NOTE: Chevrons in all other Southeast Asian countries have the reverse colour scheme: yellow with black arrows.
+- Roads have dashed or solid yellow middle road lines. Outer road lines are somewhat rare, but when present, they are solid white.
+- NOTE: Thailand uses similar road lines.
+- Many roads are unpaved. Usually, only main roads and roads in and near urban areas are paved.
+- Wooden houses on stilts are common. Walls are often made of vertical planks. Many homes have double or triple roofs.
+- In addition, traditional Cambodian wooden stilt houses tend to have very recognizable colour schemes.
+- Walls are commonly painted dark red-brown, light blue or an ochre orange.

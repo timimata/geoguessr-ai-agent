@@ -1,0 +1,41 @@
+--- NETHERLANDS PLONKIT SCRAPED GEOHINTS ---
+- Step 1 - Identifying the Netherlands
+- The Netherlands has long, yellow licence plates with the standard European blue strip on the left. Dutch taxis have blue plates.
+- NOTE: The only other countries in Europe with yellow licence plates are Luxembourg and the UK. For the UK, only the back plates are yellow, and they often lack the blue strip. In addition, some older coverage in France features the French yellow back plates. In Denmark, you can find yellow plates on commercial vehicles.
+- Dutch is a Germanic language. It features a lot of double vowels. Typical letter clusters are ij, ieuw and oe. “IJ“ written as one capitalised letter is also unique to the language.
+- NOTE: Dutch is also used in the region of Flanders, which comprises the northern half of Belgium.
+- The Netherlands has a simple, white bollard with a red reflector.
+- NOTE: On rare occasions, you can find round French-style bollards with a red band and a pointed top. A difference with French bollards is that the red wrap usually does not go all the way around the bollard.
+- The Netherlands usually does not have any utility poles. You might see larger power lines like the ones shown in the image, but essentially never any street-level smaller utility poles.
+- NOTE: Belgium does use utility poles somewhat commonly.
+- The Netherlands is extraordinarily flat. In most of the country, you will get no more than a few metres of elevation. Large swathes of the country are reclaimed land that is at or even below sea level.
+- NOTE: The most major exception to this is the south of Limburg, where you can get low hills. Another place with some amount of hills is De Veluwe in central Gelderland province.
+- In addition, the Netherlands is a very water-rich country. The country has innumerous waterways. Canals and ditches next to the road are common. Water management is an important facet of Dutch infrastructure, so you will often see dikes (low earthen walls to protect against water), dams and bridges.
+- Many rural roads are lined by rows of trees.
+- NOTE: This is also common in Poland.
+- The Netherlands has a high amount of urban planning, and as a result tends to have a very organised look. Road infrastructure is well-maintained. Suburbs are usually master-planned and typically feature row houses.
+- Like most of Europe, the Netherlands has all-white road lines. Many roads have dashed outside lines. Sometimes, you can find unique green middle lines.
+- Many Dutch roads are flanked by bicycle paths. Different designs exist, but a very common one is a reddish-pink lane.
+- Cycling is one of the most common modes of transportation in the Netherlands. You will see cyclists and bicycles everywhere.
+- Brick roads are common in the Netherlands, both in rural and urban areas. The brick pattern shown in the image is especially common.
+- Most Dutch sidewalks use the same type of square grey tiles and offset tiling pattern. In some historic areas, you might find smaller brick sidewalks.
+- The Netherlands has very recognizable speed bumps. They usually have white warning stripes that alternate between long and short. The example image is on a brick road, but they also occur on asphalt roads.
+- Many rural roads feature a sort of brick rumble strip on the sides. This is fairly unique to the Netherlands and a good way to identify the country in very rural rounds.
+- Street signs are almost always blue with white lettering. Very rarely, you can find yellow, white or green street signs.
+- The Dutch word for street is straat. Other common road name endings are -weg, -laan, -pad, and -plein. However, if you see a blue sign with the word ‘fietspad’, do not search for it; it simply means ‘bicycle path’.
+- NOTE: Street signs in Belgium come in a variety of colours and usually mention the municipality, which is rare in the Netherlands.
+- Dutch direction signs are blue with white lettering. Signs for bicyclists are white with a red border.
+- Dutch town entry signs are blue. The signs sometimes have very elaborate designs, often with frames and additional signs.
+- NOTE: Often, these signs list the municipality they are in, after the word ‘gemeente’ (gem). Many municipalities are named after larger towns or cities in the vicinity, which can help a lot with scanning.
+- Dutch road markers are green. Many list the road number in a small yellow or red box.
+- Highways have a red box and start with the letter A. Regional roads have a yellow box and start with the letter N.
+- NOTE: Some of them have province-specific designs. You can learn more about this in the region-guessing section.
+- Edges of Dutch road signs will extend to the back, creating a border visible from behind, sometimes retaining the colour of the sign. This is both consistent and unique to the country.
+- Many Dutch signposts feature striped markings with a black-and-white or blue-and-white colour scheme.
+- Road signs on traffic islands often have these bulky yellow signposts.
+- On some roads, especially in rural areas, you might find these distinctive striped barriers.
+- Brick architecture is very common in the Netherlands. Many buildings feature red-brownish-coloured bricks. Roofs often have orange or dark grey tiles.
+- NOTE: Similar brick architecture is also common in Denmark and Belgium.
+- As mentioned before, row houses are very common in the Netherlands. Almost half of the Dutch housing stock are row houses, significantly more than almost all other European countries.
+- Windmills, both traditional water or grain mills, and modern wind power turbines, are common in the Netherlands.
+- Some Generation 4 coverage has a car blur glitch where the black back of the Google car is visible.

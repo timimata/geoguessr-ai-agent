@@ -1,0 +1,9 @@
+- Focus on immediate visual cues: poles, road lines, signs, plates, vegetation, architecture.
+- Remove regional specifics that require zooming/moving (like specific MR numbers unless they're road signs, but road signs are good). Actually, "MR" prefix on road signs is a strong NMPZ clue.
+- Combine related points.
+- Draft:
+- Road signs exclusively use the "MR" prefix.
+- Road markings feature yellow outside lines and occasional triple white center lines.
+- Utility poles are dark brown wood with side-mounted insulators, typically three per pole.
+- License plates are long with a distinct green bottom strip.
+- Concrete bus shelters are common along roadsides.

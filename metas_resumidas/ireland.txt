@@ -1,0 +1,5 @@
+- Focus on immediate visual identifiers: plates, signs, road markings, poles, architecture, bollards, landscape.
+- Draft bullets:
+- Long white license plates with left-side EU blue strip (vs UK yellow backs).
+- Yellow outside road dashes; double yellow lines at road edges.
+- Yellow diamond-shaped warning & pedestrian signs; yellow-on-black chevrons.
