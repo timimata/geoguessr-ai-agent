@@ -178,6 +178,17 @@ async def run(args) -> None:
                 "confidence_raw": d.confidence_raw, "confidence_calibrated": d.confidence_calibrated,
                 "rag_countries": d.rag_countries, "ocr_text": d.ocr_text[:120],
                 "compass": d.compass,
+                "fired": {
+                    "rag": bool(d.rag_countries),
+                    "ocr": bool(d.ocr_text),
+                    "compass": bool(d.compass),
+                    "confusion_pairs": bool(d.context_fired.get("confusion_pairs")),
+                    "metas": bool(d.context_fired.get("metas")),
+                    "soil": bool(d.context_fired.get("soil")),
+                    "blacklist": bool(d.context_fired.get("blacklist")),
+                    "region_prefilter": bool(d.context_fired.get("region_prefilter")),
+                    "calibration": d.confidence_calibrated is not None,
+                },
                 "guess": {"country": d.guess.country, "region": d.guess.region,
                           "lat": d.guess.latitude, "lon": d.guess.longitude,
                           "reasoning": d.guess.reasoning,
@@ -227,12 +238,42 @@ async def run(args) -> None:
         "hedges": sum(1 for r in ok if r["hedge"]),
         "clamps": sum(1 for r in ok if r["clamped_km"]),
         "fallbacks": sum(1 for r in ok if r["fallback"]),
+        "fired": _fired_counts(ok),
+        "silent_features": _silent_features(ok),
         "stages": {s: summarize(ok, s) for s in ("initial", "pre_hedge", "final")},
         "rows": results,
     }
     out_path.write_text(json.dumps(report, indent=1, ensure_ascii=False), encoding="utf-8")
     print_report(report)
     print(f"\nsaved {out_path.relative_to(PROJECT_DIR)}")
+
+
+# Feature names whose absence across a whole run means something is broken, not
+# that the round simply did not call for it. A flag that is on and never fires in
+# 150 rounds is the failure mode that let a cross-module aliasing bug disable the
+# confusion-pair hint silently for several benchmark runs.
+_EXPECT_TO_FIRE = ("rag", "metas", "confusion_pairs", "region_prefilter", "calibration")
+
+
+def _fired_counts(rows: list[dict]) -> dict:
+    counts: dict[str, int] = {}
+    for r in rows:
+        for name, did in (r.get("fired") or {}).items():
+            counts[name] = counts.get(name, 0) + bool(did)
+    return counts
+
+
+def _silent_features(rows: list[dict]) -> list[str]:
+    """Enabled features that produced nothing across the entire run."""
+    import config as _config
+    counts = _fired_counts(rows)
+    silent = []
+    for name in _EXPECT_TO_FIRE:
+        if not _config.FEATURES.get(name, True):
+            continue
+        if counts.get(name, 0) == 0:
+            silent.append(name)
+    return silent
 
 
 def print_report(rep: dict) -> None:
@@ -242,6 +283,14 @@ def print_report(rep: dict) -> None:
           f"hedges {rep['hedges']} · clamps {rep['clamps']} · fallbacks {rep['fallbacks']}")
     for stage in ("initial", "pre_hedge", "final"):
         print(f"  {stage:<10} {fmt_summary(rep['stages'].get(stage, {}))}")
+    fired = rep.get("fired") or {}
+    if fired:
+        n = max(rep["n_ok"], 1)
+        print("  fired      " + "  ".join(f"{k}={v * 100 // n}%" for k, v in sorted(fired.items())))
+    silent = rep.get("silent_features") or []
+    if silent:
+        print(f"  WARNING: enabled but never fired in {rep['n_ok']} rounds: "
+              f"{', '.join(silent)} — treat this run as measuring a broken pipeline")
     ok = [r for r in rep["rows"] if "final" in r]
     from collections import Counter
     conf = Counter((r["final"]["pin_country"], r["actual"]["country"]) for r in ok if not r["final"]["hit"])

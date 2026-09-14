@@ -333,6 +333,9 @@ class Decision:
     rag_scores: dict[str, float] = field(default_factory=dict)
     fallback: bool = False
     timings: dict[str, float] = field(default_factory=dict)
+    # Which prompt hints actually made it into the request. A hint that is
+    # enabled and never fires across a whole benchmark run is broken, not idle.
+    context_fired: dict[str, bool] = field(default_factory=dict)
 
 
 @dataclass
@@ -398,7 +401,13 @@ async def _gather_signals(png: bytes, shot_path: Path,
     return sig
 
 
-def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict]:
+def _fire(fired: dict[str, bool] | None, name: str) -> None:
+    if fired is not None:
+        fired[name] = True
+
+
+def _build_context(sig: _Signals, pil_img, recent_wrong: list[str],
+                   fired: dict[str, bool] | None = None) -> list[dict]:
     """All prompt hints that go with the main call, each behind a feature flag."""
     extra: list[dict] = []
 
@@ -414,6 +423,7 @@ def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict
             ),
         })
         _p(f"  [blacklist] recent wrong: {', '.join(recent_wrong[:5])}")
+        _fire(fired, "blacklist")
 
     if sig.ocr_text:
         _p(f"  [ocr] texto detetado: {sig.ocr_text[:80]}...")
@@ -499,6 +509,7 @@ def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict
             if soil_hint:
                 extra.append({"role": "user", "content": soil_hint})
                 _p(f"  [soil] {soil_hint[:80]}...")
+            _fire(fired, "soil")
         except Exception as e:
             _p(f"  [soil error] {e}")
 
@@ -507,6 +518,7 @@ def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict
         metas_text = get_country_metas(top_countries) if top_countries else ""
         if metas_text:
             _p(f"  [meta] loaded cheat sheets for {', '.join(top_countries)} ({len(metas_text)} chars)")
+            _fire(fired, "metas")
             _top_conts = {continent_of(c) for c in top_countries if continent_of(c)}
             _top_norm = {_norm_country(c) for c in top_countries}
             parts = [
@@ -627,6 +639,7 @@ def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict
                     f"biome-similar regions across continents."
                 )})
                 _p(f"  [region] pre-filter: {cont} {cnt}/{len(rag_conts)} ({', '.join(similar[:3])})")
+                _fire(fired, "region_prefilter")
 
     _pairs = confusion_pairs()
     if feature_on("confusion_pairs") and _pairs and similar:
@@ -647,6 +660,7 @@ def _build_context(sig: _Signals, pil_img, recent_wrong: list[str]) -> list[dict
             })
             _p(f"  [confusion] {len(relevant)} relevant pair(s): "
                + ", ".join(f"{g}→{a}" for g, a, _ in relevant[:3]))
+            _fire(fired, "confusion_pairs")
     return extra
 
 
@@ -832,7 +846,8 @@ async def decide_guess(
     timings["signals"] = time.time() - t_start
     _p(f"  [parallel] OCR+compass+RAG concluídos em {timings['signals']:.1f}s")
 
-    extra = _build_context(sig, pil_img, recent_wrong or [])
+    context_fired: dict[str, bool] = {}
+    extra = _build_context(sig, pil_img, recent_wrong or [], context_fired)
     compass_bytes = sig.compass_bytes if feature_on("compass") else None
 
     # --- call #1 ---------------------------------------------------------
@@ -954,4 +969,5 @@ async def decide_guess(
         confidence_calibrated=conf_cal, hedge=hedge, ocr_text=sig.ocr_text,
         compass=sig.compass, rag_countries=list(sig.rag_countries),
         rag_scores=dict(sig.rag_scores), fallback=fallback, timings=timings,
+        context_fired=context_fired,
     )

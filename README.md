@@ -47,7 +47,10 @@ touches the browser, which is what makes a logged round replayable offline.
 | `stats.py` | Serves an HTML performance dashboard on `http://localhost:8000/` |
 | `analyze_last_50.py`, `ab_compare.py` | Accuracy and per-model comparisons over logged rounds |
 | `replay_errors.py` | Lists and reopens the rounds the bot got most wrong |
-| `test_logic.py`, `test_duels_api.py` | Offline checks needing no browser and no model |
+| `run_tests.py` | Runs every offline suite; `--quick` skips the ones loading heavy models |
+| `test_logic.py` | Decision logic: clamping, calibration, scoring, cross-module state |
+| `test_browser.py` | Pin placement maths and selector handling, against a fake page |
+| `test_duels_api.py` | The duels result reader, against canned game-server payloads |
 | `metas/`, `metas_resumidas/` | Scraped and summarised per-country hint text |
 
 ## Setup
@@ -118,7 +121,12 @@ python benchmark.py --compare baseline no_soil  # side by side, with win/loss ro
 python benchmark.py --calibration               # reported confidence vs real hit rate
 ```
 
-Feature names come from `FEATURES` in `bot.py`, and `FEATURES_OFF` in `.env`
+Each run also records which prompt hints actually fired. A feature that is
+enabled and fires in zero rounds is broken rather than idle, and the report
+says so: that is how a cross-module aliasing bug had silently disabled the
+confusion-pair hint across several runs.
+
+Feature names come from `FEATURES` in `config.py`, and `FEATURES_OFF` in `.env`
 disables the same switches during live play. Each run records the answer at three
 stages, so the effect of the review call, the clamp and the hedge is read off the
 same rounds without needing a second run.
@@ -171,6 +179,19 @@ RAG_EMBEDDING=streetclip python rag_calibrate.py --ids-from geoguessr_rondas
 The second command restricts the comparison to the rounds both indexes hold, so
 the two encoders are judged on the same images. StreetCLIP is a ViT-L/14 and
 takes about 2.5 s per image on CPU, so budget an hour for a full rebuild.
+
+## Tests
+
+```bash
+python run_tests.py          # everything, about 45 seconds
+python run_tests.py --quick  # skip the suites that load the country polygons and CLIP
+```
+
+They call the real functions rather than reimplementing them, and none of them
+need a browser, a model or a network. What they cover: coordinate maths and pin
+projection, polygon clamping and the open-water rescue, confidence parsing and
+calibration, the round log including its cache, the duels result reader, and the
+module-level state that the split into modules made easy to get wrong.
 
 ## Storage
 
