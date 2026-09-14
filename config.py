@@ -116,8 +116,17 @@ FEATURES: dict[str, bool] = {
     # the hand-written rules, and the rules crowd out the rest of the context.
     # The output contract half is always sent.
     "rich_system_prompt": False,
-    "soil": True,                  # HSV ground-colour biome hint
-    "metas": True,                 # Plonkit cheat sheets for RAG top-3 + disambiguation block
+    # OFF on cost, not on accuracy. With metas it measured a dead tie against
+    # leaving both on (88.0% against 88.7%, one point of score across 150 rounds,
+    # inside the noise), while firing on every single round. A tie is decided by
+    # what it costs, and this costs an HSV pass plus a paragraph of context.
+    "soil": False,                 # HSV ground-colour biome hint
+    # OFF on the same tie. Up to 618 tokens of Plonkit cheat sheets plus a
+    # disambiguation block, on the ~32% of rounds where retrieval names a country.
+    # CAVEAT: measured against gemini-3.1-flash-lite, which is strong at
+    # geolocation on its own. A weaker local model may well need the tips, so
+    # re-measure before assuming this carries over.
+    "metas": False,                # Plonkit cheat sheets for RAG top-3 + disambiguation block
     "india_hint": True,
     "south_africa_hint": True,
     "region_prefilter": True,      # RAG-majority continent lean (prepended)

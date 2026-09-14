@@ -136,15 +136,24 @@ Two flags are off by default because the benchmark measured them as losses on a
 
 | Flag | Evidence for switching it off |
 |---|---|
+| `rich_system_prompt` | Dropping ~1500 tokens of hand-written rules took accuracy from 84.0% to 88.7% |
 | `correction_rag_continent` | Fired 6 times in 150 rounds, changed the answer twice, both losses, one of them 22 km to 738 km |
 | `hedge` | Fired 8 times for +21 score points in total, and flipped one correct country to wrong |
 | `rag_car` | Its nearest neighbour named the right country 20.9% of the time, below the 21.9% you get by always answering "United States" |
+| `metas`, `soil` | A dead tie (88.0% against 88.7%, one point of score), so decided on what they cost |
 
-One flag is on but unmeasured: `rich_system_prompt` controls the roughly 1500
-tokens of GeoGuessr tradecraft that precede the output contract in every single
-request. Switch it off in a benchmark run to find out whether it earns its cost.
+The last row is the honest case: those two are not harmful, they simply earn
+nothing while costing tokens on every round. They were measured against
+`gemini-3.1-flash-lite`, which geolocates well unaided. A weaker local model may
+genuinely need the tips, so re-measure before assuming this carries over.
 
 Turn any of these back on with evidence from a larger set, not from a hunch.
+
+The through-line across all of them: this pipeline was losing accuracy to its own
+context. Every hint that was measured turned out to be neutral or harmful, and
+the one change that helped most was deleting text. Retrieval precision measured
+on its own did not predict end-to-end value either, so measure the pipeline, not
+the component.
 
 The model runs at temperature 0.2, so two runs of the identical configuration
 differ. Measured run to run on this set, the noise is around 20 score points and

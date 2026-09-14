@@ -195,16 +195,21 @@ def test_rag_query():
         return
     n = coll.count()
     print(f"  index holds {n} rounds")
-    shot = next(Path("screenshots").glob("*.png"), None)
+    # Query with an image the index definitely holds. Its own vector is then the
+    # nearest neighbour at distance ~0, so a result is guaranteed regardless of
+    # the threshold; getting nothing back means the encoder cannot query at all.
+    # That is a real failure mode: a Chroma embedding function that does not
+    # subclass EmbeddingFunction indexes fine and then fails every single query.
+    indexed = set(coll.get(include=[])["ids"])
+    shot = next((p for p in Path("screenshots").iterdir()
+                 if p.suffix.lower() in (".png", ".jpg") and p.stem in indexed), None)
     if not shot:
-        print("  SKIP  no screenshots to query with")
+        print("  SKIP  no indexed screenshot to query with")
         return
     text, countries, top, dist, scores = rag.build_rag_examples(shot, max_examples=3)
     check_true("a query returns without error", isinstance(countries, list))
-    # An index with rounds in it must return something. Returning nothing means a
-    # broken encoder, not an empty database: a Chroma embedding function that does
-    # not subclass EmbeddingFunction indexes fine and then fails every query.
-    check_true(f"a non-empty index ({rag.RAG_EMBEDDING}) actually retrieves", bool(countries))
+    check_true(f"querying with an indexed image ({rag.RAG_EMBEDDING}) retrieves it",
+               bool(countries))
     if countries:
         check_true("matches carry a country", all(isinstance(c, str) for c in countries))
         check_true("the top distance is within the threshold",
