@@ -109,10 +109,13 @@ FEATURES: dict[str, bool] = {
     # "United States". It also costs an embedding and a query per round, and the
     # crop itself has never been sent to the model. Re-measure before re-enabling.
     "rag_car": False,              # separate nearest-neighbour search on the car crop
-    # The ~1500-token GeoGuessr tradecraft half of the system prompt, sent on every
-    # call. On by default because it predates any measurement; switch it off with
-    # benchmark.py to find out whether it is paying for itself.
-    "rich_system_prompt": True,
+    # OFF: the ~1500-token GeoGuessr tradecraft half of the system prompt, sent on
+    # every call, measured as a net loss. On a 150-round set with StreetCLIP
+    # retrieval, dropping it took country accuracy from 84.0% to 88.7% and the
+    # mean round score from 4089 to 4186. The model's own geolocation priors beat
+    # the hand-written rules, and the rules crowd out the rest of the context.
+    # The output contract half is always sent.
+    "rich_system_prompt": False,
     "soil": True,                  # HSV ground-colour biome hint
     "metas": True,                 # Plonkit cheat sheets for RAG top-3 + disambiguation block
     "india_hint": True,

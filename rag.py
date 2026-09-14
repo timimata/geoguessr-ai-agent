@@ -197,9 +197,13 @@ def _get_chroma_collection_locked():
 #   openclip    no threshold separates anything. Same-country neighbours sit at a
 #               median distance of 0.099 and different-country ones at 0.118, so
 #               0.65 (show everything) loses nothing that a tighter value keeps.
-#   streetclip  0.10 shows a reference on 94% of rounds and 80% of those name the
-#               right country. Tightening to 0.05 raises that to 91% but only
-#               covers a third of rounds.
+#   streetclip  0.10. Retrieval precision alone does not predict end-to-end value:
+#               0.15 scores better in isolation (78.5% precision, 99.5% coverage)
+#               but measured worse in the pipeline, losing 11 countries and
+#               gaining 2 over 150 rounds. The rounds it lost were ones the model
+#               had right and the extra reference dragged to a neighbour
+#               (Ireland to UK, Nepal to India, Peru to Ecuador). Showing more
+#               references anchors the model away from its own better judgement.
 _DEFAULT_THRESHOLDS = {"openclip": 0.65, "streetclip": 0.10}
 
 
