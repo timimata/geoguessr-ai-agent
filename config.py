@@ -99,10 +99,23 @@ _CLIENT_TIMEOUT = 25.0 if IS_MULTIPLAYER else 600.0
 # switched off with FEATURES_OFF="soil,blacklist" in .env, or benchmark.py --off.
 FEATURES: dict[str, bool] = {
     "blacklist": True,             # "you recently guessed X wrong" warning
-    "ocr": True,                   # EasyOCR text → prompt
+    # OFF on cost. Measured against a run with it on: country accuracy 88.7%
+    # against 87.3%, mean score 4228 against 4230 (a tie), and 3.1 seconds per
+    # round against 14.8. It was three quarters of the round latency for nothing.
+    # The reason is that the model reads the image itself: handing a vision model
+    # a transcript of text it can already see adds no information.
+    # CAVEAT: measured against gemini-3.1-flash-lite. A text-blind or weaker
+    # model would likely need this, so re-measure before assuming it carries over.
+    # Turning this off also disables the compass, which reads the ribbon by OCR.
+    "ocr": False,                  # EasyOCR text → prompt
     "ocr_script": True,            # non-Latin script → hard country-set constraint
     "ocr_literal": True,           # verbatim country name in OCR → hard constraint + review
-    "compass": True,               # OpenCV compass heading + crop image + hemisphere hint
+    # OFF on evidence. Once it actually worked (67% detection against the 8% of
+    # noise it managed before), it still measured as a small loss: same country
+    # accuracy, mean score 4160 with it against 4230 without. Asking the model to
+    # reason from shadow direction to hemisphere costs more attention than the
+    # heading is worth, and the heading is right about six times in ten.
+    "compass": False,              # compass ribbon heading + crop image + hemisphere hint
     "rag": True,                   # CLIP nearest-neighbour reference rounds
     # OFF: rag_calibrate.py measured the bottom-30%-of-frame crop naming the right
     # country 20.9% of the time, below the 21.9% you get by always answering

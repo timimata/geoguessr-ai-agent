@@ -145,11 +145,16 @@ Two flags are off by default because the benchmark measured them as losses on a
 | `hedge` | Fired 8 times for +21 score points in total, and flipped one correct country to wrong |
 | `rag_car` | Its nearest neighbour named the right country 20.9% of the time, below the 21.9% you get by always answering "United States" |
 | `metas`, `soil` | A dead tie (88.0% against 88.7%, one point of score), so decided on what they cost |
+| `ocr` | A tie on score and 3.1 seconds per round against 14.8. It was three quarters of the latency |
+| `compass` | Even once it read the ribbon correctly, 4160 against 4230 with it off |
 
-The last row is the honest case: those two are not harmful, they simply earn
-nothing while costing tokens on every round. They were measured against
-`gemini-3.1-flash-lite`, which geolocates well unaided. A weaker local model may
-genuinely need the tips, so re-measure before assuming this carries over.
+The `ocr` result is the one worth understanding: handing a vision model a
+transcript of text it can already see in the image adds no information, and
+EasyOCR was three quarters of the round's latency. Everything below `rag_car` in
+that table is a tie decided on cost rather than a harm, and all of it was
+measured against `gemini-3.1-flash-lite`, which reads signage and geolocates
+well unaided. A weaker or text-blind local model would likely need several of
+these back, so re-measure before assuming any of it carries over.
 
 Turn any of these back on with evidence from a larger set, not from a hunch.
 
