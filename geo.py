@@ -18,7 +18,13 @@ try:
     from pathlib import Path
     import json
     
-    # Carregar o GeoJSON uma vez
+    # Every exit from this block must leave WORLD_BORDERS and _COUNTRY_POLYGONS
+    # defined. pipeline.py imports both by name at module level, so leaving one
+    # undefined turns a missing data file into an ImportError that takes down the
+    # whole agent instead of just disabling the clamp.
+    WORLD_BORDERS = None
+    _COUNTRY_POLYGONS = {}
+
     border_file = Path(__file__).parent / "countries.geojson"
     try:
         with open(border_file, "r", encoding="utf-8") as f:
@@ -58,6 +64,19 @@ try:
 except ImportError:
     say("Aviso: biblioteca 'shapely' em falta. O Country Clamping não estará ativo.")
     WORLD_BORDERS = None
+    _COUNTRY_POLYGONS = {}
+
+    # Stand-ins so callers can import these unconditionally; the clamp checks
+    # WORLD_BORDERS before using them.
+    def shape(*_a, **_k):                     # noqa: D103
+        raise RuntimeError("shapely is not installed")
+
+    def nearest_points(*_a, **_k):            # noqa: D103
+        raise RuntimeError("shapely is not installed")
+
+    class Point:                              # noqa: D101
+        def __init__(self, *_a, **_k):
+            raise RuntimeError("shapely is not installed")
 
 _COUNTRY_ALIASES = {
     "usa": "united states", "us": "united states", "u.s.": "united states",
