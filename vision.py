@@ -94,111 +94,122 @@ COMPASS_INVERT = False  # Flip to True if the detected direction is 180° off.
 COMPASS_DEBUG = os.getenv("COMPASS_DEBUG", "").strip().lower() in ("1", "true", "yes")
 
 
+# GeoGuessr draws the compass as a horizontal ribbon across the top centre of
+# the panorama: tick marks with the cardinal labels N, NE, E, SE, S, SW, W, NW
+# printed at their true bearings, and a marker at the ribbon's centre showing
+# where the camera points.
+#
+# This used to look for a circular dial with a red needle, using a Hough circle
+# search and an HSV red mask. No such dial exists. It reported a direction on 8%
+# of rounds, and those were red pixels in the sky or on a roof rather than a
+# compass, so the heading handed to the model was noise.
+#
+# Reading it: the labels sit on known bearings and are evenly spaced, so one
+# label plus its pixel offset from the ribbon centre gives the heading. Taking
+# whichever label happens to be nearest the centre is not enough, because OCR
+# often misses one and then the nearest label it did read is the wrong one --
+# that alone accounted for 4 of 10 errors on a hand-checked sample.
+_COMPASS_BEARINGS = {
+    "N": 0, "NE": 45, "E": 90, "SE": 135,
+    "S": 180, "SW": 225, "W": 270, "NW": 315,
+}
+_COMPASS_LABELS = {
+    "N": "North", "NE": "North-East", "E": "East", "SE": "South-East",
+    "S": "South", "SW": "South-West", "W": "West", "NW": "North-West",
+}
+_COMPASS_ORDER = ["North", "North-East", "East", "South-East",
+                  "South", "South-West", "West", "North-West"]
+# The ribbon is a fixed UI element. Fractions of the frame, measured across
+# screenshots from several months: the band is wider than the ribbon so a
+# slightly different viewport still contains it.
+_COMPASS_BAND = (0.395, 0.005, 0.605, 0.062)
+_COMPASS_UPSCALE = 3          # EasyOCR needs the glyphs bigger than they render
+# 45° of bearing spans ~324 px at that upscale, so a label more than half a step
+# from the centre means the nearest one was missed and the read is not trusted.
+_COMPASS_PX_PER_STEP = 324.0
+# Below this, reads are usually a tick mark or half of a two-letter label.
+_COMPASS_MIN_CONF = 0.5
+
+
 def crop_compass_meta(png_bytes: bytes) -> str:
+    """The eight-point direction the camera faces, or "" when it cannot be read.
+
+    Returns one of the values of _COMPASS_LABELS so the caller can look up the
+    screen-to-world mapping it injects into the prompt.
     """
-    Detects the GeoGuessr compass needle direction via OpenCV.
-    Strategy:
-      1. Crop bottom-left corner (compass zone in NMPZ).
-      2. Find compass circle (pivot) via Hough.
-      3. Build red mask (the N-marker / red needle tip).
-      4. Use the red pixel FARTHEST from pivot as the needle tip — robust against
-         needles where red covers both halves (centroid bug).
-      5. Compute bearing.
-    """
-    img_pil = Image.open(BytesIO(png_bytes)).convert("RGB")
-    w, h = img_pil.size
-    # A bússola nova do GeoGuessr fica no canto SUPERIOR no MEIO do ecrã
-    crop_box = (int(w * 0.35), 0, int(w * 0.65), int(h * 0.20))
-    compass_crop = img_pil.crop(crop_box)
-
-    img_cv = cv2.cvtColor(np.array(compass_crop), cv2.COLOR_RGB2BGR)
-    hsv = cv2.cvtColor(img_cv, cv2.COLOR_BGR2HSV)
-
-    # Red mask
-    lower_red1 = np.array([0, 80, 60])
-    upper_red1 = np.array([10, 255, 255])
-    lower_red2 = np.array([170, 80, 60])
-    upper_red2 = np.array([180, 255, 255])
-    red_mask = cv2.inRange(hsv, lower_red1, upper_red1) | cv2.inRange(hsv, lower_red2, upper_red2)
-
-    if int(np.count_nonzero(red_mask)) < 10:
+    if _ocr_reader is None:
+        return ""
+    try:
+        img = Image.open(BytesIO(png_bytes)).convert("RGB")
+        w, h = img.size
+        x0, y0, x1, y1 = _COMPASS_BAND
+        crop = img.crop((int(w * x0), int(h * y0), int(w * x1), int(h * y1)))
+        crop = crop.resize((crop.width * _COMPASS_UPSCALE, crop.height * _COMPASS_UPSCALE),
+                           Image.LANCZOS)
+        arr = np.array(crop)
+        with _ocr_lock:
+            # No allowlist. Restricting the alphabet to NESW forces the ribbon's
+            # tick marks to be read as letters -- a run of "|" comes back as "N",
+            # "NN" or "WW" -- which is how the old version reported a heading
+            # that was really a row of ticks. Read freely, then keep only tokens
+            # that are exactly a compass point.
+            found = _ocr_reader.readtext(arr, detail=1)
+    except Exception as e:
+        say(f"  [compass error] {e}")
         return ""
 
-    # Find the compass circle (pivot)
-    gray = cv2.cvtColor(img_cv, cv2.COLOR_BGR2GRAY)
-    gray = cv2.medianBlur(gray, 5)
-    circles = cv2.HoughCircles(
-        gray, cv2.HOUGH_GRADIENT, dp=1, minDist=20,
-        param1=50, param2=30, minRadius=10, maxRadius=60,
-    )
-    if circles is None:
+    # The ribbon is centred on the panorama (measured at 0.501 of frame width
+    # across 120 screenshots), so the crop centre is where the camera points.
+    centre_x = arr.shape[1] / 2.0
+    reads = []
+    for box, text, conf in found:
+        label = (text or "").strip().upper()
+        if label not in _COMPASS_BEARINGS or conf < _COMPASS_MIN_CONF:
+            continue
+        reads.append((label, sum(p[0] for p in box) / 4.0, float(conf)))
+    if not reads:
         return ""
 
-    with np.errstate(over="ignore"):
-        circles = np.around(circles).astype(np.int64)
-        # Pick the circle whose interior contains the most red pixels
-        best_circle = None
-        best_red = -1
-        for i in circles[0, :]:
-            cx_c, cy_c, r_c = int(i[0]), int(i[1]), int(i[2])
-            y0, y1 = max(0, cy_c - r_c), min(red_mask.shape[0], cy_c + r_c)
-            x0, x1 = max(0, cx_c - r_c), min(red_mask.shape[1], cx_c + r_c)
-            sub = red_mask[y0:y1, x0:x1]
-            red_in = int(np.count_nonzero(sub))
-            if red_in > best_red:
-                best_red = red_in
-                best_circle = (cx_c, cy_c, r_c)
-        if best_circle is None or best_red < 5:
-            return ""
-        cx, cy, r = best_circle
+    px_per_step = _COMPASS_PX_PER_STEP
+    if len(reads) >= 2:
+        # Two labels pin the scale for this frame. Only trust the pair when the
+        # gap matches a whole number of steps, which rejects a label read twice
+        # or half of a two-letter one picked up as its own token.
+        a, b = sorted(reads, key=lambda r: r[1])[:2]
+        steps = ((_COMPASS_BEARINGS[b[0]] - _COMPASS_BEARINGS[a[0]]) % 360) / 45
+        gap = b[1] - a[1]
+        if steps >= 1 and gap > 50:
+            measured = gap / steps
+            if 0.75 * _COMPASS_PX_PER_STEP < measured < 1.25 * _COMPASS_PX_PER_STEP:
+                px_per_step = measured
 
-        # Mask red pixels within the circle radius only
-        ys, xs = np.nonzero(red_mask)
-        if len(xs) == 0:
-            return ""
-        dxs = xs.astype(np.int64) - cx
-        dys = ys.astype(np.int64) - cy
-        dists_sq = dxs * dxs + dys * dys
-        inside = dists_sq <= (r * r)
-        if not np.any(inside):
-            return ""
-        dxs_in = dxs[inside]
-        dys_in = dys[inside]
-        dists_in = dists_sq[inside]
-        # Farthest red pixel from pivot = needle tip
-        tip_idx = int(np.argmax(dists_in))
-        tip_dx = int(dxs_in[tip_idx])
-        tip_dy = int(dys_in[tip_idx])
+    # Anchor on the most confident read and walk to the centre from there.
+    label, x, _ = max(reads, key=lambda r: (r[2], -abs(r[1] - centre_x)))
+    if abs(x - centre_x) > px_per_step * 2.0:
+        return ""            # that far out is a stray token, not a compass label
+    heading = _COMPASS_BEARINGS[label] + (centre_x - x) / px_per_step * 45.0
+    direction = _COMPASS_ORDER[int(round(heading / 45.0)) % 8]
+    if COMPASS_INVERT:
+        opposite = {"North": "South", "South": "North", "East": "West", "West": "East",
+                    "North-East": "South-West", "South-West": "North-East",
+                    "North-West": "South-East", "South-East": "North-West"}
+        direction = opposite.get(direction, direction)
 
-        rads = math.atan2(tip_dy, tip_dx)
-        degs = math.degrees(rads)
-        facing_deg = (-degs - 90) % 360
-        if COMPASS_INVERT:
-            facing_deg = (facing_deg + 180) % 360
+    if COMPASS_DEBUG:
+        try:
+            dbg_dir = PROJECT_DIR / "compass_debug"
+            dbg_dir.mkdir(exist_ok=True)
+            dbg = cv2.cvtColor(arr, cv2.COLOR_RGB2BGR).copy()
+            cv2.line(dbg, (int(centre_x), 0), (int(centre_x), dbg.shape[0]), (0, 255, 0), 1)
+            cv2.circle(dbg, (int(x), dbg.shape[0] // 2), 4, (0, 0, 255), -1)
+            cv2.putText(dbg, f"{label}@{x:.0f} -> {direction}", (4, 14),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.45, (255, 255, 255), 1, cv2.LINE_AA)
+            ts = time.strftime("%Y%m%d_%H%M%S")
+            cv2.imwrite(str(dbg_dir / f"compass_{ts}_{label}.png"), dbg)
+        except Exception:
+            pass
 
-        dirs = ["North", "North-East", "East", "South-East", "South", "South-West", "West", "North-West"]
-        idx = int(round(facing_deg / 45.0)) % 8
-        direction = dirs[idx]
-
-        if COMPASS_DEBUG:
-            try:
-                dbg_dir = PROJECT_DIR / "compass_debug"
-                dbg_dir.mkdir(exist_ok=True)
-                dbg = img_cv.copy()
-                cv2.circle(dbg, (cx, cy), r, (0, 255, 0), 1)
-                cv2.circle(dbg, (cx, cy), 2, (0, 255, 0), -1)
-                tip_abs = (cx + tip_dx, cy + tip_dy)
-                cv2.line(dbg, (cx, cy), tip_abs, (255, 255, 0), 2)
-                cv2.circle(dbg, tip_abs, 3, (0, 0, 255), -1)
-                cv2.putText(dbg, f"{direction} ({facing_deg:.0f}deg)",
-                            (2, dbg.shape[0] - 4), cv2.FONT_HERSHEY_SIMPLEX,
-                            0.4, (255, 255, 255), 1, cv2.LINE_AA)
-                ts = time.strftime("%Y%m%d_%H%M%S")
-                cv2.imwrite(str(dbg_dir / f"compass_{ts}_{direction.replace('-', '')}.png"), dbg)
-            except Exception:
-                pass
-
-        return direction
+    return direction
 
 
 def analyze_ground_color(pil_img) -> str | None:
