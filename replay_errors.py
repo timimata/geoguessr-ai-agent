@@ -17,15 +17,15 @@ from collections import Counter
 from pathlib import Path
 
 PROJECT_DIR = Path(__file__).parent.resolve()
-LOG_FILE = PROJECT_DIR / "log.json"
+from storage import load_rounds, log_path
 
 
 def load_log() -> list[dict]:
-    if not LOG_FILE.exists():
-        print("log.json não encontrado.")
+    rounds = load_rounds()
+    if not rounds:
+        print(f"{log_path().name} está vazio ou não existe.")
         sys.exit(1)
-    with open(LOG_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return rounds
 
 
 def find_worst_errors(data: list[dict], threshold: float, top: int) -> list[dict]:

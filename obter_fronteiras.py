@@ -2,10 +2,14 @@ import json
 import urllib.request
 from pathlib import Path
 
-def download_countries_geojson():
-    dest = Path("countries.geojson")
-    if dest.exists():
-        print("O ficheiro countries.geojson já existe.")
+DEST = Path(__file__).parent / "countries.geojson"
+
+
+def download_countries_geojson(force: bool = False):
+    dest = DEST
+    if dest.exists() and not force:
+        print(f"O ficheiro {dest.name} já existe ({dest.stat().st_size / 1e6:.1f} MB).")
+        print("Use --force para voltar a descarregar.")
         return
 
     # Usar um set público, leve e gratuito com polígonos de fronteira
@@ -24,4 +28,5 @@ def download_countries_geojson():
         print(f"Erro ao descarregar as fronteiras: {e}")
 
 if __name__ == "__main__":
-    download_countries_geojson()
+    import sys
+    download_countries_geojson(force="--force" in sys.argv)

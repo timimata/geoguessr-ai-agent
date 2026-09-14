@@ -1,46 +1,78 @@
-import json
+"""analyze_last_50.py - quick read on how the bot has been doing lately.
+
+    python analyze_last_50.py           # last 50 rounds
+    python analyze_last_50.py 200       # last 200
+
+Rounds with no result yet (a duel still waiting on an opponent, or a round the
+bot failed to submit) are counted separately rather than folded in as zero.
+"""
+import sys
 from collections import Counter
-import copy
 
-data = []
-with open("log.json", "r", encoding="utf-8") as f:
-    try:
-        full_data = json.load(f)
-        if isinstance(full_data, list):
-            data = full_data
-    except Exception as e:
-        print(f"Erro ao ler JSON: {e}")
+from storage import load_rounds, log_path
 
-# Filtrar as ultimas 50 rondas
-last_50 = data[-50:]
 
-total = len(last_50)
-country_matches = 0
-total_error_km = 0
-errors = []
+def country_of(entry, key: str, fallback: str) -> str:
+    value = entry.get(key)
+    if isinstance(value, dict):
+        return value.get("country") or "Unknown"
+    return entry.get(fallback) or "Unknown"
 
-for r in last_50:
-    t_country = r.get("actual", {}).get("country", "Unknown") if isinstance(r.get("actual"), dict) else r.get("actual_country", "Unknown")
-    
-    g_country = r.get("guess", {}).get("country", "Unknown") if isinstance(r.get("guess"), dict) else r.get("guess_country", "Unknown")
-    if t_country == "Unknown": t_country = r.get("real_country", "Unknown")
-    
-    dist = r.get("error_km", 0)
-    
-    total_error_km += dist
-    if t_country == g_country:
-        country_matches += 1
-    else:
-        errors.append((t_country, g_country, dist))
 
-avg_error = total_error_km / total if total > 0 else 0
-acc = (country_matches / total) * 100 if total > 0 else 0
+def main() -> int:
+    n = 50
+    if len(sys.argv) > 1:
+        try:
+            n = int(sys.argv[1])
+        except ValueError:
+            print(f"Uso: python {sys.argv[0]} [n]")
+            return 1
 
-print(f"--- ANÁLISE DAS ÚLTIMAS {total} RONDAS ---")
-print(f"Precisão de País: {acc:.1f}% ({country_matches}/{total})")
-print(f"Erro Médio: {avg_error:.0f} km")
+    rounds = load_rounds()
+    if not rounds:
+        print(f"{log_path().name} está vazio ou não existe.")
+        return 1
+    recent = rounds[-n:]
 
-print("\n--- TOP ERROS (Real vs Advinha) ---")
-error_counts = Counter(f"{t} vs {g}" for t, g, d in errors)
-for pair, count in error_counts.most_common(10):
-    print(f"{pair}: {count} vezes")
+    scored, unscored = [], 0
+    for r in recent:
+        if r.get("error_km") is None or not isinstance(r.get("actual"), dict):
+            unscored += 1
+        else:
+            scored.append(r)
+
+    print(f"--- ÚLTIMAS {len(recent)} RONDAS ({log_path().name}) ---")
+    if unscored:
+        print(f"Sem resultado: {unscored} (duelo por resolver ou palpite não submetido)")
+    if not scored:
+        print("Nenhuma ronda pontuada neste intervalo.")
+        return 0
+
+    hits = [r for r in scored if r.get("country_hit")]
+    errors = sorted(r["error_km"] for r in scored)
+    median = errors[len(errors) // 2]
+    print(f"Precisão de país: {len(hits) / len(scored) * 100:.1f}% ({len(hits)}/{len(scored)})")
+    print(f"Erro médio: {sum(errors) / len(errors):.0f} km   ·   mediana: {median:.0f} km")
+    print(f"Abaixo de 200 km: {sum(e < 200 for e in errors) / len(errors) * 100:.0f}%"
+          f"   ·   acima de 2000 km: {sum(e > 2000 for e in errors) / len(errors) * 100:.0f}%")
+
+    by_model = Counter(r.get("model") or "(desconhecido)" for r in scored)
+    if len(by_model) > 1:
+        print("\n--- POR MODELO ---")
+        for model, count in by_model.most_common():
+            rows = [r for r in scored if (r.get("model") or "(desconhecido)") == model]
+            h = sum(1 for r in rows if r.get("country_hit"))
+            print(f"{model:<32} n={count:<4} país {h / count * 100:.0f}%")
+
+    misses = [(country_of(r, "actual", "real_country"),
+               country_of(r, "guess", "guess_country"))
+              for r in scored if not r.get("country_hit")]
+    if misses:
+        print("\n--- TOP ERROS (real vs palpite) ---")
+        for (actual, guessed), count in Counter(misses).most_common(10):
+            print(f"{actual} vs {guessed}: {count}x")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

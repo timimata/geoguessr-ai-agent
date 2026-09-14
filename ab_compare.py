@@ -2,11 +2,11 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-LOG_FILE = Path(__file__).parent / "log.json"
+from storage import load_rounds
 
 
 def main() -> None:
-    rounds = json.loads(LOG_FILE.read_text(encoding="utf-8"))
+    rounds = load_rounds()
     by_model: dict[str, list] = defaultdict(list)
     for r in rounds:
         m = r.get("model") or "(unknown)"

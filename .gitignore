@@ -13,3 +13,12 @@ chroma.sqlite3
 vetores_db/
 compass_debug/
 compass_debug.jpg
+
+# Benchmark runs (per-run JSON with per-round rows)
+benchmark_results/
+
+# Country boundaries: 14 MB and regenerable with `python obter_fronteiras.py`
+countries.geojson
+
+# Round log: log.jsonl is the live one, log.json the pre-migration backup
+log.jsonl

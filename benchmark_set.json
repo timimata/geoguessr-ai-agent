@@ -1,0 +1,2108 @@
+{
+ "seed": 42,
+ "n": 150,
+ "since": null,
+ "created": "2026-09-14T12:52:18",
+ "rounds": [
+  {
+   "id": "round_20260419_182404",
+   "screenshot": "screenshots\\round_20260419_182404.png",
+   "actual": {
+    "latitude": 51.54239179,
+    "longitude": -0.1469243222,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260419_182404",
+   "live_model": null,
+   "live_error_km": 5717.264168911701,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_182426",
+   "screenshot": "screenshots\\round_20260419_182426.png",
+   "actual": {
+    "latitude": 22.383811950683594,
+    "longitude": 113.97425079345703,
+    "country": "Hong Kong",
+    "admin1": "Tuen Mun"
+   },
+   "timestamp": "20260419_182426",
+   "live_model": null,
+   "live_error_km": 21.27840522973643,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_182646",
+   "screenshot": "screenshots\\round_20260419_182646.png",
+   "actual": {
+    "latitude": 52.333457946777344,
+    "longitude": 6.102311611175537,
+    "country": "Netherlands",
+    "admin1": "Overijssel"
+   },
+   "timestamp": "20260419_182646",
+   "live_model": null,
+   "live_error_km": 495.37354763639416,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_182756",
+   "screenshot": "screenshots\\round_20260419_182756.png",
+   "actual": {
+    "latitude": 13.286091804504395,
+    "longitude": 80.26408386230469,
+    "country": "India",
+    "admin1": "Tamil Nadu"
+   },
+   "timestamp": "20260419_182756",
+   "live_model": null,
+   "live_error_km": 35.028373394411005,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_182949",
+   "screenshot": "screenshots\\round_20260419_182949.png",
+   "actual": {
+    "latitude": 38.19947052001953,
+    "longitude": -8.614849090576172,
+    "country": "Portugal",
+    "admin1": "Setubal"
+   },
+   "timestamp": "20260419_182949",
+   "live_model": null,
+   "live_error_km": 89.57256425046263,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_184450",
+   "screenshot": "screenshots\\round_20260419_184450.png",
+   "actual": {
+    "latitude": 39.18280029296875,
+    "longitude": -85.98892974853516,
+    "country": "United States",
+    "admin1": "Indiana"
+   },
+   "timestamp": "20260419_184450",
+   "live_model": null,
+   "live_error_km": 609.7127175645006,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_191019",
+   "screenshot": "screenshots\\round_20260419_191019.png",
+   "actual": {
+    "latitude": -33.7378057581909,
+    "longitude": -70.29884080929841,
+    "country": "Chile",
+    "admin1": "Santiago Metropolitan"
+   },
+   "timestamp": "20260419_191019",
+   "live_model": null,
+   "live_error_km": 3126.015557068256,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_193754",
+   "screenshot": "screenshots\\round_20260419_193754.png",
+   "actual": {
+    "latitude": 34.173561096191406,
+    "longitude": -119.22160339355469,
+    "country": "United States",
+    "admin1": "California"
+   },
+   "timestamp": "20260419_193754",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 83.32296484352435,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_195000",
+   "screenshot": "screenshots\\round_20260419_195000.png",
+   "actual": {
+    "latitude": 40.61454391479492,
+    "longitude": -74.30026245117188,
+    "country": "United States",
+    "admin1": "New Jersey"
+   },
+   "timestamp": "20260419_195000",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 7.821350352360548,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_195336",
+   "screenshot": "screenshots\\round_20260419_195336.png",
+   "actual": {
+    "latitude": 60.16912810832513,
+    "longitude": 24.95359292829223,
+    "country": "Finland",
+    "admin1": "Uusimaa"
+   },
+   "timestamp": "20260419_195336",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 863.5202698170341,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_195646",
+   "screenshot": "screenshots\\round_20260419_195646.png",
+   "actual": {
+    "latitude": 40.77943420410156,
+    "longitude": -89.6732177734375,
+    "country": "United States",
+    "admin1": "Illinois"
+   },
+   "timestamp": "20260419_195646",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1081.509936252909,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_195950",
+   "screenshot": "screenshots\\round_20260419_195950.png",
+   "actual": {
+    "latitude": 34.671351420948646,
+    "longitude": 137.33588323446415,
+    "country": "Japan",
+    "admin1": "Aichi"
+   },
+   "timestamp": "20260419_195950",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 15754.39285168994,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_203152",
+   "screenshot": "screenshots\\round_20260419_203152.png",
+   "actual": {
+    "latitude": -6.163546665521314,
+    "longitude": 106.52189681113059,
+    "country": "Indonesia",
+    "admin1": "West Java"
+   },
+   "timestamp": "20260419_203152",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 30.686425417974018,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_203341",
+   "screenshot": "screenshots\\round_20260419_203341.png",
+   "actual": {
+    "latitude": 14.42732048034668,
+    "longitude": 120.93685150146484,
+    "country": "Philippines",
+    "admin1": "Calabarzon"
+   },
+   "timestamp": "20260419_203341",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 699.758350219602,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_212058",
+   "screenshot": "screenshots\\round_20260419_212058.png",
+   "actual": {
+    "latitude": 35.27552032470703,
+    "longitude": -84.59927368164062,
+    "country": "United States",
+    "admin1": "Tennessee"
+   },
+   "timestamp": "20260419_212058",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 114.62850571431315,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_212741",
+   "screenshot": "screenshots\\round_20260419_212741.png",
+   "actual": {
+    "latitude": 55.202484130859375,
+    "longitude": 38.375831604003906,
+    "country": "Russian Federation",
+    "admin1": "Moskovskaya"
+   },
+   "timestamp": "20260419_212741",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1874.3086228251702,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_212843",
+   "screenshot": "screenshots\\round_20260419_212843.png",
+   "actual": {
+    "latitude": 55.73579406738281,
+    "longitude": 9.128924369812012,
+    "country": "Denmark",
+    "admin1": "South Denmark"
+   },
+   "timestamp": "20260419_212843",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 8841.003181034628,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_213242",
+   "screenshot": "screenshots\\round_20260419_213242.png",
+   "actual": {
+    "latitude": 53.876380920410156,
+    "longitude": -6.297519207000732,
+    "country": "Ireland",
+    "admin1": "Leinster"
+   },
+   "timestamp": "20260419_213242",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 406.85404875954197,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_213603",
+   "screenshot": "screenshots\\round_20260419_213603.png",
+   "actual": {
+    "latitude": 55.907569885253906,
+    "longitude": 49.02375411987305,
+    "country": "Russian Federation",
+    "admin1": "Tatarstan"
+   },
+   "timestamp": "20260419_213603",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1992.7590579949178,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_220954",
+   "screenshot": "screenshots\\round_20260419_220954.png",
+   "actual": {
+    "latitude": 49.436004638671875,
+    "longitude": -56.15473937988281,
+    "country": "Canada",
+    "admin1": "Newfoundland and Labrador"
+   },
+   "timestamp": "20260419_220954",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 13321.79168409389,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260419_225047",
+   "screenshot": "screenshots\\round_20260419_225047.png",
+   "actual": {
+    "latitude": 42.494834899902344,
+    "longitude": 9.436630249023438,
+    "country": "France",
+    "admin1": "Corsica"
+   },
+   "timestamp": "20260419_225047",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 990.3147855988924,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260419_234118",
+   "screenshot": "screenshots\\round_20260419_234118.png",
+   "actual": {
+    "latitude": 51.42160415649414,
+    "longitude": 21.965444564819336,
+    "country": "Poland",
+    "admin1": "Lublin Voivodeship"
+   },
+   "timestamp": "20260419_234118",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1646.541770816043,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_015401",
+   "screenshot": "screenshots\\round_20260420_015401.png",
+   "actual": {
+    "latitude": 32.51203536987305,
+    "longitude": 130.94046020507812,
+    "country": "Japan",
+    "admin1": "Kumamoto"
+   },
+   "timestamp": "20260420_015401",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 77.87765328446716,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_020322",
+   "screenshot": "screenshots\\round_20260420_020322.png",
+   "actual": {
+    "latitude": -33.83540725708008,
+    "longitude": 18.591209411621094,
+    "country": "South Africa",
+    "admin1": "Western Cape"
+   },
+   "timestamp": "20260420_020322",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 10681.592452689465,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_020440",
+   "screenshot": "screenshots\\round_20260420_020440.png",
+   "actual": {
+    "latitude": 40.83545684814453,
+    "longitude": 14.511890411376953,
+    "country": "Italy",
+    "admin1": "Campania"
+   },
+   "timestamp": "20260420_020440",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 424.27113883264957,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_023743",
+   "screenshot": "screenshots\\round_20260420_023743.png",
+   "actual": {
+    "latitude": 14.589583396911621,
+    "longitude": 121.07772064208984,
+    "country": "Philippines",
+    "admin1": "Metro Manila"
+   },
+   "timestamp": "20260420_023743",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 10.210039657707984,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_024212",
+   "screenshot": "screenshots\\round_20260420_024212.png",
+   "actual": {
+    "latitude": 35.294578552246094,
+    "longitude": -120.6427993774414,
+    "country": "United States",
+    "admin1": "California"
+   },
+   "timestamp": "20260420_024212",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1105.8649481452871,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_120452",
+   "screenshot": "screenshots\\round_20260420_120452.png",
+   "actual": {
+    "latitude": 57.61292266845703,
+    "longitude": -1.993226408958435,
+    "country": "United Kingdom",
+    "admin1": "Scotland"
+   },
+   "timestamp": "20260420_120452",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1387.4286282280057,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_120525",
+   "screenshot": "screenshots\\round_20260420_120525.png",
+   "actual": {
+    "latitude": 44.52464294433594,
+    "longitude": 9.857306480407715,
+    "country": "Italy",
+    "admin1": "Emilia-Romagna"
+   },
+   "timestamp": "20260420_120525",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 351.10998616048454,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_120846",
+   "screenshot": "screenshots\\round_20260420_120846.png",
+   "actual": {
+    "latitude": -33.99908447265625,
+    "longitude": 25.654834747314453,
+    "country": "South Africa",
+    "admin1": "Eastern Cape"
+   },
+   "timestamp": "20260420_120846",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 851.6401059800401,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_123432",
+   "screenshot": "screenshots\\round_20260420_123432.png",
+   "actual": {
+    "latitude": 18.507322311401367,
+    "longitude": -69.95028686523438,
+    "country": "Dominican Republic",
+    "admin1": "Nacional"
+   },
+   "timestamp": "20260420_123432",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 4514.767949970276,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_124218",
+   "screenshot": "screenshots\\round_20260420_124218.png",
+   "actual": {
+    "latitude": 52.01552963256836,
+    "longitude": -0.7298251986503601,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260420_124218",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 425.60988604791413,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_124539",
+   "screenshot": "screenshots\\round_20260420_124539.png",
+   "actual": {
+    "latitude": 31.945396423339844,
+    "longitude": 35.85627746582031,
+    "country": "Jordan",
+    "admin1": "Amman"
+   },
+   "timestamp": "20260420_124539",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 12132.790542810253,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_125023",
+   "screenshot": "screenshots\\round_20260420_125023.png",
+   "actual": {
+    "latitude": 51.21223831176758,
+    "longitude": 71.35435485839844,
+    "country": "Kazakhstan",
+    "admin1": "Astana Qalasy"
+   },
+   "timestamp": "20260420_125023",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 3044.3829447348817,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_130040",
+   "screenshot": "screenshots\\round_20260420_130040.png",
+   "actual": {
+    "latitude": 45.45353317260742,
+    "longitude": -74.12994384765625,
+    "country": "Canada",
+    "admin1": "Quebec"
+   },
+   "timestamp": "20260420_130040",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 6259.585312581163,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_130817",
+   "screenshot": "screenshots\\round_20260420_130817.png",
+   "actual": {
+    "latitude": 51.208980560302734,
+    "longitude": -2.6641440391540527,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260420_130817",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 151.059062277116,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_132402",
+   "screenshot": "screenshots\\round_20260420_132402.png",
+   "actual": {
+    "latitude": 55.214012145996094,
+    "longitude": -3.974310874938965,
+    "country": "United Kingdom",
+    "admin1": "Scotland"
+   },
+   "timestamp": "20260420_132402",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 352.4527068690137,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_133443",
+   "screenshot": "screenshots\\round_20260420_133443.png",
+   "actual": {
+    "latitude": -47.897544860839844,
+    "longitude": -67.50812530517578,
+    "country": "Argentina",
+    "admin1": "Santa Cruz"
+   },
+   "timestamp": "20260420_133443",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 3274.020936587393,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_134110",
+   "screenshot": "screenshots\\round_20260420_134110.png",
+   "actual": {
+    "latitude": 35.567508697509766,
+    "longitude": -80.84528350830078,
+    "country": "United States",
+    "admin1": "North Carolina"
+   },
+   "timestamp": "20260420_134110",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 425.55714872619217,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_135025",
+   "screenshot": "screenshots\\round_20260420_135025.png",
+   "actual": {
+    "latitude": 46.46044921875,
+    "longitude": -119.35308074951172,
+    "country": "United States",
+    "admin1": "Washington"
+   },
+   "timestamp": "20260420_135025",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1278.6207396074528,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_135808",
+   "screenshot": "screenshots\\round_20260420_135808.png",
+   "actual": {
+    "latitude": 55.69065475463867,
+    "longitude": 12.560294151306152,
+    "country": "Denmark",
+    "admin1": "Capital Region"
+   },
+   "timestamp": "20260420_135808",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 356.71353537841077,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_153524",
+   "screenshot": "screenshots\\round_20260420_153524.png",
+   "actual": {
+    "latitude": 38.07997131347656,
+    "longitude": -92.80696868896484,
+    "country": "United States",
+    "admin1": "Missouri"
+   },
+   "timestamp": "20260420_153524",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1638.5301574138962,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_163150",
+   "screenshot": "screenshots\\round_20260420_163150.png",
+   "actual": {
+    "latitude": -11.841907501220703,
+    "longitude": -38.95601272583008,
+    "country": "Brazil",
+    "admin1": "Bahia"
+   },
+   "timestamp": "20260420_163150",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 843.6795478453371,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_172554",
+   "screenshot": "screenshots\\round_20260420_172554.png",
+   "actual": {
+    "latitude": 43.65144729614258,
+    "longitude": 6.934879779815674,
+    "country": "France",
+    "admin1": "Provence-Alpes-Cote d'Azur"
+   },
+   "timestamp": "20260420_172554",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1406.7661654141145,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_173833",
+   "screenshot": "screenshots\\round_20260420_173833.png",
+   "actual": {
+    "latitude": -8.487994194030762,
+    "longitude": 115.22895050048828,
+    "country": "Indonesia",
+    "admin1": "Bali"
+   },
+   "timestamp": "20260420_173833",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 4792.862246656622,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_174753",
+   "screenshot": "screenshots\\round_20260420_174753.png",
+   "actual": {
+    "latitude": -15.983597755432129,
+    "longitude": -47.5948486328125,
+    "country": "Brazil",
+    "admin1": "Federal District"
+   },
+   "timestamp": "20260420_174753",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 9720.792322815396,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_175026",
+   "screenshot": "screenshots\\round_20260420_175026.png",
+   "actual": {
+    "latitude": 39.425209045410156,
+    "longitude": 8.924166679382324,
+    "country": "Italy",
+    "admin1": "Sardinia"
+   },
+   "timestamp": "20260420_175026",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 9070.072315600322,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_180027",
+   "screenshot": "screenshots\\round_20260420_180027.png",
+   "actual": {
+    "latitude": 26.874771118164062,
+    "longitude": 86.08079528808594,
+    "country": "Nepal",
+    "admin1": "Central Region"
+   },
+   "timestamp": "20260420_180027",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 884.0544703294265,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_180516",
+   "screenshot": "screenshots\\round_20260420_180516.png",
+   "actual": {
+    "latitude": 51.96772003173828,
+    "longitude": -0.6005073189735413,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260420_180516",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 90.22281849217448,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_181832",
+   "screenshot": "screenshots\\round_20260420_181832.png",
+   "actual": {
+    "latitude": 40.680545806884766,
+    "longitude": 17.87741470336914,
+    "country": "Italy",
+    "admin1": "Apulia"
+   },
+   "timestamp": "20260420_181832",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 7279.933047886544,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_182519",
+   "screenshot": "screenshots\\round_20260420_182519.png",
+   "actual": {
+    "latitude": 41.30650329589844,
+    "longitude": -96.17401123046875,
+    "country": "United States",
+    "admin1": "Nebraska"
+   },
+   "timestamp": "20260420_182519",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 266.5527657530181,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_183527",
+   "screenshot": "screenshots\\round_20260420_183527.png",
+   "actual": {
+    "latitude": 41.59104537963867,
+    "longitude": 24.855663299560547,
+    "country": "Bulgaria",
+    "admin1": "Smolyan"
+   },
+   "timestamp": "20260420_183527",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 420.7135031155079,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_190713",
+   "screenshot": "screenshots\\round_20260420_190713.png",
+   "actual": {
+    "latitude": 45.47722625732422,
+    "longitude": -75.72624969482422,
+    "country": "Canada",
+    "admin1": "Quebec"
+   },
+   "timestamp": "20260420_190713",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 1110.5882394432049,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_193255",
+   "screenshot": "screenshots\\round_20260420_193255.png",
+   "actual": {
+    "latitude": -23.706491470336914,
+    "longitude": 21.544645309448242,
+    "country": "Botswana",
+    "admin1": "Kgalagadi"
+   },
+   "timestamp": "20260420_193255",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 414.58730279772067,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_193722",
+   "screenshot": "screenshots\\round_20260420_193722.png",
+   "actual": {
+    "latitude": 41.79924011230469,
+    "longitude": -71.42774200439453,
+    "country": "United States",
+    "admin1": "Rhode Island"
+   },
+   "timestamp": "20260420_193722",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 65.3383550109302,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_195434",
+   "screenshot": "screenshots\\round_20260420_195434.png",
+   "actual": {
+    "latitude": 33.896183013916016,
+    "longitude": -118.40091705322266,
+    "country": "United States",
+    "admin1": "California"
+   },
+   "timestamp": "20260420_195434",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 563.8998848039263,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260420_200027",
+   "screenshot": "screenshots\\round_20260420_200027.png",
+   "actual": {
+    "latitude": -6.1417341232299805,
+    "longitude": -77.10452270507812,
+    "country": "Peru",
+    "admin1": "San Martin"
+   },
+   "timestamp": "20260420_200027",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 12099.074742019233,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_201028",
+   "screenshot": "screenshots\\round_20260420_201028.png",
+   "actual": {
+    "latitude": -44.085697174072266,
+    "longitude": -66.00415802001953,
+    "country": "Argentina",
+    "admin1": "Chubut"
+   },
+   "timestamp": "20260420_201028",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 2842.814937521769,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_201626",
+   "screenshot": "screenshots\\round_20260420_201626.png",
+   "actual": {
+    "latitude": 45.469505310058594,
+    "longitude": -73.47425842285156,
+    "country": "Canada",
+    "admin1": "Quebec"
+   },
+   "timestamp": "20260420_201626",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 5776.450729032631,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_203137",
+   "screenshot": "screenshots\\round_20260420_203137.png",
+   "actual": {
+    "latitude": 24.059131622314453,
+    "longitude": 120.51190948486328,
+    "country": "Taiwan, Province of China",
+    "admin1": "Taiwan"
+   },
+   "timestamp": "20260420_203137",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 15147.796803256855,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_203359",
+   "screenshot": "screenshots\\round_20260420_203359.png",
+   "actual": {
+    "latitude": 49.06288146972656,
+    "longitude": 32.697208404541016,
+    "country": "Ukraine",
+    "admin1": "Cherkasy"
+   },
+   "timestamp": "20260420_203359",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 724.4639424599408,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_204038",
+   "screenshot": "screenshots\\round_20260420_204038.png",
+   "actual": {
+    "latitude": 7.133199691772461,
+    "longitude": 100.62456512451172,
+    "country": "Thailand",
+    "admin1": "Songkhla"
+   },
+   "timestamp": "20260420_204038",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 531.930645935215,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260420_204125",
+   "screenshot": "screenshots\\round_20260420_204125.png",
+   "actual": {
+    "latitude": 39.320369720458984,
+    "longitude": -77.23258972167969,
+    "country": "United States",
+    "admin1": "Maryland"
+   },
+   "timestamp": "20260420_204125",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 853.1837694523234,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260421_014226",
+   "screenshot": "screenshots\\round_20260421_014226.png",
+   "actual": {
+    "latitude": 47.66610336303711,
+    "longitude": -117.18148040771484,
+    "country": "United States",
+    "admin1": "Washington"
+   },
+   "timestamp": "20260421_014226",
+   "live_model": "google/gemma-4-26b-a4b",
+   "live_error_km": 2239.2678127599743,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260421_015710",
+   "screenshot": "screenshots\\round_20260421_015710.png",
+   "actual": {
+    "latitude": 50.04328918457031,
+    "longitude": 14.449920654296875,
+    "country": "Czechia",
+    "admin1": "Praha"
+   },
+   "timestamp": "20260421_015710",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1402.3229182263228,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260421_145249",
+   "screenshot": "screenshots\\round_20260421_145249.png",
+   "actual": {
+    "latitude": 42.753456115722656,
+    "longitude": 2.890225410461426,
+    "country": "France",
+    "admin1": "Languedoc-Roussillon"
+   },
+   "timestamp": "20260421_145249",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 557.8578542693654,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260421_151420",
+   "screenshot": "screenshots\\round_20260421_151420.png",
+   "actual": {
+    "latitude": 42.82292175292969,
+    "longitude": 75.30329895019531,
+    "country": "Kyrgyzstan",
+    "admin1": "Chuy"
+   },
+   "timestamp": "20260421_151420",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2525.94804196194,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260421_152104",
+   "screenshot": "screenshots\\round_20260421_152104.png",
+   "actual": {
+    "latitude": 43.224159240722656,
+    "longitude": -8.904417991638184,
+    "country": "Spain",
+    "admin1": "Galicia"
+   },
+   "timestamp": "20260421_152104",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 172.41178831409638,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260421_152837",
+   "screenshot": "screenshots\\round_20260421_152837.png",
+   "actual": {
+    "latitude": 55.80974578857422,
+    "longitude": -4.1050496101379395,
+    "country": "United Kingdom",
+    "admin1": "Scotland"
+   },
+   "timestamp": "20260421_152837",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 445.6961359086921,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260421_153058",
+   "screenshot": "screenshots\\round_20260421_153058.png",
+   "actual": {
+    "latitude": 35.06572723388672,
+    "longitude": -94.25018310546875,
+    "country": "United States",
+    "admin1": "Arkansas"
+   },
+   "timestamp": "20260421_153058",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1291.3707246346223,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_000757",
+   "screenshot": "screenshots\\round_20260422_000757.png",
+   "actual": {
+    "latitude": -16.73764991760254,
+    "longitude": -70.45919036865234,
+    "country": "Peru",
+    "admin1": "Moquegua"
+   },
+   "timestamp": "20260422_000757",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 7579.821232542497,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_001153",
+   "screenshot": "screenshots\\round_20260422_001153.png",
+   "actual": {
+    "latitude": 29.851505279541016,
+    "longitude": -95.2950439453125,
+    "country": "United States",
+    "admin1": "Texas"
+   },
+   "timestamp": "20260422_001153",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1168.8116759424586,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_001320",
+   "screenshot": "screenshots\\round_20260422_001320.png",
+   "actual": {
+    "latitude": 43.303890228271484,
+    "longitude": -0.3636299669742584,
+    "country": "France",
+    "admin1": "Aquitaine"
+   },
+   "timestamp": "20260422_001320",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 670.4160146891353,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_001901",
+   "screenshot": "screenshots\\round_20260422_001901.png",
+   "actual": {
+    "latitude": 59.485328674316406,
+    "longitude": 17.7529354095459,
+    "country": "Sweden",
+    "admin1": "Stockholm"
+   },
+   "timestamp": "20260422_001901",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 24.85865124585496,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_011843",
+   "screenshot": "screenshots\\round_20260422_011843.png",
+   "actual": {
+    "latitude": 36.92930603027344,
+    "longitude": 137.5070343017578,
+    "country": "Japan",
+    "admin1": "Toyama"
+   },
+   "timestamp": "20260422_011843",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 112.26063924473125,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_011920",
+   "screenshot": "screenshots\\round_20260422_011920.png",
+   "actual": {
+    "latitude": 29.783309936523438,
+    "longitude": -95.47969818115234,
+    "country": "United States",
+    "admin1": "Texas"
+   },
+   "timestamp": "20260422_011920",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2195.968584796148,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_013856",
+   "screenshot": "screenshots\\round_20260422_013856.png",
+   "actual": {
+    "latitude": 38.60770034790039,
+    "longitude": 140.15370178222656,
+    "country": "Japan",
+    "admin1": "Yamagata"
+   },
+   "timestamp": "20260422_013856",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 301.5372090418189,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_014109",
+   "screenshot": "screenshots\\round_20260422_014109.png",
+   "actual": {
+    "latitude": -6.381767272949219,
+    "longitude": 105.82958221435547,
+    "country": "Indonesia",
+    "admin1": "Banten"
+   },
+   "timestamp": "20260422_014109",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 533.1784480846895,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_015318",
+   "screenshot": "screenshots\\round_20260422_015318.png",
+   "actual": {
+    "latitude": -44.02604675292969,
+    "longitude": -70.7264175415039,
+    "country": "Argentina",
+    "admin1": "Chubut"
+   },
+   "timestamp": "20260422_015318",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 958.8064355336081,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_021031",
+   "screenshot": "screenshots\\round_20260422_021031.png",
+   "actual": {
+    "latitude": 5.712021350860596,
+    "longitude": 102.53286743164062,
+    "country": "Malaysia",
+    "admin1": "Terengganu"
+   },
+   "timestamp": "20260422_021031",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 147.03658521987947,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_123905",
+   "screenshot": "screenshots\\round_20260422_123905.png",
+   "actual": {
+    "latitude": 41.52688980102539,
+    "longitude": 25.34038543701172,
+    "country": "Bulgaria",
+    "admin1": "Kurdzhali"
+   },
+   "timestamp": "20260422_123905",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 70.02294452010398,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_124840",
+   "screenshot": "screenshots\\round_20260422_124840.png",
+   "actual": {
+    "latitude": 45.740997314453125,
+    "longitude": 27.201162338256836,
+    "country": "Romania",
+    "admin1": "Vrancea"
+   },
+   "timestamp": "20260422_124840",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1695.4965737613925,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_124926",
+   "screenshot": "screenshots\\round_20260422_124926.png",
+   "actual": {
+    "latitude": 39.71348190307617,
+    "longitude": -105.39142608642578,
+    "country": "United States",
+    "admin1": "Colorado"
+   },
+   "timestamp": "20260422_124926",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 514.5524031013442,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_131128",
+   "screenshot": "screenshots\\round_20260422_131128.png",
+   "actual": {
+    "latitude": 48.6428337097168,
+    "longitude": -0.0025630155578255653,
+    "country": "France",
+    "admin1": "Lower Normandy"
+   },
+   "timestamp": "20260422_131128",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1459.261960937137,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_131717",
+   "screenshot": "screenshots\\round_20260422_131717.png",
+   "actual": {
+    "latitude": -16.399877548217773,
+    "longitude": -68.47747039794922,
+    "country": "Bolivia, Plurinational State of",
+    "admin1": "La Paz"
+   },
+   "timestamp": "20260422_131717",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1042.2454367024368,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_134354",
+   "screenshot": "screenshots\\round_20260422_134354.png",
+   "actual": {
+    "latitude": 41.699241638183594,
+    "longitude": -86.82672119140625,
+    "country": "United States",
+    "admin1": "Indiana"
+   },
+   "timestamp": "20260422_134354",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 7984.828828710722,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_140334",
+   "screenshot": "screenshots\\round_20260422_140334.png",
+   "actual": {
+    "latitude": 35.36489486694336,
+    "longitude": 139.45375061035156,
+    "country": "Japan",
+    "admin1": "Kanagawa"
+   },
+   "timestamp": "20260422_140334",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 337.21297250633023,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_140918",
+   "screenshot": "screenshots\\round_20260422_140918.png",
+   "actual": {
+    "latitude": 61.261070251464844,
+    "longitude": 73.37509155273438,
+    "country": "Russian Federation",
+    "admin1": "Khanty-Mansiyskiy Avtonomnyy Okrug"
+   },
+   "timestamp": "20260422_140918",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2138.7663513518955,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_141009",
+   "screenshot": "screenshots\\round_20260422_141009.png",
+   "actual": {
+    "latitude": 37.11323928833008,
+    "longitude": -8.512518882751465,
+    "country": "Portugal",
+    "admin1": "Faro"
+   },
+   "timestamp": "20260422_141009",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 43.10300142331655,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_141409",
+   "screenshot": "screenshots\\round_20260422_141409.png",
+   "actual": {
+    "latitude": 48.8873405456543,
+    "longitude": 2.3813626766204834,
+    "country": "France",
+    "admin1": "Ile-de-France"
+   },
+   "timestamp": "20260422_141409",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 5.900177190835876,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_143322",
+   "screenshot": "screenshots\\round_20260422_143322.png",
+   "actual": {
+    "latitude": 44.89889907836914,
+    "longitude": -87.88124084472656,
+    "country": "United States",
+    "admin1": "Wisconsin"
+   },
+   "timestamp": "20260422_143322",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 644.0821493928952,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_143509",
+   "screenshot": "screenshots\\round_20260422_143509.png",
+   "actual": {
+    "latitude": 52.66267013549805,
+    "longitude": -7.435286521911621,
+    "country": "Ireland",
+    "admin1": "Leinster"
+   },
+   "timestamp": "20260422_143509",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 320.7457280772053,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_144503",
+   "screenshot": "screenshots\\round_20260422_144503.png",
+   "actual": {
+    "latitude": -51.6267204284668,
+    "longitude": -69.22225189208984,
+    "country": "Argentina",
+    "admin1": "Santa Cruz"
+   },
+   "timestamp": "20260422_144503",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 10824.476187455917,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_150253",
+   "screenshot": "screenshots\\round_20260422_150253.png",
+   "actual": {
+    "latitude": 37.868961334228516,
+    "longitude": -122.2406997680664,
+    "country": "United States",
+    "admin1": "California"
+   },
+   "timestamp": "20260422_150253",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 0.8990180035523906,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_151342",
+   "screenshot": "screenshots\\round_20260422_151342.png",
+   "actual": {
+    "latitude": -0.24831339716911316,
+    "longitude": 115.72232818603516,
+    "country": "Indonesia",
+    "admin1": "East Kalimantan"
+   },
+   "timestamp": "20260422_151342",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 4321.524892667441,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_151420",
+   "screenshot": "screenshots\\round_20260422_151420.png",
+   "actual": {
+    "latitude": 44.522979736328125,
+    "longitude": -0.08636759221553802,
+    "country": "France",
+    "admin1": "Aquitaine"
+   },
+   "timestamp": "20260422_151420",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2049.773512527193,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_152312",
+   "screenshot": "screenshots\\round_20260422_152312.png",
+   "actual": {
+    "latitude": 40.14454650878906,
+    "longitude": 18.06838035583496,
+    "country": "Italy",
+    "admin1": "Apulia"
+   },
+   "timestamp": "20260422_152312",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 330.8065002751465,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_152708",
+   "screenshot": "screenshots\\round_20260422_152708.png",
+   "actual": {
+    "latitude": 46.358707427978516,
+    "longitude": 44.263084411621094,
+    "country": "Russian Federation",
+    "admin1": "Kalmykiya"
+   },
+   "timestamp": "20260422_152708",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 408.6227174542726,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_153848",
+   "screenshot": "screenshots\\round_20260422_153848.png",
+   "actual": {
+    "latitude": 1.4594782590866089,
+    "longitude": 103.82742309570312,
+    "country": "Malaysia",
+    "admin1": "Johor"
+   },
+   "timestamp": "20260422_153848",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 19.779923909060045,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_155829",
+   "screenshot": "screenshots\\round_20260422_155829.png",
+   "actual": {
+    "latitude": 55.553775787353516,
+    "longitude": -4.657114505767822,
+    "country": "United Kingdom",
+    "admin1": "Scotland"
+   },
+   "timestamp": "20260422_155829",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 108.1000642530899,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_161031",
+   "screenshot": "screenshots\\round_20260422_161031.png",
+   "actual": {
+    "latitude": 44.41706848144531,
+    "longitude": 0.46837735176086426,
+    "country": "France",
+    "admin1": "Aquitaine"
+   },
+   "timestamp": "20260422_161031",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2238.473096281605,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_161658",
+   "screenshot": "screenshots\\round_20260422_161658.png",
+   "actual": {
+    "latitude": 51.60801315307617,
+    "longitude": -0.27798590064048767,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260422_161658",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 18.09631914953391,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_162303",
+   "screenshot": "screenshots\\round_20260422_162303.png",
+   "actual": {
+    "latitude": 9.067721366882324,
+    "longitude": 7.463834285736084,
+    "country": "Nigeria",
+    "admin1": "Abuja Federal Capital Territory"
+   },
+   "timestamp": "20260422_162303",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 940.4033969718494,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_162349",
+   "screenshot": "screenshots\\round_20260422_162349.png",
+   "actual": {
+    "latitude": 15.662175178527832,
+    "longitude": -89.00973510742188,
+    "country": "Guatemala",
+    "admin1": "Izabal"
+   },
+   "timestamp": "20260422_162349",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1151.9712358520383,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_174445",
+   "screenshot": "screenshots\\round_20260422_174445.png",
+   "actual": {
+    "latitude": 47.29581832885742,
+    "longitude": -96.6587142944336,
+    "country": "United States",
+    "admin1": "Minnesota"
+   },
+   "timestamp": "20260422_174445",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1329.1056214610544,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_174633",
+   "screenshot": "screenshots\\round_20260422_174633.png",
+   "actual": {
+    "latitude": -20.777957916259766,
+    "longitude": -41.318328857421875,
+    "country": "Brazil",
+    "admin1": "Espirito Santo"
+   },
+   "timestamp": "20260422_174633",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 779.8008556998515,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_181318",
+   "screenshot": "screenshots\\round_20260422_181318.png",
+   "actual": {
+    "latitude": 25.74118423461914,
+    "longitude": 89.233642578125,
+    "country": "Bangladesh",
+    "admin1": "Rangpur Division"
+   },
+   "timestamp": "20260422_181318",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 446.15139158319874,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_181909",
+   "screenshot": "screenshots\\round_20260422_181909.png",
+   "actual": {
+    "latitude": 40.86763381958008,
+    "longitude": 17.19073486328125,
+    "country": "Italy",
+    "admin1": "Apulia"
+   },
+   "timestamp": "20260422_181909",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1869.8070298900575,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_182207",
+   "screenshot": "screenshots\\round_20260422_182207.png",
+   "actual": {
+    "latitude": 51.84482955932617,
+    "longitude": -4.833568096160889,
+    "country": "United Kingdom",
+    "admin1": "Wales"
+   },
+   "timestamp": "20260422_182207",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 281.876524463479,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_182442",
+   "screenshot": "screenshots\\round_20260422_182442.png",
+   "actual": {
+    "latitude": 40.203948974609375,
+    "longitude": 29.012271881103516,
+    "country": "Türkiye",
+    "admin1": "Bursa"
+   },
+   "timestamp": "20260422_182442",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 94.20914166990858,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_182846",
+   "screenshot": "screenshots\\round_20260422_182846.png",
+   "actual": {
+    "latitude": 54.688961029052734,
+    "longitude": 110.8066635131836,
+    "country": "Russian Federation",
+    "admin1": "Respublika Buryatiya"
+   },
+   "timestamp": "20260422_182846",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 5852.593232685638,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_183246",
+   "screenshot": "screenshots\\round_20260422_183246.png",
+   "actual": {
+    "latitude": 44.40363693237305,
+    "longitude": -77.31221008300781,
+    "country": "Canada",
+    "admin1": "Ontario"
+   },
+   "timestamp": "20260422_183246",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 314.5886669275941,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_190649",
+   "screenshot": "screenshots\\round_20260422_190649.png",
+   "actual": {
+    "latitude": 52.97179412841797,
+    "longitude": 9.551919937133789,
+    "country": "Germany",
+    "admin1": "Lower Saxony"
+   },
+   "timestamp": "20260422_190649",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 854.8341902124877,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_192305",
+   "screenshot": "screenshots\\round_20260422_192305.png",
+   "actual": {
+    "latitude": 45.77436065673828,
+    "longitude": 3.0672569274902344,
+    "country": "France",
+    "admin1": "Auvergne"
+   },
+   "timestamp": "20260422_192305",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1623.0260141183828,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_192758",
+   "screenshot": "screenshots\\round_20260422_192758.png",
+   "actual": {
+    "latitude": 35.199363708496094,
+    "longitude": 133.53466796875,
+    "country": "Japan",
+    "admin1": "Okayama"
+   },
+   "timestamp": "20260422_192758",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 695.1714092401996,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_193727",
+   "screenshot": "screenshots\\round_20260422_193727.png",
+   "actual": {
+    "latitude": 48.359161376953125,
+    "longitude": -1.3722842931747437,
+    "country": "France",
+    "admin1": "Brittany"
+   },
+   "timestamp": "20260422_193727",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 405.77201844058055,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_193830",
+   "screenshot": "screenshots\\round_20260422_193830.png",
+   "actual": {
+    "latitude": 37.346065521240234,
+    "longitude": 37.097991943359375,
+    "country": "Türkiye",
+    "admin1": "Kahramanmaras"
+   },
+   "timestamp": "20260422_193830",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 10319.251216349598,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_194415",
+   "screenshot": "screenshots\\round_20260422_194415.png",
+   "actual": {
+    "latitude": 56.13922119140625,
+    "longitude": -4.068281650543213,
+    "country": "United Kingdom",
+    "admin1": "Scotland"
+   },
+   "timestamp": "20260422_194415",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 958.5459424128516,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_195137",
+   "screenshot": "screenshots\\round_20260422_195137.png",
+   "actual": {
+    "latitude": 11.216141700744629,
+    "longitude": 105.33889770507812,
+    "country": "Cambodia",
+    "admin1": "Prey Veng"
+   },
+   "timestamp": "20260422_195137",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2977.8651467198647,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_200557",
+   "screenshot": "screenshots\\round_20260422_200557.png",
+   "actual": {
+    "latitude": 3.131690502166748,
+    "longitude": 101.70030212402344,
+    "country": "Malaysia",
+    "admin1": "Kuala Lumpur"
+   },
+   "timestamp": "20260422_200557",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1.762413601143873,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_201338",
+   "screenshot": "screenshots\\round_20260422_201338.png",
+   "actual": {
+    "latitude": 25.77104377746582,
+    "longitude": 89.2201919555664,
+    "country": "Bangladesh",
+    "admin1": "Rangpur Division"
+   },
+   "timestamp": "20260422_201338",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 249.34534442349704,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_202052",
+   "screenshot": "screenshots\\round_20260422_202052.png",
+   "actual": {
+    "latitude": 49.491878509521484,
+    "longitude": 20.013904571533203,
+    "country": "Poland",
+    "admin1": "Lesser Poland Voivodeship"
+   },
+   "timestamp": "20260422_202052",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 527.4734718658136,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_202143",
+   "screenshot": "screenshots\\round_20260422_202143.png",
+   "actual": {
+    "latitude": 19.401451110839844,
+    "longitude": -96.44161224365234,
+    "country": "Mexico",
+    "admin1": "Veracruz"
+   },
+   "timestamp": "20260422_202143",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 15827.948742241866,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_202733",
+   "screenshot": "screenshots\\round_20260422_202733.png",
+   "actual": {
+    "latitude": 50.51887893676758,
+    "longitude": 30.607656478881836,
+    "country": "Ukraine",
+    "admin1": "Kyiv City"
+   },
+   "timestamp": "20260422_202733",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 3471.935340147413,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_205602",
+   "screenshot": "screenshots\\round_20260422_205602.png",
+   "actual": {
+    "latitude": 44.42356491088867,
+    "longitude": 7.539383888244629,
+    "country": "Italy",
+    "admin1": "Piedmont"
+   },
+   "timestamp": "20260422_205602",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 9885.941704328156,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_210217",
+   "screenshot": "screenshots\\round_20260422_210217.png",
+   "actual": {
+    "latitude": 43.24950408935547,
+    "longitude": -79.09526062011719,
+    "country": "United States",
+    "admin1": "New York"
+   },
+   "timestamp": "20260422_210217",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 826.8767057307016,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_211830",
+   "screenshot": "screenshots\\round_20260422_211830.png",
+   "actual": {
+    "latitude": 46.34052276611328,
+    "longitude": -0.4480312466621399,
+    "country": "France",
+    "admin1": "Poitou-Charentes"
+   },
+   "timestamp": "20260422_211830",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 338.5738644994966,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_212622",
+   "screenshot": "screenshots\\round_20260422_212622.png",
+   "actual": {
+    "latitude": 46.59849548339844,
+    "longitude": -114.6002426147461,
+    "country": "United States",
+    "admin1": "Montana"
+   },
+   "timestamp": "20260422_212622",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 490.3645013307061,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_214234",
+   "screenshot": "screenshots\\round_20260422_214234.png",
+   "actual": {
+    "latitude": 52.2778205871582,
+    "longitude": 104.2496109008789,
+    "country": "Russian Federation",
+    "admin1": "Irkutsk"
+   },
+   "timestamp": "20260422_214234",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 2436.804757673188,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_214329",
+   "screenshot": "screenshots\\round_20260422_214329.png",
+   "actual": {
+    "latitude": 35.04662322998047,
+    "longitude": -82.37957000732422,
+    "country": "United States",
+    "admin1": "South Carolina"
+   },
+   "timestamp": "20260422_214329",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 34.923760986198715,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_214505",
+   "screenshot": "screenshots\\round_20260422_214505.png",
+   "actual": {
+    "latitude": -10.204931259155273,
+    "longitude": -48.34363555908203,
+    "country": "Brazil",
+    "admin1": "Tocantins"
+   },
+   "timestamp": "20260422_214505",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 5624.663145136485,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_214814",
+   "screenshot": "screenshots\\round_20260422_214814.png",
+   "actual": {
+    "latitude": 47.79049301147461,
+    "longitude": 108.38114929199219,
+    "country": "Mongolia",
+    "admin1": "Central Aimak"
+   },
+   "timestamp": "20260422_214814",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 110.10589680702033,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260422_223007",
+   "screenshot": "screenshots\\round_20260422_223007.png",
+   "actual": {
+    "latitude": 6.001674652099609,
+    "longitude": 0.5296964645385742,
+    "country": "Ghana",
+    "admin1": "Volta"
+   },
+   "timestamp": "20260422_223007",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 5232.033908345395,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260422_224413",
+   "screenshot": "screenshots\\round_20260422_224413.png",
+   "actual": {
+    "latitude": -27.731407165527344,
+    "longitude": 30.000028610229492,
+    "country": "South Africa",
+    "admin1": "KwaZulu-Natal"
+   },
+   "timestamp": "20260422_224413",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 13202.364448287213,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260423_021107",
+   "screenshot": "screenshots\\round_20260423_021107.png",
+   "actual": {
+    "latitude": 43.25288391113281,
+    "longitude": 142.47044372558594,
+    "country": "Japan",
+    "admin1": "Hokkaido"
+   },
+   "timestamp": "20260423_021107",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 93.51091344612398,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260423_021858",
+   "screenshot": "screenshots\\round_20260423_021858.png",
+   "actual": {
+    "latitude": 41.751285552978516,
+    "longitude": -72.6605453491211,
+    "country": "United States",
+    "admin1": "Connecticut"
+   },
+   "timestamp": "20260423_021858",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 456.7979950263941,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260423_021953",
+   "screenshot": "screenshots\\round_20260423_021953.png",
+   "actual": {
+    "latitude": 52.703399658203125,
+    "longitude": 5.155604362487793,
+    "country": "Netherlands",
+    "admin1": "North Holland"
+   },
+   "timestamp": "20260423_021953",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 102.8945507455264,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260423_022144",
+   "screenshot": "screenshots\\round_20260423_022144.png",
+   "actual": {
+    "latitude": 6.474863529205322,
+    "longitude": 3.1708436012268066,
+    "country": "Nigeria",
+    "admin1": "Lagos"
+   },
+   "timestamp": "20260423_022144",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 23.67745690391895,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260423_022234",
+   "screenshot": "screenshots\\round_20260423_022234.png",
+   "actual": {
+    "latitude": -45.89839172363281,
+    "longitude": 170.39781188964844,
+    "country": "New Zealand",
+    "admin1": "Otago"
+   },
+   "timestamp": "20260423_022234",
+   "live_model": "qwen/qwen3.6-35b-a3b",
+   "live_error_km": 1069.8358738053757,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_023638",
+   "screenshot": "screenshots\\round_20260519_023638.png",
+   "actual": {
+    "latitude": 49.39210891723633,
+    "longitude": 0.539682149887085,
+    "country": "France",
+    "admin1": "Haute-Normandie"
+   },
+   "timestamp": "20260519_023638",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 572.5808528321481,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260519_030055",
+   "screenshot": "screenshots\\round_20260519_030055.png",
+   "actual": {
+    "latitude": 52.586341857910156,
+    "longitude": 10.845187187194824,
+    "country": "Germany",
+    "admin1": "Lower Saxony"
+   },
+   "timestamp": "20260519_030055",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 205.20102862465595,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_150910",
+   "screenshot": "screenshots\\round_20260519_150910.png",
+   "actual": {
+    "latitude": 43.46919631958008,
+    "longitude": 5.859828472137451,
+    "country": "France",
+    "admin1": "Provence-Alpes-Cote d'Azur"
+   },
+   "timestamp": "20260519_150910",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 7646.665110375923,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260519_151027",
+   "screenshot": "screenshots\\round_20260519_151027.png",
+   "actual": {
+    "latitude": 53.34435428,
+    "longitude": -6.259847122,
+    "country": "Ireland",
+    "admin1": "Leinster"
+   },
+   "timestamp": "20260519_151027",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 0.04603161367562615,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_152040",
+   "screenshot": "screenshots\\round_20260519_152040.png",
+   "actual": {
+    "latitude": 7.482002258300781,
+    "longitude": -72.7024154663086,
+    "country": "Colombia",
+    "admin1": "Norte de Santander"
+   },
+   "timestamp": "20260519_152040",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 4436.499923560309,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260519_153338",
+   "screenshot": "screenshots\\round_20260519_153338.png",
+   "actual": {
+    "latitude": 43.31214141845703,
+    "longitude": -4.249395847320557,
+    "country": "Spain",
+    "admin1": "Cantabria"
+   },
+   "timestamp": "20260519_153338",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 97.7795063977785,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_153403",
+   "screenshot": "screenshots\\round_20260519_153403.png",
+   "actual": {
+    "latitude": -33.7378057581909,
+    "longitude": -70.29884080929841,
+    "country": "Chile",
+    "admin1": "Santiago Metropolitan"
+   },
+   "timestamp": "20260519_153403",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 0.07166276687625937,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_153539",
+   "screenshot": "screenshots\\round_20260519_153539.png",
+   "actual": {
+    "latitude": -32.56526565551758,
+    "longitude": 18.374752044677734,
+    "country": "South Africa",
+    "admin1": "Western Cape"
+   },
+   "timestamp": "20260519_153539",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 10037.577787006185,
+   "live_country_hit": false
+  },
+  {
+   "id": "round_20260519_153814",
+   "screenshot": "screenshots\\round_20260519_153814.png",
+   "actual": {
+    "latitude": 52.4546012878418,
+    "longitude": -2.141413688659668,
+    "country": "United Kingdom",
+    "admin1": "England"
+   },
+   "timestamp": "20260519_153814",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 227.9750543391884,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_154211",
+   "screenshot": "screenshots\\round_20260519_154211.png",
+   "actual": {
+    "latitude": 42.193050384521484,
+    "longitude": -85.57942962646484,
+    "country": "United States",
+    "admin1": "Michigan"
+   },
+   "timestamp": "20260519_154211",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 1176.427032756392,
+   "live_country_hit": true
+  },
+  {
+   "id": "round_20260519_154516",
+   "screenshot": "screenshots\\round_20260519_154516.png",
+   "actual": {
+    "latitude": 40.445560455322266,
+    "longitude": -3.7876880168914795,
+    "country": "Spain",
+    "admin1": "Madrid"
+   },
+   "timestamp": "20260519_154516",
+   "live_model": "gemini-3.1-flash-lite",
+   "live_error_km": 7.743094735580179,
+   "live_country_hit": true
+  }
+ ]
+}

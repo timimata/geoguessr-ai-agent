@@ -4,8 +4,9 @@ from collections import Counter
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 
+from storage import load_rounds, log_path
+
 PROJECT_DIR = Path(__file__).parent
-LOG_FILE = PROJECT_DIR / "log.json"
 PORT = 8000
 
 # GeoGuessr-style round score: 5000 at 0 km, decays with world-map scale.
@@ -72,11 +73,11 @@ def normalize_country(s: str) -> str:
 
 
 def compute_stats() -> dict:
-    if not LOG_FILE.exists():
-        return {"total": 0, "rounds": []}
     try:
-        rounds = json.loads(LOG_FILE.read_text(encoding="utf-8"))
+        rounds = load_rounds(force=True)
     except Exception:
+        return {"total": 0, "rounds": []}
+    if not rounds:
         return {"total": 0, "rounds": []}
 
     total = len(rounds)
@@ -131,7 +132,7 @@ HTML_TMPL = """<!doctype html>
   code {{ background:#2a2a3e; padding:2px 6px; border-radius:4px; font-size:0.85rem; }}
 </style></head><body>
 <h1>GeoGuessr Bot — Stats</h1>
-<p style="color:#888">Auto-refreshes every 10s. Log: <code>log.json</code></p>
+<p style="color:#888">Auto-refreshes every 10s. Log: <code>{log_name}</code></p>
 
 <div class="cards">
   <div class="card"><div class="l">Total rounds</div><div class="v">{total}</div></div>
@@ -233,6 +234,7 @@ def render_html() -> str:
     top_games_rows = "".join(top_game_parts) or "<tr><td colspan=6>No complete games yet</td></tr>"
 
     return HTML_TMPL.format(
+        log_name=log_path().name,
         total=s.get("total", 0),
         with_actual=s.get("with_actual", 0),
         avg_error_km=fmt(s.get("avg_error_km")),

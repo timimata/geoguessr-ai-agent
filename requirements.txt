@@ -1,11 +1,34 @@
-playwright
-playwright-stealth
-opencv-python
-Pillow
-numpy
-chromadb
-open-clip-torch
-openai
-python-dotenv
-reverse_geocoder
-shapely
+# Pinned to the versions this project is developed and benchmarked against.
+# Loosen a pin only after re-running: python benchmark.py --label <name>
+
+# Browser automation
+playwright==1.58.0
+playwright-stealth==2.0.3
+
+# Vision and imaging
+opencv-python-headless==4.13.0.92   # swap for opencv-python if you need cv2.imshow
+Pillow==12.2.0
+numpy==2.4.4
+
+# OCR. Pulls in torch; install a CUDA build of torch first if you have a GPU,
+# otherwise EasyOCR runs on CPU and dominates the per-round latency.
+easyocr==1.7.2
+torch==2.11.0
+torchvision==0.26.0
+
+# Retrieval over past rounds
+chromadb==1.5.8
+open-clip-torch==3.3.0
+
+# LLM client. Used against any OpenAI-compatible endpoint, including the
+# Gemini one that OPENAI_BASE_URL points at by default.
+openai==2.32.0
+python-dotenv==1.2.2
+
+# Geography
+reverse-geocoder==1.5.1
+shapely==2.1.2
+pycountry==26.2.16
+
+# scraper_plonkit.py drives Playwright and obter_fronteiras.py uses urllib from
+# the standard library, so neither needs an extra HTTP dependency.
