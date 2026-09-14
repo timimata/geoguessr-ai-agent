@@ -86,6 +86,10 @@ round by round so two models can be compared on the same stream of locations.
 python bot.py
 ```
 
+On start it loads the country polygons, the confusion pairs derived from past
+mistakes, and the retrieval model, so the first round does not pay for them.
+Then it opens the world map and waits for you to start a round.
+
 `MODE` in `.env` selects the game type: `solo`, `duels` or `team-duels`. Solo reads
 each round result from `/api/v3/games`; duels read the match state from the
 GeoGuessr game server. A duel round only resolves once every player has guessed,

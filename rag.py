@@ -37,6 +37,25 @@ def compute_confusion_pairs(min_count: int = 3, max_error_km: float = 1500.0) ->
 _CONFUSION_PAIRS: list[tuple[str, str, int]] = []
 _last_confusion_refresh_count: int = 0
 
+def warm_up() -> None:
+    """Load the retrieval model and open the index now, rather than during the
+    first round. StreetCLIP is a ViT-L/14 and takes about 90 seconds to load on
+    CPU, which is time the first round does not have."""
+    started = time.time()
+    coll, _ = get_chroma_collection()
+    if coll is None:
+        return
+    try:
+        # One throwaway query so the model weights are actually resident, not
+        # merely downloaded: get_collection alone does not run a forward pass.
+        coll.query(query_images=[np.zeros((64, 64, 3), dtype=np.uint8)], n_results=1,
+                   include=[])
+        say(f"[rag] {RAG_EMBEDDING} ready over {coll.count()} rounds "
+            f"({time.time() - started:.0f}s)")
+    except Exception as e:
+        say(f"[rag] warm-up failed: {e}")
+
+
 def confusion_pairs() -> list[tuple[str, str, int]]:
     """The current pairs. Call this instead of importing _CONFUSION_PAIRS: the
     list is rebound by _load_confusion_pairs(), so a `from rag import` binding in

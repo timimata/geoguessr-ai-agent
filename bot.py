@@ -24,7 +24,8 @@ from geo import haversine_km, lookup_country, _COUNTRY_ALIASES
 from llm import Guess
 from vision import SCREENSHOT_SUFFIX, save_screenshot
 from pipeline import decide_guess, reload_history
-from rag import _load_confusion_pairs, index_round_into_rag, needs_confusion_refresh
+from rag import (_load_confusion_pairs, index_round_into_rag,
+                 needs_confusion_refresh, warm_up)
 import rag as _rag
 from storage import (append_round, count_rounds_in_log, load_rounds, log_path,
                      recent_wrong_countries, score_entry, update_log_entry)
@@ -220,6 +221,8 @@ async def play_round(page: Page, round_num: int) -> None:
 async def main() -> None:
     _load_confusion_pairs()
     reload_history()
+    # Pay the retrieval model's load time now, not while a round is running.
+    await asyncio.to_thread(warm_up)
     async with Stealth().use_async(async_playwright()) as p:
         context = await p.chromium.launch_persistent_context(
             user_data_dir=str(USER_DATA_DIR),
