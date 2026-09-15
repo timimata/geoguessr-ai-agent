@@ -98,6 +98,11 @@ _CLIENT_TIMEOUT = 25.0 if IS_MULTIPLAYER else 600.0
 # Feature flags: every heuristic that touches the prompt or the final pin can be
 # switched off with FEATURES_OFF="soil,blacklist" in .env, or benchmark.py --off.
 FEATURES: dict[str, bool] = {
+    # ON but UNMEASURED, and benchmark.py cannot measure it: it replays rounds in
+    # isolation and passes an empty history, so this hint never fires during a
+    # run. Feeding each round the preceding rounds' misses would make it
+    # measurable. Until then, switching it off would be extrapolation from the
+    # other hints rather than evidence.
     "blacklist": True,             # "you recently guessed X wrong" warning
     # OFF on cost. Measured against a run with it on: country accuracy 88.7%
     # against 87.3%, mean score 4228 against 4230 (a tie), and 3.1 seconds per
@@ -108,6 +113,8 @@ FEATURES: dict[str, bool] = {
     # model would likely need this, so re-measure before assuming it carries over.
     # Turning this off also disables the compass, which reads the ribbon by OCR.
     "ocr": False,                  # EasyOCR text → prompt
+    # Both derive from the OCR text, so they do nothing while "ocr" is off. Left
+    # on so that turning OCR back on for a text-blind model restores them too.
     "ocr_script": True,            # non-Latin script → hard country-set constraint
     "ocr_literal": True,           # verbatim country name in OCR → hard constraint + review
     # OFF on evidence. Once it actually worked (67% detection against the 8% of
@@ -140,18 +147,29 @@ FEATURES: dict[str, bool] = {
     # geolocation on its own. A weaker local model may well need the tips, so
     # re-measure before assuming this carries over.
     "metas": False,                # Plonkit cheat sheets for RAG top-3 + disambiguation block
-    "india_hint": True,
-    "south_africa_hint": True,
-    "region_prefilter": True,      # RAG-majority continent lean (prepended)
-    "confusion_pairs": True,       # data-driven near-miss warnings
+    # OFF together on cost. Switching all five off measured a tie: 88.0% country
+    # accuracy against 88.7%, 19 points of score, 2 rounds gained and 3 lost.
+    # They cost a prompt block each whenever they fire.
+    "india_hint": False,
+    "south_africa_hint": False,
+    "region_prefilter": False,     # RAG-majority continent lean (prepended)
+    "confusion_pairs": False,      # data-driven near-miss warnings
     "correction_call": True,       # ONE review call when automatic checks find issues
     # OFF: measured on the 150-round benchmark set (gemini-3.1-flash-lite). It fired
     # 6 times, changed the answer twice, and both changes were losses — one turned a
     # correct 22 km answer into 738 km. The other 4 fires cost a model call each and
     # changed nothing. Re-measure before switching it back on.
     "correction_rag_continent": False,  # RAG-unanimous continent disagreement is an issue
-    "correction_cand_rag": True,       # candidate×RAG disagreement is an issue (never fired yet)
+    "correction_cand_rag": False,      # candidate×RAG disagreement is an issue (never observed firing)
+    # ON despite measuring as inert. It fires on roughly 3 rounds in 150 and made
+    # no measurable difference, but unlike the prompt hints it costs no tokens
+    # and no model call, just a polygon test. It is the guard against the model
+    # naming one country and giving coordinates in another, which is rare with a
+    # strong model and catastrophic when it happens.
     "clamp": True,                 # polygon clamp when coords fall outside the country
+    # ON, also inert for now: with hedging off it only annotates the log. Kept
+    # because it costs a dictionary lookup and it is what would make any future
+    # confidence-gated decision measurable.
     "calibration": True,           # replace raw confidence with historical hit-rate
     # OFF: measured on the same set. It fired 8 times for a total of +21 score points
     # across 150 rounds (+0.1/round, i.e. nothing) and flipped one correct country to
