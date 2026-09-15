@@ -147,6 +147,14 @@ Two flags are off by default because the benchmark measured them as losses on a
 | `metas`, `soil` | A dead tie (88.0% against 88.7%, one point of score), so decided on what they cost |
 | `ocr` | A tie on score and 3.1 seconds per round against 14.8. It was three quarters of the latency |
 | `compass` | Even once it read the ribbon correctly, 4160 against 4230 with it off |
+| `region_prefilter`, `confusion_pairs`, `india_hint`, `south_africa_hint`, `correction_cand_rag` | All five off was a tie: 2 rounds gained, 3 lost, 19 points of score |
+
+Two flags stay on despite measuring as inert, because unlike the prompt hints
+they cost no tokens and no model call: `clamp` guards against the model naming
+one country and giving coordinates in another, and `calibration` annotates the
+log. A third, `blacklist`, stays on because the benchmark *cannot* measure it:
+it replays rounds in isolation with an empty history, so that hint never fires
+during a run.
 
 The `ocr` result is the one worth understanding: handing a vision model a
 transcript of text it can already see in the image adds no information, and
