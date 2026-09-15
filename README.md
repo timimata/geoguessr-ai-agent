@@ -177,6 +177,19 @@ differ. Measured run to run on this set, the noise is around 20 score points and
 half a point of country accuracy. Treat anything smaller than that as a tie and
 decide on cost instead.
 
+## Which model?
+
+`gemini-3.1-flash-lite` stays. On the same 150 rounds:
+
+| Model | Country | Score | Median | >2000 km |
+|---|---|---|---|---|
+| gemini-3.1-flash-lite | 88.0% | 4260 | 141 km | 2.7% |
+| gemini-3.5-flash-lite | 86.0% | 4179 | 148 km | 4.0% |
+
+The newer lite model lost 9 countries and gained 6, for 82 points a round. Newer
+is not better for this task. The Flash tier was not measured: it costs several
+times more per call, and the point of this bot is to run cheaply.
+
 ## How good is the retrieval?
 
 `rag_calibrate.py` compares every indexed round against every other one using the
