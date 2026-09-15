@@ -1,249 +1,217 @@
 # GeoGuessr AI Agent
 
-Autonomous Python agent that plays [GeoGuessr](https://www.geoguessr.com/) end-to-end, combining browser automation, computer vision, retrieval-augmented generation (RAG) and LLM reasoning to guess the location shown in a round.
+A Python agent that plays [GeoGuessr](https://www.geoguessr.com/) on its own. It drives a real
+browser, screenshots the panorama, works out where the photo was taken, drops the pin and reads
+the score back. Then it remembers the round, so the next one has more to go on.
+
+Over 475 rounds of NMPZ world play it gets the country right 87.6% of the time, with a median
+error of 148 km.
 
 ## How it works
 
-1. **Play** — [Playwright](https://playwright.dev/) (with stealth mode) drives a real browser through a GeoGuessr round and captures a screenshot.
-2. **Perceive** — OpenCV/OCR extract visual clues from the screenshot: compass heading, car metadata, license plates.
-3. **Retrieve** — a RAG pipeline built with [ChromaDB](https://www.trychroma.com/) and OpenCLIP embeddings finds visually similar past rounds, and country-specific hints scraped from [Plonkit](https://www.plonkit.net/) plus reverse geocoding data ground the search space.
-4. **Reason** — a vision LLM combines all of the above into a coordinate guess, a confidence and a reasoning trace. Any OpenAI-compatible endpoint works; the default `OPENAI_BASE_URL` points at Google's Gemini compatibility layer, and local servers such as LM Studio work the same way.
-5. **Act & learn** — the guess is submitted in the browser, the round result is logged, and later indexed back into the vector database to improve future retrieval.
+A round is one screenshot in, one pin out.
 
-## Tech stack
+The screenshot goes to a vision model, which answers with a country, a region, coordinates, a
+confidence and its top three candidate countries. Before that call, the same image is embedded
+with [StreetCLIP](https://huggingface.co/geolocal/StreetCLIP) and matched against every round the
+agent has played before. A close match is worth showing the model: this looked like a road in
+Slovenia last time. A distant one is noise and gets dropped.
 
-- **Automation:** Playwright, playwright-stealth
-- **Computer vision:** OpenCV, Pillow
-- **RAG / vector search:** ChromaDB, OpenCLIP embeddings
-- **LLM reasoning:** the `openai` client against any OpenAI-compatible endpoint (Gemini by default)
-- **Geo data:** reverse_geocoder, Shapely, GeoJSON country boundaries
+The answer then goes through checks that need no model at all. Are the coordinates inside the
+country it named? On land? Does the continent it declared match the country? If anything is
+wrong, one follow-up call gets the whole list of problems at once and rewrites the answer.
+Coordinates still outside the named country get snapped into it. A pin still in the sea gets
+moved to the nearest land the agent has seen in that country.
 
-## Project structure
+That is the whole thing: at most two model calls, usually one.
 
-The agent is split so that the part that decides where a photo was taken never
-touches the browser, which is what makes a logged round replayable offline.
+The pin is placed on the minimap by projecting the coordinate through Web Mercator, and the
+result is read from GeoGuessr's own API rather than scraped off the screen. If the round was any
+good, its screenshot and true location go into the index.
 
-| Module | Purpose |
-|---|---|
-| `config.py` | Environment, paths, feature flags, prompts. Loaded first by everything else |
-| `geo.py` | Country tables, boundary polygons, reverse geocoding, distance maths |
-| `vision.py` | Cropping, the OpenCV compass, biome colour analysis, OCR |
-| `llm.py` | The model client, the request it sends and the JSON it parses back |
-| `rag.py` | The vector index, Plonkit cheat sheets, confusion pairs |
-| `storage.py` | Reading and appending the round log |
-| `browser.py` | Playwright: capturing the panorama, placing the pin, reading results |
-| `pipeline.py` | The decision pipeline. Screenshot in, final pin out, no browser |
-| `bot.py` | Entry point: the live round loop and the match loop |
+## What isn't there any more
 
-| Tool | Purpose |
-|---|---|
-| `benchmark.py` | Replays logged rounds through the pipeline offline to score a change |
-| `rag_calibrate.py` | Measures how often a retrieved neighbour names the right country |
-| `indexador.py` | Builds the vector index from the round log |
-| `migrate_log.py` | Converts `log.json` to the append-only `log.jsonl` |
-| `compress_screenshots.py` | Re-encodes stored PNG rounds to JPEG (about 5x smaller) |
-| `scraper_plonkit.py` | Scrapes per-country location hints from Plonkit |
-| `obter_fronteiras.py` | Downloads `countries.geojson`, the boundaries used for clamping |
-| `stats.py` | Serves an HTML performance dashboard on `http://localhost:8000/` |
-| `analyze_last_50.py`, `ab_compare.py` | Accuracy and per-model comparisons over logged rounds |
-| `replay_errors.py` | Lists and reopens the rounds the bot got most wrong |
-| `run_tests.py` | Runs every offline suite; `--quick` skips the ones loading heavy models |
-| `test_logic.py` | Decision logic: clamping, calibration, scoring, cross-module state |
-| `test_browser.py` | Pin placement maths and selector handling, against a fake page |
-| `test_duels_api.py` | The duels result reader, against canned game-server payloads |
-| `metas/`, `metas_resumidas/` | Scraped and summarised per-country hint text |
+Earlier versions ran OCR over the image, read the compass with OpenCV, looked for the Google car,
+loaded scraped country cheat sheets, and prefixed every request with 1500 tokens of GeoGuessr
+tradecraft. All of it is still in the repo behind flags, all of it is off, and all of it was
+switched off because it was measured and found wanting. Dropping the hand-written prompt rules
+was the single biggest accuracy gain in the project. Turning off OCR cut three quarters of the
+per-round latency and cost nothing, because a vision model can already read the signs in the
+picture you just handed it.
+
+The numbers behind each of those decisions sit in `config.py`, next to the flag.
 
 ## Setup
+
+Needs Python 3.11+ and a GeoGuessr account.
 
 ```bash
 git clone https://github.com/timimata/geoguessr-ai-agent.git
 cd geoguessr-ai-agent
 python -m venv venv
-venv\Scripts\activate      # or: source venv/bin/activate on macOS/Linux
+venv\Scripts\activate            # source venv/bin/activate on macOS/Linux
 pip install -r requirements.txt
 playwright install chromium
-python obter_fronteiras.py     # downloads countries.geojson (14 MB, not committed)
+python obter_fronteiras.py       # country borders, 14 MB, not committed
 ```
 
-If you have an NVIDIA GPU, install a CUDA build of PyTorch before the rest.
-Without one, EasyOCR runs on CPU and becomes the slowest part of every round.
-
-Copy `.env.example` to `.env` and fill in your own values:
+Copy the env template and fill it in:
 
 ```bash
 cp .env.example .env
 ```
 
-`GEMINI_API_KEY` (or `OPENAI_API_KEY`) holds the credential, `OPENAI_BASE_URL`
-the endpoint, and `MODEL_IDS` a comma-separated list that the bot rotates through
-round by round so two models can be compared on the same stream of locations.
+You need a key at minimum. The default endpoint is Google's Gemini, but anything that speaks the
+OpenAI chat API works, including a local LM Studio server:
 
-> `.env` holds your real API keys and is listed in `.gitignore`, so it is never committed — only the blank `.env.example` template is tracked.
+```
+GEMINI_API_KEY=your-key
+OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+MODEL_IDS=gemini-3.1-flash-lite
+MODE=solo
+RAG_EMBEDDING=streetclip
+```
 
-## Usage
+A round costs about 1700 tokens, so 150 rounds run for roughly $0.08 on `gemini-3.1-flash-lite`.
+Newer is not automatically better here: `gemini-3.5-flash-lite` costs 25% more and scored two
+points worse on the same rounds.
+
+### Building the index
+
+The retrieval index is what the agent remembers, and a fresh clone has nothing in it. That is
+fine, it plays blind until it has history. If you already have a `log.jsonl` and the matching
+screenshots:
+
+```bash
+python indexador.py
+```
+
+StreetCLIP is a ViT-L/14 and takes about 2.5s an image on CPU, so a few thousand rounds is an
+hour. With a CUDA build of PyTorch it is minutes.
+
+## Running it
 
 ```bash
 python bot.py
 ```
 
-On start it loads the country polygons, the confusion pairs derived from past
-mistakes, and the retrieval model, so the first round does not pay for them.
-Then it opens the world map and waits for you to start a round.
+A Chrome window opens on the world map. Log in if you need to, pick NMPZ, press Play. The agent
+takes over from the first panorama and keeps going, clicking Play Again between games, until it
+runs out of games or you close the window.
 
-`MODE` in `.env` selects the game type: `solo`, `duels` or `team-duels`. Solo reads
-each round result from `/api/v3/games`; duels read the match state from the
-GeoGuessr game server. A duel round only resolves once every player has guessed,
-so rounds that are not readable straight away are queued and scored at the start
-of the next round or at the end of the match.
+Started without a terminal attached, from a scheduler say, it skips the Enter prompt and waits
+for a panorama to appear instead.
 
-## Decision pipeline
+To watch it:
 
-One round costs at most two model calls. The first call answers with a country,
-coordinates, a confidence and its top-3 candidate countries. Deterministic checks
-then look for contradictions: coordinates in the sea or in the wrong country, a
-declared continent that does not match the country, OCR text naming a different
-country, or a visual match that disagrees. If any fire, a single review call gets
-the whole list at once and rewrites the answer. Coordinates still outside the
-declared country are clamped to its polygon.
+```bash
+python stats.py              # dashboard on localhost:8000, refreshes itself
+python analyze_last_50.py    # quick summary in the terminal
+python analyze_last_50.py 300
+```
 
-Reported confidence is replaced by the historical hit rate at that value, taken
-from `log.json`. That calibrated probability decides whether to hedge: when the
-model is torn between two countries, the pin moves toward the rival only if the
-expected GeoGuessr score goes up.
+## Results
+
+475 rounds of live NMPZ world play on `gemini-3.1-flash-lite`:
+
+| | Before | After |
+|---|---|---|
+| Country correct | 49.0% | 87.6% |
+| Median error | 856 km | 148 km |
+| Within 200 km | 19.7% | 56% |
+| Over 2000 km | 30.9% | 2.3% |
+| Seconds per round | ~15 | 3.6 |
+| Model calls per round | up to 7 | 1.01 |
+
+Fourteen rounds landed within a kilometre. Best game was 24785 out of 25000.
+
+What is still wrong is almost all neighbours: Canada and the United States, Moldova and Ukraine,
+Romania and Bulgaria, Lithuania and Latvia. Nothing lands on the wrong continent any more.
 
 ## Measuring a change
 
-Every logged round has a screenshot and a true location, so the pipeline can be
-replayed without a browser. The retrieval index is told to ignore the round being
-evaluated so it cannot find itself.
+This is the part worth stealing for another project. Every round the agent has played is on disk
+with its screenshot and its true location, so the whole pipeline can be replayed offline with no
+browser:
 
 ```bash
 python benchmark.py --build --n 150 --seed 42   # freeze a sample
-python benchmark.py --label baseline            # score the current pipeline
+python benchmark.py --label baseline
 python benchmark.py --label no_soil --off soil  # same rounds, one feature off
-python benchmark.py --compare baseline no_soil  # side by side, with win/loss rounds
-python benchmark.py --calibration               # reported confidence vs real hit rate
+python benchmark.py --compare baseline no_soil
 ```
 
-Each run also records which prompt hints actually fired. A feature that is
-enabled and fires in zero rounds is broken rather than idle, and the report
-says so: that is how a cross-module aliasing bug had silently disabled the
-confusion-pair hint across several runs.
+The index is told to ignore the round being tested, or it finds itself and scores 100%. Each run
+records the answer at three stages, so the review call, the clamp and the pin are measured
+separately without a second run. It also records which prompt hints actually fired: a feature
+that is enabled and fires in zero rounds out of 150 is broken, not idle, and the report says so.
+That check exists because a cross-module bug once disabled a hint silently and several benchmark
+runs measured a degraded pipeline without complaining.
 
-Feature names come from `FEATURES` in `config.py`, and `FEATURES_OFF` in `.env`
-disables the same switches during live play. Each run records the answer at three
-stages, so the effect of the review call, the clamp and the hedge is read off the
-same rounds without needing a second run.
+Two things worth knowing before copying the approach. Retrieval precision measured on its own does
+not predict end-to-end value: a looser match threshold scored better in isolation and worse in the
+pipeline, because extra references drag the model off answers it already had right. And the model
+runs at temperature 0.2, so two identical runs differ by around 20 score points. Treat anything
+smaller than that as a tie and decide on cost instead.
 
-Two flags are off by default because the benchmark measured them as losses on a
-150-round set with `gemini-3.1-flash-lite`:
-
-| Flag | Evidence for switching it off |
-|---|---|
-| `rich_system_prompt` | Dropping ~1500 tokens of hand-written rules took accuracy from 84.0% to 88.7% |
-| `correction_rag_continent` | Fired 6 times in 150 rounds, changed the answer twice, both losses, one of them 22 km to 738 km |
-| `hedge` | Fired 8 times for +21 score points in total, and flipped one correct country to wrong |
-| `rag_car` | Its nearest neighbour named the right country 20.9% of the time, below the 21.9% you get by always answering "United States" |
-| `metas`, `soil` | A dead tie (88.0% against 88.7%, one point of score), so decided on what they cost |
-| `ocr` | A tie on score and 3.1 seconds per round against 14.8. It was three quarters of the latency |
-| `compass` | Even once it read the ribbon correctly, 4160 against 4230 with it off |
-| `region_prefilter`, `confusion_pairs`, `india_hint`, `south_africa_hint`, `correction_cand_rag` | All five off was a tie: 2 rounds gained, 3 lost, 19 points of score |
-
-Two flags stay on despite measuring as inert, because unlike the prompt hints
-they cost no tokens and no model call: `clamp` guards against the model naming
-one country and giving coordinates in another, and `calibration` annotates the
-log. A third, `blacklist`, stays on because the benchmark *cannot* measure it:
-it replays rounds in isolation with an empty history, so that hint never fires
-during a run.
-
-The `ocr` result is the one worth understanding: handing a vision model a
-transcript of text it can already see in the image adds no information, and
-EasyOCR was three quarters of the round's latency. Everything below `rag_car` in
-that table is a tie decided on cost rather than a harm, and all of it was
-measured against `gemini-3.1-flash-lite`, which reads signage and geolocates
-well unaided. A weaker or text-blind local model would likely need several of
-these back, so re-measure before assuming any of it carries over.
-
-Turn any of these back on with evidence from a larger set, not from a hunch.
-
-The through-line across all of them: this pipeline was losing accuracy to its own
-context. Every hint that was measured turned out to be neutral or harmful, and
-the one change that helped most was deleting text. Retrieval precision measured
-on its own did not predict end-to-end value either, so measure the pipeline, not
-the component.
-
-The model runs at temperature 0.2, so two runs of the identical configuration
-differ. Measured run to run on this set, the noise is around 20 score points and
-half a point of country accuracy. Treat anything smaller than that as a tie and
-decide on cost instead.
-
-## Which model?
-
-`gemini-3.1-flash-lite` stays. On the same 150 rounds:
-
-| Model | Country | Score | Median | >2000 km |
-|---|---|---|---|---|
-| gemini-3.1-flash-lite | 88.0% | 4260 | 141 km | 2.7% |
-| gemini-3.5-flash-lite | 86.0% | 4179 | 148 km | 4.0% |
-
-The newer lite model lost 9 countries and gained 6, for 82 points a round. Newer
-is not better for this task. The Flash tier was not measured: it costs several
-times more per call, and the point of this bot is to run cheaply.
-
-## How good is the retrieval?
-
-`rag_calibrate.py` compares every indexed round against every other one using the
-embeddings already stored, so it answers in seconds without running the encoder.
-On 1979 rounds with the default OpenCLIP encoder:
-
-| Nearest neighbour | Median cosine distance |
-|---|---|
-| Same country | 0.096 |
-| Different country | 0.113 |
-
-Those two distributions overlap almost completely, so no threshold separates
-them. At the current setting every round gets a reference and only 43% of them
-name the right country. That is why the prompt carries continent vetoes and
-frequency warnings: they are patching a weak signal.
-
-`RAG_EMBEDDING=streetclip` swaps in a CLIP checkpoint fine-tuned for geolocation
-on Street View imagery. Each encoder keeps its own collections, so switching
-means rebuilding:
-
-```bash
-RAG_EMBEDDING=streetclip python indexador.py
-RAG_EMBEDDING=streetclip python rag_calibrate.py --ids-from geoguessr_rondas
-```
-
-The second command restricts the comparison to the rounds both indexes hold, so
-the two encoders are judged on the same images. StreetCLIP is a ViT-L/14 and
-takes about 2.5 s per image on CPU, so budget an hour for a full rebuild.
+`rag_calibrate.py` answers a narrower question: how often does the nearest neighbour in the index
+name the right country? It reads the stored vectors, so it takes seconds. That is how StreetCLIP
+was picked over generic OpenCLIP, 78% against 46% on the same 1550 rounds.
 
 ## Tests
 
 ```bash
-python run_tests.py          # everything, about 45 seconds
-python run_tests.py --quick  # skip the suites that load the country polygons and CLIP
+python run_tests.py          # about 45 seconds
+python run_tests.py --quick  # skips the suites that load the heavy models
 ```
 
-They call the real functions rather than reimplementing them, and none of them
-need a browser, a model or a network. What they cover: coordinate maths and pin
-projection, polygon clamping and the open-water rescue, confidence parsing and
-calibration, the round log including its cache, the duels result reader, and the
-module-level state that the split into modules made easy to get wrong.
+No browser, no model, no network. They cover the coordinate maths that decides where the pin
+lands, polygon clamping, the round log and its cache, the duels result reader, and the
+module-level state that splitting the code up made easy to get wrong.
 
-## Storage
+## Layout
 
-The round log is JSON Lines (`log.jsonl`): appending a round is one write at the
-end of the file, and reads come from a cache that re-parses only when the file
-changes. It used to be a single JSON array rewritten in full every round, and
-read several times per round on top of that. `python migrate_log.py --apply`
-converts an existing `log.json`, leaving the original in place as a backup.
+| Module | |
+|---|---|
+| `config.py` | Environment, paths, feature flags, prompts |
+| `geo.py` | Country tables, borders, reverse geocoding, distances |
+| `vision.py` | Cropping, the compass, biome colour, OCR |
+| `llm.py` | The model call and the JSON that comes back |
+| `rag.py` | The vector index and what is worth remembering |
+| `storage.py` | The round log |
+| `browser.py` | Playwright: capture, pin placement, reading results |
+| `pipeline.py` | Screenshot in, pin out, no browser |
+| `bot.py` | Entry point, the round and match loops |
 
-Rounds are saved as JPEG. `python compress_screenshots.py` reports what
-converting the existing PNGs would save (about 5x on real panoramas) and only
-writes when passed `--apply`.
+| Tool | |
+|---|---|
+| `benchmark.py` | Replay logged rounds offline to score a change |
+| `rag_calibrate.py` | How good the retrieval actually is |
+| `indexador.py` | Build the index from the log |
+| `stats.py` | Dashboard |
+| `analyze_last_50.py`, `ab_compare.py` | Terminal summaries |
+| `replay_errors.py` | Reopen the worst rounds |
+| `migrate_log.py`, `compress_screenshots.py` | Storage housekeeping |
+| `scraper_plonkit.py`, `obter_fronteiras.py` | Fetch the reference data |
+
+## Duels
+
+`MODE=duels` or `team-duels` plays multiplayer. The code reads match state from GeoGuessr's game
+server and queues rounds that have not resolved yet, since a duel round only finishes once every
+player has guessed. It is covered by tests against recorded payloads but has never run against a
+live match, so treat it as untested.
+
+## Notes
+
+All of the above was measured against one model. `gemini-3.1-flash-lite` reads signage and
+geolocates well without help, which is why the OCR and the cheat sheets earn nothing. A weaker or
+text-blind local model would probably want several of those flags back on. Re-measure rather than
+assuming.
+
+`.env` holds your key and is gitignored, as are the screenshots, the round log and the browser
+profile.
 
 ## Disclaimer
 
-Built as a personal experiment in agentic AI (computer vision + RAG + LLM reasoning) applied to a single-player, non-competitive game mode. Not intended for use in ranked or competitive multiplayer.
+A personal experiment in applying vision models and retrieval to a single-player, non-competitive
+game mode. Not for ranked or competitive multiplayer.
