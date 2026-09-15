@@ -5,6 +5,7 @@ benchmark.py; this module is the part that needs a real browser.
 """
 import asyncio
 import json
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -67,6 +68,43 @@ async def resolve_pending_scores(page: Page) -> None:
                                  pend["guess"].get("reasoning", ""),
                                  entry["error_km"], entry["country_hit"])
     _pending_scores = still
+
+
+def _has_terminal() -> bool:
+    try:
+        return sys.stdin.isatty()
+    except Exception:
+        return False
+
+
+async def wait_for_operator(page: Page, message: str, timeout_s: int = 900) -> bool:
+    """Block until the operator has a round on screen.
+
+    With a terminal attached that means pressing Enter, as before. Without one
+    (launched by a scheduler, or by an agent driving the shell) nobody can press
+    it and input() dies on EOF, so poll for the panorama instead and start on
+    our own once it appears. The operator still logs in and clicks Play in the
+    browser window; this only removes the trip back to the console."""
+    if _has_terminal():
+        print(message)
+        try:
+            await asyncio.to_thread(input)
+            return True
+        except EOFError:
+            pass
+    print("No terminal attached: starting automatically once a round is on screen "
+          f"(waiting up to {timeout_s // 60} minutes).")
+    return await wait_for_round(page, timeout_s=timeout_s)
+
+
+async def pause_before_close(prompt: str) -> None:
+    """Hold the browser open for the operator, unless there is no operator."""
+    if not _has_terminal():
+        return
+    try:
+        await asyncio.to_thread(input, prompt)
+    except (EOFError, KeyboardInterrupt):
+        pass
 
 
 async def play_round(page: Page, round_num: int) -> None:
@@ -312,8 +350,10 @@ async def main() -> None:
             _label = "TEAM DUELS" if MODE == "team-duels" else "DUELS"
             print(f"{_label} MODE — open a private {_label.lower()} lobby with NMPZ, invite friends, start the match.")
             await page.goto("https://www.geoguessr.com/multiplayer", wait_until="domcontentloaded")
-            print("Press Enter here once you are in the first round of the FIRST duel…")
-            await asyncio.to_thread(input)
+            if not await wait_for_operator(page, "Press Enter here once you are in the first round of the FIRST duel…"):
+                print("No round appeared — closing.")
+                await context.close()
+                return
 
             global _last_canvas_sig
             match_count = 0
@@ -401,18 +441,17 @@ async def main() -> None:
                 if _pending_scores:
                     await asyncio.sleep(3.0)
 
-            print("\nAll duels finished. Press Enter to close, or Ctrl+C.")
-            try:
-                await asyncio.to_thread(input)
-            except (EOFError, KeyboardInterrupt):
-                pass
+            print("\nAll duels finished.")
+            await pause_before_close("Press Enter to close, or Ctrl+C…")
             await context.close()
             return
 
         print("Opening GeoGuessr World map — pick NMPZ and press Play.")
         await page.goto("https://www.geoguessr.com/maps/world", wait_until="domcontentloaded")
-        print("Press Enter here once you are in the first round…")
-        await asyncio.to_thread(input)
+        if not await wait_for_operator(page, "Press Enter here once you are in the first round…"):
+            print("No round appeared — closing.")
+            await context.close()
+            return
 
         target_rounds = 3000
         total = count_rounds_in_log()
@@ -453,7 +492,7 @@ async def main() -> None:
             await human_delay(3.0, 5.0)
 
         print(f"\nDone. {total} rounds logged in {log_path().name}")
-        await asyncio.to_thread(input, "Press Enter to close…")
+        await pause_before_close("Press Enter to close…")
         await context.close()
 
 
