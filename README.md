@@ -7,6 +7,18 @@ the score back. Then it remembers the round, so the next one has more to go on.
 Over 475 rounds of NMPZ world play it gets the country right 87.6% of the time, with a median
 error of 148 km.
 
+## Demo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=nGEwr3GJsPM">
+    <img src="https://img.youtube.com/vi/nGEwr3GJsPM/maxresdefault.jpg" width="800">
+  </a>
+</p>
+
+<p align="center">
+  <i> screenshot → reasoning → pin → score.</i>
+</p>
+
 ## How it works
 
 A round is one screenshot in, one pin out.
